@@ -64,6 +64,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [ECCV · 3D perception](skills/paper-craft-eccv-3d/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-3d/references/references.bib) | Point operators, registration, pretraining, geometric detection, camera fusion, and sparse attention |
 | [ICML · Representation learning](skills/paper-craft-icml-representation/SKILL.md) | [10 ICML papers, 2020–2023](skills/paper-craft-icml-representation/references/corpus.md) · [BibTeX](skills/paper-craft-icml-representation/references/references.bib) | Contrastive learning, language–image transfer, data efficiency, identifiability, robustness, and dynamics |
 | [ICML · Generative models](skills/paper-craft-icml-generative/SKILL.md) | [10 ICML papers, 2014–2023](skills/paper-craft-icml-generative/references/corpus.md) · [BibTeX](skills/paper-craft-icml-generative/references/references.bib) | Variational models, flows, GANs, diffusion, consistency, conditioning, new modalities, and sampling |
+| [ICML · Reinforcement learning](skills/paper-craft-icml-rl/SKILL.md) | [10 ICML papers, 2015–2022](skills/paper-craft-icml-rl/references/corpus.md) · [BibTeX](skills/paper-craft-icml-rl/references/references.bib) | Policy optimization, value learning, offline RL, visual control, replay, planning, and adaptation |
 
 ## A small example
 

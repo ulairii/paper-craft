@@ -18,6 +18,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-eccv-3d` | ECCV | Point clouds, registration, geometric detection, pretraining, and camera fusion | Full drafts; geometric and representation stories; invariant and equivariant features; explanatory experiments; revision | [SKILL.md](../../paper-craft-eccv-3d/SKILL.md) |
 | `paper-craft-icml-representation` | ICML | Self-supervised and language–image representations | Full drafts; learning principles, data efficiency, transfer interfaces, identifiability and dynamics; experiment explanation and revision | [SKILL.md](../../paper-craft-icml-representation/SKILL.md) |
 | `paper-craft-icml-generative` | ICML | Generative models and sampling | Full drafts; probabilistic modeling, objectives, generation quality–cost tradeoffs, conditioning, domain adaptation, composition; revision | [SKILL.md](../../paper-craft-icml-generative/SKILL.md) |
+| `paper-craft-icml-rl` | ICML | Reinforcement learning | Full drafts; policy optimization, actor–critic estimation, offline RL, visual control, experience replay, model-based planning, online adaptation; revision | [SKILL.md](../../paper-craft-icml-rl/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -149,6 +150,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use representation learning when the encoder's transferable features carry the contribution and generation is only a pretraining task. A learned world model belongs primarily to reinforcement learning when its contribution is decision making or policy improvement; use this specialist for its generative modeling argument. Select by what the method contributes, not by the presence of a diffusion backbone alone.
 
 **Source collection:** [10 accepted ICML papers from 2014–2023](../../paper-craft-icml-generative/references/corpus.md), with [BibTeX](../../paper-craft-icml-generative/references/references.bib).
+
+### ICML: reinforcement learning
+
+**Select when the contribution concerns:** policy optimization, value estimation, actor–critic methods, offline reinforcement learning, sample-efficient visual control, experience replay, model-based planning, or online adaptation of pretrained policies.
+
+**Useful signals in the material:** return or success curves, interaction budgets, critics and policy updates, behavior datasets, exploration, replay ratios, planning horizons, or offline-to-online comparisons.
+
+**Distinguish nearby work:** choose this specialist when better decisions or learning behavior carry the contribution, even if the method contains a contrastive encoder, generative world model, or transformer. Choose representation learning when reusable features and transfer are the main result; choose generative models when modeling or synthesis quality is the main result. LLM reasoning without an RL control contribution belongs to a reasoning specialist when available for the requested venue.
+
+**Source collection:** [10 accepted ICML papers from 2015–2022](../../paper-craft-icml-rl/references/corpus.md), with [BibTeX](../../paper-craft-icml-rl/references/references.bib).
 
 ## Adding a specialist
 

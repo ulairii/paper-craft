@@ -1,0 +1,250 @@
+[
+  {
+    "title": "Trust Region Policy Optimization",
+    "landing_url": "https://proceedings.mlr.press/v37/schulman15.html",
+    "year": 2015,
+    "venue": "ICML",
+    "id": "P01",
+    "bibtex": "@InProceedings{pmlr-v37-schulman15,\n  title = \t {Trust Region Policy Optimization},\n  author = \t {Schulman, John and Levine, Sergey and Abbeel, Pieter and Jordan, Michael and Moritz, Philipp},\n  booktitle = \t {Proceedings of the 32nd International Conference on Machine Learning},\n  pages = \t {1889--1897},\n  year = \t {2015},\n  editor = \t {Bach, Francis and Blei, David},\n  volume = \t {37},\n  series = \t {Proceedings of Machine Learning Research},\n  address = \t {Lille, France},\n  month = \t {07--09 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v37/schulman15.pdf},\n  url = \t {https://proceedings.mlr.press/v37/schulman15.html}\n}",
+    "authors": [
+      "Schulman, John",
+      "Levine, Sergey",
+      "Abbeel, Pieter",
+      "Jordan, Michael",
+      "Moritz, Philipp"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v37/schulman15.pdf",
+    "pdf_sha256": "8e959ae88caeb6d8bdcc92763bc3ff766edff826aa4eb5b96b58a4a56b56ce47",
+    "pages": 9,
+    "supplement_url": "https://proceedings.mlr.press/v37/schulman15-supp.pdf",
+    "supplement_pages": 7,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:49.538491+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 4–7: practical optimizer, policy representation, settings and Atari learning curves."
+    }
+  },
+  {
+    "title": "Asynchronous Methods for Deep Reinforcement Learning",
+    "landing_url": "https://proceedings.mlr.press/v48/mniha16.html",
+    "year": 2016,
+    "venue": "ICML",
+    "id": "P02",
+    "bibtex": "@InProceedings{pmlr-v48-mniha16,\n  title = \t {Asynchronous Methods for Deep Reinforcement Learning},\n  author = \t {Mnih, Volodymyr and Badia, Adria Puigdomenech and Mirza, Mehdi and Graves, Alex and Lillicrap, Timothy and Harley, Tim and Silver, David and Kavukcuoglu, Koray},\n  booktitle = \t {Proceedings of The 33rd International Conference on Machine Learning},\n  pages = \t {1928--1937},\n  year = \t {2016},\n  editor = \t {Balcan, Maria Florina and Weinberger, Kilian Q.},\n  volume = \t {48},\n  series = \t {Proceedings of Machine Learning Research},\n  address = \t {New York, New York, USA},\n  month = \t {20--22 Jun},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v48/mniha16.pdf},\n  url = \t {https://proceedings.mlr.press/v48/mniha16.html}\n}",
+    "authors": [
+      "Mnih, Volodymyr",
+      "Badia, Adria Puigdomenech",
+      "Mirza, Mehdi",
+      "Graves, Alex",
+      "Lillicrap, Timothy",
+      "Harley, Tim",
+      "Silver, David",
+      "Kavukcuoglu, Koray"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v48/mniha16.pdf",
+    "pdf_sha256": "6548032d7105072e254872c82e02f82cbf34ea780eeed15454d90300b8fea563",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v48/mniha16-supp.pdf",
+    "supplement_pages": 10,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:49.393167+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–4: optimization, experimental setup, continuous control and update procedures."
+    }
+  },
+  {
+    "title": "A Distributional Perspective on Reinforcement Learning",
+    "landing_url": "https://proceedings.mlr.press/v70/bellemare17a.html",
+    "year": 2017,
+    "venue": "ICML",
+    "id": "P03",
+    "bibtex": "@InProceedings{pmlr-v70-bellemare17a,\n  title = \t {A Distributional Perspective on Reinforcement Learning},\n  author =       {Marc G. Bellemare and Will Dabney and R{\\'e}mi Munos},\n  booktitle = \t {Proceedings of the 34th International Conference on Machine Learning},\n  pages = \t {449--458},\n  year = \t {2017},\n  editor = \t {Precup, Doina and Teh, Yee Whye},\n  volume = \t {70},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Aug},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v70/bellemare17a/bellemare17a.pdf},\n  url = \t {https://proceedings.mlr.press/v70/bellemare17a.html}\n}",
+    "authors": [
+      "Marc G. Bellemare",
+      "Will Dabney",
+      "R{\\'e"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v70/bellemare17a/bellemare17a.pdf",
+    "pdf_sha256": "49df15a5b71afc2c4bcf27416b338c1df7e241e0031fedbf932e0f33f6d4bf78",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v70/bellemare17a/bellemare17a-supp.pdf",
+    "supplement_pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:49.400974+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–3 and 8–9: related work, selected proofs, raw scores and return-distribution examples."
+    }
+  },
+  {
+    "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+    "landing_url": "https://proceedings.mlr.press/v80/haarnoja18b.html",
+    "year": 2018,
+    "venue": "ICML",
+    "id": "P04",
+    "bibtex": "@InProceedings{pmlr-v80-haarnoja18b,\n  title = \t {Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor},\n  author =       {Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey},\n  booktitle = \t {Proceedings of the 35th International Conference on Machine Learning},\n  pages = \t {1861--1870},\n  year = \t {2018},\n  editor = \t {Dy, Jennifer and Krause, Andreas},\n  volume = \t {80},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {10--15 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf},\n  url = \t {https://proceedings.mlr.press/v80/haarnoja18b.html}\n}",
+    "authors": [
+      "Haarnoja, Tuomas",
+      "Zhou, Aurick",
+      "Abbeel, Pieter",
+      "Levine, Sergey"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf",
+    "pdf_sha256": "b071079b67ced375ad88cbbbfd2fc363b3b8ccd894766fb5d329e7ee30d843f5",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b-supp.pdf",
+    "supplement_pages": 4,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:59.776957+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–4: full supplement."
+    }
+  },
+  {
+    "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+    "landing_url": "https://proceedings.mlr.press/v80/fujimoto18a.html",
+    "year": 2018,
+    "venue": "ICML",
+    "id": "P05",
+    "bibtex": "@InProceedings{pmlr-v80-fujimoto18a,\n  title = \t {Addressing Function Approximation Error in Actor-Critic Methods},\n  author =       {Fujimoto, Scott and van Hoof, Herke and Meger, David},\n  booktitle = \t {Proceedings of the 35th International Conference on Machine Learning},\n  pages = \t {1587--1596},\n  year = \t {2018},\n  editor = \t {Dy, Jennifer and Krause, Andreas},\n  volume = \t {80},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {10--15 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf},\n  url = \t {https://proceedings.mlr.press/v80/fujimoto18a.html}\n}",
+    "authors": [
+      "Fujimoto, Scott",
+      "van Hoof, Herke",
+      "Meger, David"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf",
+    "pdf_sha256": "39deed24297f84d8e253198ad159a30af24e4904fb0f4c5ce5b4655a174379ad",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a-supp.pdf",
+    "supplement_pages": 5,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:59.051077+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–5: full supplement."
+    }
+  },
+  {
+    "title": "Off-Policy Deep Reinforcement Learning without Exploration",
+    "landing_url": "https://proceedings.mlr.press/v97/fujimoto19a.html",
+    "year": 2019,
+    "venue": "ICML",
+    "id": "P06",
+    "bibtex": "@InProceedings{pmlr-v97-fujimoto19a,\n  title = \t {Off-Policy Deep Reinforcement Learning without Exploration},\n  author =       {Fujimoto, Scott and Meger, David and Precup, Doina},\n  booktitle = \t {Proceedings of the 36th International Conference on Machine Learning},\n  pages = \t {2052--2062},\n  year = \t {2019},\n  editor = \t {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},\n  volume = \t {97},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {09--15 Jun},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a.pdf},\n  url = \t {https://proceedings.mlr.press/v97/fujimoto19a.html}\n}",
+    "authors": [
+      "Fujimoto, Scott",
+      "Meger, David",
+      "Precup, Doina"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a.pdf",
+    "pdf_sha256": "d48d353b36140f7f278be949d1e810d498c5ff8e98b1c865f4fb2517d14b7eb3",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a-supp.pdf",
+    "supplement_pages": 13,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:26:59.306409+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–4 and 7–12: proofs, diagnostics, perturbation and uncertainty studies, random behavior, experimental and implementation details."
+    }
+  },
+  {
+    "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+    "landing_url": "https://proceedings.mlr.press/v119/laskin20a.html",
+    "year": 2020,
+    "venue": "ICML",
+    "id": "P07",
+    "bibtex": "@InProceedings{pmlr-v119-laskin20a,\n  title = \t {{CURL}: Contrastive Unsupervised Representations for Reinforcement Learning},\n  author =       {Laskin, Michael and Srinivas, Aravind and Abbeel, Pieter},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {5639--5650},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/laskin20a/laskin20a.pdf},\n  url = \t {https://proceedings.mlr.press/v119/laskin20a.html}\n}",
+    "authors": [
+      "Laskin, Michael",
+      "Srinivas, Aravind",
+      "Abbeel, Pieter"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v119/laskin20a/laskin20a.pdf",
+    "pdf_sha256": "c6a9fba35c952e74acf9bf2d8e31b4af5cea6838e267d135ee8259dc2cf730f8",
+    "pages": 12,
+    "supplement_url": "https://proceedings.mlr.press/v119/laskin20a/laskin20a-supp.pdf",
+    "supplement_pages": 7,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:27:08.689680+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–7: full supplement."
+    }
+  },
+  {
+    "title": "Revisiting Fundamentals of Experience Replay",
+    "landing_url": "https://proceedings.mlr.press/v119/fedus20a.html",
+    "year": 2020,
+    "venue": "ICML",
+    "id": "P08",
+    "bibtex": "@InProceedings{pmlr-v119-fedus20a,\n  title = \t {Revisiting Fundamentals of Experience Replay},\n  author =       {Fedus, William and Ramachandran, Prajit and Agarwal, Rishabh and Bengio, Yoshua and Larochelle, Hugo and Rowland, Mark and Dabney, Will},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {3061--3071},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/fedus20a/fedus20a.pdf},\n  url = \t {https://proceedings.mlr.press/v119/fedus20a.html}\n}",
+    "authors": [
+      "Fedus, William",
+      "Ramachandran, Prajit",
+      "Agarwal, Rishabh",
+      "Bengio, Yoshua",
+      "Larochelle, Hugo",
+      "Rowland, Mark",
+      "Dabney, Will"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v119/fedus20a/fedus20a.pdf",
+    "pdf_sha256": "c6708306528c09ad02b56e971a7ca5ac171e5c407e7d00576e8cac4b3c1ccf3a",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v119/fedus20a/fedus20a-supp.pdf",
+    "supplement_pages": 8,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:27:08.911374+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–3 and 7–8: setup, additive and ablative results, grid variation and offline curves."
+    }
+  },
+  {
+    "title": "Temporal Difference Learning for Model Predictive Control",
+    "landing_url": "https://proceedings.mlr.press/v162/hansen22a.html",
+    "year": 2022,
+    "venue": "ICML",
+    "id": "P09",
+    "bibtex": "@InProceedings{pmlr-v162-hansen22a,\n  title = \t {Temporal Difference Learning for Model Predictive Control},\n  author =       {Hansen, Nicklas A and Su, Hao and Wang, Xiaolong},\n  booktitle = \t {Proceedings of the 39th International Conference on Machine Learning},\n  pages = \t {8387--8406},\n  year = \t {2022},\n  editor = \t {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},\n  volume = \t {162},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {17--23 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf},\n  url = \t {https://proceedings.mlr.press/v162/hansen22a.html}\n}",
+    "authors": [
+      "Hansen, Nicklas A",
+      "Su, Hao",
+      "Wang, Xiaolong"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v162/hansen22a/hansen22a.pdf",
+    "pdf_sha256": "1027118649680e5ba1bbb93d9a7b95ddf47f3059e6c14809616c0bb7668b2cd6",
+    "pages": 20,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:27:05.166532+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 12–18: transfer, planning budgets, model objectives, setup, inference time, task definitions and aggregate metrics."
+    }
+  },
+  {
+    "title": "Online Decision Transformer",
+    "landing_url": "https://proceedings.mlr.press/v162/zheng22c.html",
+    "year": 2022,
+    "venue": "ICML",
+    "id": "P10",
+    "bibtex": "@InProceedings{pmlr-v162-zheng22c,\n  title = \t {Online Decision Transformer},\n  author =       {Zheng, Qinqing and Zhang, Amy and Grover, Aditya},\n  booktitle = \t {Proceedings of the 39th International Conference on Machine Learning},\n  pages = \t {27042--27059},\n  year = \t {2022},\n  editor = \t {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},\n  volume = \t {162},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {17--23 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v162/zheng22c/zheng22c.pdf},\n  url = \t {https://proceedings.mlr.press/v162/zheng22c.html}\n}",
+    "authors": [
+      "Zheng, Qinqing",
+      "Zhang, Amy",
+      "Grover, Aditya"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v162/zheng22c/zheng22c.pdf",
+    "pdf_sha256": "288fec61db9a526e811803c8614e8ede9d5b16c5ab840ae3ea325e0a236f4106",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:27:09.917557+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 13–18: full appendices."
+    }
+  }
+]
