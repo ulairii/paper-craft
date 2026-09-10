@@ -60,6 +60,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [ICCV · Segmentation](skills/paper-craft-iccv-segmentation/SKILL.md) | [10 ICCV papers, 2015–2023](skills/paper-craft-iccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-segmentation/references/references.bib) | Spatial refinement, efficient context, query masks, open-vocabulary transfer, and prompting |
 | [ICCV · 3D perception](skills/paper-craft-iccv-3d/SKILL.md) | [10 ICCV papers, 2019–2023](skills/paper-craft-iccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-3d/references/references.bib) | Geometric detection, registration, real scans, sparse representations, and camera BEV |
 | [ECCV · Object detection](skills/paper-craft-eccv-detection/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-detection/references/references.bib) | Output reformulation, adaptive training, precise boxes, semi-supervised and open-vocabulary learning |
+| [ECCV · Segmentation](skills/paper-craft-eccv-segmentation/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-segmentation/references/references.bib) | Spatial detail, context units, instance representations, heterogeneous tasks, and open-vocabulary interaction |
 
 ## A small example
 

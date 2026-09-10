@@ -14,6 +14,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iccv-segmentation` | ICCV | Semantic, instance, open-vocabulary, and promptable segmentation | Full drafts; spatial refinement, context, mask representations, transfer and prompt narratives; revision | [SKILL.md](../../paper-craft-iccv-segmentation/SKILL.md) |
 | `paper-craft-iccv-3d` | ICCV | Point clouds, geometric detection, registration, and camera BEV | Full drafts; observation and representation stories; geometric aggregation; efficiency tradeoffs; experiment prose; revision | [SKILL.md](../../paper-craft-iccv-3d/SKILL.md) |
 | `paper-craft-eccv-detection` | ECCV | Object detection | Full drafts; keypoint and set representations; training and localization; semi-supervised and open-vocabulary narratives; revision | [SKILL.md](../../paper-craft-eccv-detection/SKILL.md) |
+| `paper-craft-eccv-segmentation` | ECCV | Semantic, instance, and interactive segmentation | Full drafts; context and detail; instance representations; heterogeneous tasks; open-vocabulary transfer; result explanation and revision | [SKILL.md](../../paper-craft-eccv-segmentation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -84,6 +85,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use this specialist for ECCV submissions whose central contribution is detecting objects. A mask-only contribution belongs to segmentation, even if it uses a detector; a general language–image representation belongs to representation learning unless object localization carries the insight. Three-dimensional sensor geometry belongs to 3D perception.
 
 **Source collection:** [10 accepted ECCV papers from 2018–2024](../../paper-craft-eccv-detection/references/corpus.md), with [BibTeX](../../paper-craft-eccv-detection/references/references.bib).
+
+### ECCV: segmentation
+
+**Select when the contribution concerns:** boundary refinement, efficient spatial context, pixel–region relationships, heterogeneous parsing tasks, instance-mask representations, attention for segmentation, region-level open-vocabulary transfer, or interactive segmentation and recognition.
+
+**Useful signals in the material:** semantic or instance masks, boundary-sensitive metrics, location-indexed masks, generated mask heads, thing/stuff breakdowns, unseen segmentation classes, and point or box prompts used to request masks.
+
+**Distinguish nearby work:** use detection when box localization or detector assignment carries the contribution. Choose this specialist when mask prediction, pixel grouping, or the segmentation task interface is central, even if boxes are supplied as prompts. General vision–language representation learning and 3D sensor geometry need their own primary guidance.
+
+**Source collection:** [10 accepted ECCV papers from 2018–2024](../../paper-craft-eccv-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-eccv-segmentation/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 
