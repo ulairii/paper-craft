@@ -1,0 +1,293 @@
+[
+  {
+    "title": "Hindsight Experience Replay",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/453fadbd8a1a3af50a9df4df899537b5-Abstract.html",
+    "year": 2017,
+    "venue": "NeurIPS",
+    "id": "P01",
+    "bibtex": "@inproceedings{NIPS2017_453fadbd,\n author = {Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Abbeel, Pieter and Zaremba, Wojciech},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Hindsight Experience Replay},\n url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Paper.pdf},\n volume = {30},\n year = {2017}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Bibtex.bib",
+    "authors": [
+      "Andrychowicz, Marcin",
+      "Wolski, Filip",
+      "Ray, Alex",
+      "Schneider, Jonas",
+      "Fong, Rachel",
+      "Welinder, Peter",
+      "McGrew, Bob",
+      "Tobin, Josh",
+      "Abbeel, Pieter",
+      "Zaremba, Wojciech"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Paper.pdf",
+    "pdf_sha256": "0494b3b65ee3246f9b23225147b7820a0f985145b11f1962538562947bddbc67",
+    "pages": 11,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:37.863238+00:00",
+    "original_proceedings_bibtex": "@inproceedings{NIPS2017_453fadbd,\n author = {Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Pieter Abbeel, OpenAI and Zaremba, Wojciech},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Hindsight Experience Replay},\n url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Paper.pdf},\n volume = {30},\n year = {2017}\n}",
+    "metadata_note": "The proceedings BibTeX attaches the OpenAI affiliation to Pieter Abbeel. Author identity is corrected from the published PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "No separate supplement linked by the official proceedings; unavailable appendix references are not treated as read."
+    }
+  },
+  {
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html",
+    "year": 2017,
+    "venue": "NeurIPS",
+    "id": "P02",
+    "bibtex": "@inproceedings{NIPS2017_d5e2c0ad,\n author = {Christiano, Paul F and Leike, Jan and Brown, Tom and Martic, Miljan and Legg, Shane and Amodei, Dario},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Deep Reinforcement Learning from Human Preferences},\n url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Paper.pdf},\n volume = {30},\n year = {2017}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Bibtex.bib",
+    "authors": [
+      "Christiano, Paul F",
+      "Leike, Jan",
+      "Brown, Tom",
+      "Martic, Miljan",
+      "Legg, Shane",
+      "Amodei, Dario"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Paper.pdf",
+    "pdf_sha256": "3d870cc3b55e170ff6ea50617f595aaac5107b379273aa6205efa2583f3571f4",
+    "pages": 9,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:37.914689+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Supplemental.zip",
+    "supplement_archive_member": "Paper 2251\\Human_Feedback_Camera_Ready_2.pdf",
+    "supplement_pages": 7,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1 and 4–7: identity, references and complete appendices."
+    }
+  },
+  {
+    "title": "When to Trust Your Model: Model-Based Policy Optimization",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/5faf461eff3099671ad63c6f3f094f7f-Abstract.html",
+    "year": 2019,
+    "venue": "NeurIPS",
+    "id": "P03",
+    "bibtex": "@inproceedings{NEURIPS2019_5faf461e,\n author = {Janner, Michael and Fu, Justin and Zhang, Marvin and Levine, Sergey},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {When to Trust Your Model: Model-Based Policy Optimization},\n url = {https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Paper.pdf},\n volume = {32},\n year = {2019}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Bibtex.bib",
+    "authors": [
+      "Janner, Michael",
+      "Fu, Justin",
+      "Zhang, Marvin",
+      "Levine, Sergey"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Paper.pdf",
+    "pdf_sha256": "675f5b1fda804f3bcdd846eec04b7aeef08767888ea18778b0e722a37697b9f7",
+    "pages": 12,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:38.150664+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/5faf461eff3099671ad63c6f3f094f7f-Supplemental.zip",
+    "supplement_archive_member": "mbpo_2019_supp.pdf",
+    "supplement_pages": 6,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 5–6: model-generalization analysis and settings."
+    }
+  },
+  {
+    "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P04",
+    "bibtex": "@inproceedings{NEURIPS2020_0d2b2061,\n author = {Kumar, Aviral and Zhou, Aurick and Tucker, George and Levine, Sergey},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {1179--1191},\n publisher = {Curran Associates, Inc.},\n title = {Conservative Q-Learning for Offline Reinforcement Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/9824-/bibtex",
+    "authors": [
+      "Kumar, Aviral",
+      "Zhou, Aurick",
+      "Tucker, George",
+      "Levine, Sergey"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Paper.pdf",
+    "pdf_sha256": "98f9e70d85fca8fc095f7327990f29f65decee5a0f671997a831a212bc653d8e",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0d2b2061826a5df3221116a5085a6052-Supplemental.pdf",
+    "supplement_pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:49.987884+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–2 and 14–18: theoretical setup and additional experiments."
+    }
+  },
+  {
+    "title": "RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/51200d29d1fc15f5a71c1dab4bb54f7c-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P05",
+    "bibtex": "@inproceedings{NEURIPS2020_51200d29,\n author = {Gulcehre, Caglar and Wang, Ziyu and Novikov, Alexander and Paine, Thomas and G\\'{o}mez, Sergio and Zolna, Konrad and Agarwal, Rishabh and Merel, Josh S and Mankowitz, Daniel J and Paduraru, Cosmin and Dulac-Arnold, Gabriel and Li, Jerry and Norouzi, Mohammad and Hoffman, Matthew and Heess, Nicolas and de Freitas, Nando},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {7248--7259},\n publisher = {Curran Associates, Inc.},\n title = {RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10332-/bibtex",
+    "authors": [
+      "Gulcehre, Caglar",
+      "Wang, Ziyu",
+      "Novikov, Alexander",
+      "Paine, Thomas",
+      "G\\'{o}mez, Sergio",
+      "Zolna, Konrad",
+      "Agarwal, Rishabh",
+      "Merel, Josh S",
+      "Mankowitz, Daniel J",
+      "Paduraru, Cosmin",
+      "Dulac-Arnold, Gabriel",
+      "Li, Jerry",
+      "Norouzi, Mohammad",
+      "Hoffman, Matthew",
+      "Heess, Nicolas",
+      "de Freitas, Nando"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf",
+    "pdf_sha256": "04f91dfe39bbb4fad11aaca84776ca6a4b088bab0958cea6d66b29ff432e3e40",
+    "pages": 12,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Supplemental.pdf",
+    "supplement_pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:50.530734+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Complete supplement, pages 1–9."
+    }
+  },
+  {
+    "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P06",
+    "bibtex": "@inproceedings{NEURIPS2021_7f489f64,\n author = {Chen, Lili and Lu, Kevin and Rajeswaran, Aravind and Lee, Kimin and Grover, Aditya and Laskin, Misha and Abbeel, Pieter and Srinivas, Aravind and Mordatch, Igor},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {15084--15097},\n publisher = {Curran Associates, Inc.},\n title = {Decision Transformer: Reinforcement Learning via Sequence Modeling},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/12779-/bibtex",
+    "authors": [
+      "Chen, Lili",
+      "Lu, Kevin",
+      "Rajeswaran, Aravind",
+      "Lee, Kimin",
+      "Grover, Aditya",
+      "Laskin, Misha",
+      "Abbeel, Pieter",
+      "Srinivas, Aravind",
+      "Mordatch, Igor"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Paper.pdf",
+    "pdf_sha256": "075d32eba700062cef24a6f6138432e2584cc1770518092add54e407ce0a5b31",
+    "pages": 14,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/7f489f642a0ddb10272b5c31057f0663-Supplemental.pdf",
+    "supplement_pages": 5,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:50.330664+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Complete supplement, pages 1–5."
+    }
+  },
+  {
+    "title": "Offline Reinforcement Learning as One Big Sequence Modeling Problem",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P07",
+    "bibtex": "@inproceedings{NEURIPS2021_099fe6b0,\n author = {Janner, Michael and Li, Qiyang and Levine, Sergey},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {1273--1286},\n publisher = {Curran Associates, Inc.},\n title = {Offline Reinforcement Learning as One Big Sequence Modeling Problem},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/11721-/bibtex",
+    "authors": [
+      "Janner, Michael",
+      "Li, Qiyang",
+      "Levine, Sergey"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Paper.pdf",
+    "pdf_sha256": "03792f88b612f2ed573e23be2656ded6937448b5d9177c8d83a4fc58e5e5a982",
+    "pages": 14,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/099fe6b0b444c23836c4a5d07346082b-Supplemental.pdf",
+    "supplement_pages": 3,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:13:02.187102+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Complete supplement, pages 1–3."
+    }
+  },
+  {
+    "title": "A Minimalist Approach to Offline Reinforcement Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P08",
+    "bibtex": "@inproceedings{NEURIPS2021_a8166da0,\n author = {Fujimoto, Scott and Gu, Shixiang (Shane)},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {20132--20145},\n publisher = {Curran Associates, Inc.},\n title = {A Minimalist Approach to Offline Reinforcement Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/13163-/bibtex",
+    "authors": [
+      "Fujimoto, Scott",
+      "Gu, Shixiang (Shane)"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Paper.pdf",
+    "pdf_sha256": "e95d00a4616475becc89095e368c193c5acf27556d655e0c2b37ba204f8a11b3",
+    "pages": 14,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/a8166da05c5a094f7dc03724b41886e5-Supplemental.pdf",
+    "supplement_pages": 6,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:13:03.575915+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Complete supplement, pages 1–6."
+    }
+  },
+  {
+    "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P09",
+    "bibtex": "@inproceedings{NEURIPS2021_f514cec8,\n author = {Agarwal, Rishabh and Schwarzer, Max and Castro, Pablo Samuel and Courville, Aaron and Bellemare, Marc},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {29304--29320},\n publisher = {Curran Associates, Inc.},\n title = {Deep Reinforcement Learning at the Edge of the Statistical Precipice},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/f514cec81cb148559cf475e7426eed5e-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/13867-/bibtex",
+    "authors": [
+      "Agarwal, Rishabh",
+      "Schwarzer, Max",
+      "Castro, Pablo Samuel",
+      "Courville, Aaron",
+      "Bellemare, Marc"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f514cec81cb148559cf475e7426eed5e-Paper.pdf",
+    "pdf_sha256": "7553e280d4a1560860bc5f6be2d70539fc5b510e0e3bb2d556824e51e9a80252",
+    "pages": 17,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f514cec81cb148559cf475e7426eed5e-Supplemental.pdf",
+    "supplement_pages": 11,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:13:03.572907+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–7: statistical definitions, assumptions and additional comparisons."
+    }
+  },
+  {
+    "title": "COMBO: Conservative Offline Model-Based Policy Optimization",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/f29a179746902e331572c483c45e5086-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P10",
+    "bibtex": "@inproceedings{NEURIPS2021_f29a1797,\n author = {Yu, Tianhe and Kumar, Aviral and Rafailov, Rafael and Rajeswaran, Aravind and Levine, Sergey and Finn, Chelsea},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {28954--28967},\n publisher = {Curran Associates, Inc.},\n title = {COMBO: Conservative Offline Model-Based Policy Optimization},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/f29a179746902e331572c483c45e5086-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/13841-/bibtex",
+    "authors": [
+      "Yu, Tianhe",
+      "Kumar, Aviral",
+      "Rafailov, Rafael",
+      "Rajeswaran, Aravind",
+      "Levine, Sergey",
+      "Finn, Chelsea"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f29a179746902e331572c483c45e5086-Paper.pdf",
+    "pdf_sha256": "a378a38ccc395541345dfa31450b683fd036ee3f4b03208cf57c420d0a5c1d75",
+    "pages": 14,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f29a179746902e331572c483c45e5086-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:13:07.854667+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/f29a179746902e331572c483c45e5086-Supplemental.zip",
+    "supplement_archive_member": "appendix.pdf",
+    "supplement_pages": 13,
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–3 and 8–13: theoretical assumptions, implementation, selection and direct-combination comparison."
+    }
+  }
+]

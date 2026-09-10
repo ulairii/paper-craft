@@ -69,6 +69,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [ICLR · Generative models](skills/paper-craft-iclr-generative/SKILL.md) | [10 ICLR papers, 2014–2024](skills/paper-craft-iclr-generative/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-generative/references/references.bib) | Variational inference, flows, GANs, diffusion, sampling, text-to-image systems, and reward adaptation |
 | [NeurIPS · Representation learning](skills/paper-craft-neurips-representation/SKILL.md) | [10 NeurIPS papers, 2019–2022](skills/paper-craft-neurips-representation/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-representation/references/references.bib) | Self-supervision, contrastive objectives, graph representations, local features, label efficiency, and transfer analysis |
 | [NeurIPS · Generative models](skills/paper-craft-neurips-generative/SKILL.md) | [10 NeurIPS papers, 2014–2022](skills/paper-craft-neurips-generative/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-generative/references/references.bib) | GANs, flows, VAEs, diffusion, guidance, design principles, and sampling efficiency |
+| [NeurIPS · Reinforcement learning](skills/paper-craft-neurips-rl/SKILL.md) | [10 NeurIPS papers, 2017–2021](skills/paper-craft-neurips-rl/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-rl/references/references.bib) | Sparse rewards, human preferences, model-based and offline control, sequence policies, and empirical analysis |
 
 ## A small example
 

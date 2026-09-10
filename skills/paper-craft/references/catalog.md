@@ -23,6 +23,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iclr-generative` | ICLR | Generative models and sampling | Full drafts; generative objectives, tractable learning, flows, GANs, diffusion, sampling efficiency, conditional synthesis, reward fine-tuning; revision | [SKILL.md](../../paper-craft-iclr-generative/SKILL.md) |
 | `paper-craft-neurips-representation` | NeurIPS | Self-supervised, supervised contrastive, graph, and local representations | Full drafts; learning objectives, invariance, label efficiency, transfer analysis and local/global tradeoffs | [SKILL.md](../../paper-craft-neurips-representation/SKILL.md) |
 | `paper-craft-neurips-generative` | NeurIPS | Generative models and sampling | Full drafts; learning principles, training repairs, flows, VAEs, diffusion, guidance, quality–cost tradeoffs and revision | [SKILL.md](../../paper-craft-neurips-generative/SKILL.md) |
+| `paper-craft-neurips-rl` | NeurIPS | Reinforcement learning and decision-making | Full drafts; learning signals, model use, offline objectives, sequence policies, benchmark narratives and empirical interpretation | [SKILL.md](../../paper-craft-neurips-rl/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -204,6 +205,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** reusable features and downstream probes call for representation guidance when they carry the contribution. A policy learned with a generative model calls for reinforcement-learning guidance when decision-making is central. Reward-based image adaptation belongs here when synthesis quality is the main result. A sampling-budget paper about language reasoning belongs to reasoning guidance rather than this image-generation corpus.
 
 **Source collection:** [10 accepted NeurIPS papers from 2014–2022](../../paper-craft-neurips-generative/references/corpus.md), with [BibTeX](../../paper-craft-neurips-generative/references/references.bib).
+
+### NeurIPS: reinforcement learning
+
+**Select when the contribution concerns:** policy or value learning, reward specification, preference feedback, model-based planning, offline decision-making, trajectory-conditioned policies, RL benchmarks, or empirical understanding of RL performance.
+
+**Useful signals in the material:** environment returns, success rates, interaction or human-label budgets, model rollouts, behavior-policy datasets, value penalties, target-return conditioning, beam-search control, and comparisons across task/data regimes.
+
+**Distinguish nearby work:** a Transformer predicting actions or planning trajectories belongs here when decision quality is central. General text reasoning and test-time search belong to reasoning guidance when the output is a language answer. A generative dynamics model belongs here when its contribution is policy learning; image synthesis and reusable feature learning have their own specialists. Keep the target venue fixed when borrowing cross-conference examples.
+
+**Source collection:** [10 accepted NeurIPS papers from 2017–2021](../../paper-craft-neurips-rl/references/corpus.md), with [BibTeX](../../paper-craft-neurips-rl/references/references.bib).
 
 ## Adding a specialist
 
