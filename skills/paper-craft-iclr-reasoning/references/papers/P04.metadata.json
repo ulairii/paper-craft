@@ -1,0 +1,91 @@
+{
+  "id": "P04",
+  "title": "Let's Verify Step by Step",
+  "venue": "ICLR",
+  "year": 2024,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/aca97732e30bcf1303bc22ac3924fd16-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:03:56.393443+00:00",
+  "pdf_sha256": "25cde3dafac4136d4ea0c48ef61afd8192b3e5be880309e80d3c2dfd4af56644",
+  "pdf_bytes": 4425431,
+  "pages": 24,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P04.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P04.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Let's Verify Step by Step"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lightman, Hunter"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kosaraju, Vineet"
+    },
+    {
+      "name": "citation_author",
+      "content": "Burda, Yuri"
+    },
+    {
+      "name": "citation_author",
+      "content": "Edwards, Harrison"
+    },
+    {
+      "name": "citation_author",
+      "content": "Baker, Bowen"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lee, Teddy"
+    },
+    {
+      "name": "citation_author",
+      "content": "Leike, Jan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Schulman, John "
+    },
+    {
+      "name": "citation_author",
+      "content": "Sutskever, Ilya"
+    },
+    {
+      "name": "citation_author",
+      "content": "Cobbe, Karl"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2024"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "39578"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "39601"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2024-05-31"
+    }
+  ],
+  "main_pages_read": "1-9",
+  "appendix_pages_read": "13-17",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf#page=1"
+}

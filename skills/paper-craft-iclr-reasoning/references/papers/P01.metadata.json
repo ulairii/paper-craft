@@ -1,0 +1,22 @@
+{
+  "id": "P01",
+  "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+  "venue": "ICLR",
+  "year": 2023,
+  "landing_url": "https://openreview.net/forum?id=1PL1NIMMrw",
+  "pdf_url": "https://arxiv.org/pdf/2203.11171v4",
+  "retrieved_at": "2026-09-10T19:03:45.531503+00:00",
+  "pdf_sha256": "1a49ce0373afc89d2d6e97fb1aa8230f6b818c70590d732a3187f753f4df6aba",
+  "pdf_bytes": 10505941,
+  "pages": 24,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P01.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P01.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [],
+  "main_pages_read": "1-9",
+  "appendix_pages_read": "16-17,19",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Pinned accepted author version; ICLR publication header in PDF",
+  "acceptance_evidence": "https://arxiv.org/pdf/2203.11171v4#page=1"
+}

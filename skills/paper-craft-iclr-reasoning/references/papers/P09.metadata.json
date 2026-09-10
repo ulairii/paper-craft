@@ -1,0 +1,63 @@
+{
+  "id": "P09",
+  "title": "On the self-verification limitations of large language models on reasoning and planning tasks",
+  "venue": "ICLR",
+  "year": 2025,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f3c5e56274140e0420baa3916c529210-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:04:05.386621+00:00",
+  "pdf_sha256": "b3cca01d4afb67958d82612f692e1635bed1b7b21685e8ecd2253e457f01870f",
+  "pdf_bytes": 821179,
+  "pages": 54,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P09.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P09.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "On the self-verification limitations of large language models on reasoning and planning tasks"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stechly, Kaya"
+    },
+    {
+      "name": "citation_author",
+      "content": "Valmeekam, Karthik"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kambhampati, Subbarao"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2025"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "98190"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "98243"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2025-05-01"
+    }
+  ],
+  "main_pages_read": "1-10",
+  "appendix_pages_read": "14-15,18",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf#page=1"
+}

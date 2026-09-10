@@ -1,0 +1,67 @@
+{
+  "id": "P05",
+  "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+  "venue": "ICLR",
+  "year": 2025,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1b623663fd9b874366f3ce019fdfdd44-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:03:56.392191+00:00",
+  "pdf_sha256": "2f3c839a0530704544eeeb4ec2db38d52caf35e701b8881eeac751a6187c3998",
+  "pdf_bytes": 3747814,
+  "pages": 35,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P05.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P05.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning"
+    },
+    {
+      "name": "citation_author",
+      "content": "Snell, Charlie"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lee, Jaehoon"
+    },
+    {
+      "name": "citation_author",
+      "content": "Xu, Kelvin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kumar, Aviral"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2025"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "10131"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "10165"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2025-05-01"
+    }
+  ],
+  "main_pages_read": "1-11",
+  "appendix_pages_read": "16-17,23-26",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf#page=1"
+}

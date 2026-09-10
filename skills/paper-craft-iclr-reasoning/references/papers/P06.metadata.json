@@ -1,0 +1,123 @@
+{
+  "id": "P06",
+  "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+  "venue": "ICLR",
+  "year": 2025,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/871ac99fdc5282d0301934d23945ebaa-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:03:56.390002+00:00",
+  "pdf_sha256": "64c9f1a83df829092e318edf0cb46e9f6820a008da22514b222575c372559db3",
+  "pdf_bytes": 621107,
+  "pages": 27,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P06.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P06.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Training Language Models to Self-Correct via Reinforcement Learning"
+    },
+    {
+      "name": "citation_author",
+      "content": "Kumar, Aviral"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhuang, Vincent"
+    },
+    {
+      "name": "citation_author",
+      "content": "Agarwal, Rishabh"
+    },
+    {
+      "name": "citation_author",
+      "content": "Su, Yi"
+    },
+    {
+      "name": "citation_author",
+      "content": "Co-Reyes, JD"
+    },
+    {
+      "name": "citation_author",
+      "content": "Singh, Avi"
+    },
+    {
+      "name": "citation_author",
+      "content": "Baumli, Kate"
+    },
+    {
+      "name": "citation_author",
+      "content": "Iqbal, Shariq"
+    },
+    {
+      "name": "citation_author",
+      "content": "Bishop, Colton"
+    },
+    {
+      "name": "citation_author",
+      "content": "Roelofs, Rebecca"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhang, Lei"
+    },
+    {
+      "name": "citation_author",
+      "content": "McKinney, Kay"
+    },
+    {
+      "name": "citation_author",
+      "content": "Shrivastava, Disha"
+    },
+    {
+      "name": "citation_author",
+      "content": "Paduraru, Cosmin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Tucker, George"
+    },
+    {
+      "name": "citation_author",
+      "content": "Precup, Doina"
+    },
+    {
+      "name": "citation_author",
+      "content": "Behbahani, Feryal"
+    },
+    {
+      "name": "citation_author",
+      "content": "Faust, Aleksandra"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2025"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "54523"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "54549"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2025-05-01"
+    }
+  ],
+  "main_pages_read": "1-11",
+  "appendix_pages_read": "16-20",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf#page=1"
+}

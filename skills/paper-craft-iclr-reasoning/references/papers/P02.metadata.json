@@ -1,0 +1,22 @@
+{
+  "id": "P02",
+  "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+  "venue": "ICLR",
+  "year": 2023,
+  "landing_url": "https://openreview.net/forum?id=WZH7099tgfM",
+  "pdf_url": "https://arxiv.org/pdf/2205.10625v3",
+  "retrieved_at": "2026-09-10T19:03:45.362543+00:00",
+  "pdf_sha256": "ab71759f86119d1c368cef0ffabc5499562b605188a5dd6a00ed7ca0fa995c71",
+  "pdf_bytes": 731536,
+  "pages": 61,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P02.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P02.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [],
+  "main_pages_read": "1-9",
+  "appendix_pages_read": "16-17,54-55",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Pinned accepted author version; ICLR publication header in PDF",
+  "acceptance_evidence": "https://arxiv.org/pdf/2205.10625v3#page=1"
+}

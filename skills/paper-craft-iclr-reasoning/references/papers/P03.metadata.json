@@ -1,0 +1,79 @@
+{
+  "id": "P03",
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "venue": "ICLR",
+  "year": 2024,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/8b4add8b0aa8749d80a34ca5d941c355-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:03:45.361985+00:00",
+  "pdf_sha256": "d172f0b3e933544f5165250338e3e989036e8d826fea34093e6aed4adb5b042a",
+  "pdf_bytes": 282947,
+  "pages": 17,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P03.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P03.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Large Language Models Cannot Self-Correct Reasoning Yet"
+    },
+    {
+      "name": "citation_author",
+      "content": "Huang, Jie"
+    },
+    {
+      "name": "citation_author",
+      "content": "Chen, Xinyun"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mishra, Swaroop"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zheng, Huaixiu Steven"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yu, Adams"
+    },
+    {
+      "name": "citation_author",
+      "content": "Song, Xinying"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhou, Denny"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2024"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "32808"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "32824"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2024-05-31"
+    }
+  ],
+  "main_pages_read": "1-9",
+  "appendix_pages_read": "13-14",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf#page=1"
+}

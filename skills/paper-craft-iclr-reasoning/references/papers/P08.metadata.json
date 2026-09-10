@@ -1,0 +1,75 @@
+{
+  "id": "P08",
+  "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solver",
+  "venue": "ICLR",
+  "year": 2025,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/35514d533cdc278a7780daf0dbe7d0b7-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:04:05.461426+00:00",
+  "pdf_sha256": "766ae2507dc541c397ab37ca78bcf6c3741282439a4f1cf9e5ff6b67b8cff853",
+  "pdf_bytes": 1101854,
+  "pages": 20,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P08.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P08.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solver"
+    },
+    {
+      "name": "citation_author",
+      "content": "Qi, Zhenting"
+    },
+    {
+      "name": "citation_author",
+      "content": "MA, Mingyuan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Xu, Jiahang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhang, Li Lyna"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yang, Fan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yang, Mao"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2025"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "20788"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "20807"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2025-05-01"
+    }
+  ],
+  "main_pages_read": "1-10",
+  "appendix_pages_read": "13-14,17",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf#page=1"
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "P01",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "venue": "ICLR",
+    "year": 2023,
+    "landing_url": "https://openreview.net/forum?id=1PL1NIMMrw",
+    "pdf_url": "https://arxiv.org/pdf/2203.11171v4",
+    "retrieved_at": "2026-09-10T19:03:45.531503+00:00",
+    "pdf_sha256": "1a49ce0373afc89d2d6e97fb1aa8230f6b818c70590d732a3187f753f4df6aba",
+    "pdf_bytes": 10505941,
+    "pages": 24,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P01.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P01.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [],
+    "main_pages_read": "1-9",
+    "appendix_pages_read": "16-17,19",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Pinned accepted author version; ICLR publication header in PDF",
+    "acceptance_evidence": "https://arxiv.org/pdf/2203.11171v4#page=1"
+  },
+  {
+    "id": "P02",
+    "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+    "venue": "ICLR",
+    "year": 2023,
+    "landing_url": "https://openreview.net/forum?id=WZH7099tgfM",
+    "pdf_url": "https://arxiv.org/pdf/2205.10625v3",
+    "retrieved_at": "2026-09-10T19:03:45.362543+00:00",
+    "pdf_sha256": "ab71759f86119d1c368cef0ffabc5499562b605188a5dd6a00ed7ca0fa995c71",
+    "pdf_bytes": 731536,
+    "pages": 61,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P02.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P02.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [],
+    "main_pages_read": "1-9",
+    "appendix_pages_read": "16-17,54-55",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Pinned accepted author version; ICLR publication header in PDF",
+    "acceptance_evidence": "https://arxiv.org/pdf/2205.10625v3#page=1"
+  },
+  {
+    "id": "P03",
+    "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+    "venue": "ICLR",
+    "year": 2024,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/8b4add8b0aa8749d80a34ca5d941c355-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:03:45.361985+00:00",
+    "pdf_sha256": "d172f0b3e933544f5165250338e3e989036e8d826fea34093e6aed4adb5b042a",
+    "pdf_bytes": 282947,
+    "pages": 17,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P03.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P03.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Large Language Models Cannot Self-Correct Reasoning Yet"
+      },
+      {
+        "name": "citation_author",
+        "content": "Huang, Jie"
+      },
+      {
+        "name": "citation_author",
+        "content": "Chen, Xinyun"
+      },
+      {
+        "name": "citation_author",
+        "content": "Mishra, Swaroop"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zheng, Huaixiu Steven"
+      },
+      {
+        "name": "citation_author",
+        "content": "Yu, Adams"
+      },
+      {
+        "name": "citation_author",
+        "content": "Song, Xinying"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhou, Denny"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2024"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "32808"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "32824"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2024-05-31"
+      }
+    ],
+    "main_pages_read": "1-9",
+    "appendix_pages_read": "13-14",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P04",
+    "title": "Let's Verify Step by Step",
+    "venue": "ICLR",
+    "year": 2024,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/aca97732e30bcf1303bc22ac3924fd16-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:03:56.393443+00:00",
+    "pdf_sha256": "25cde3dafac4136d4ea0c48ef61afd8192b3e5be880309e80d3c2dfd4af56644",
+    "pdf_bytes": 4425431,
+    "pages": 24,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P04.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P04.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Let's Verify Step by Step"
+      },
+      {
+        "name": "citation_author",
+        "content": "Lightman, Hunter"
+      },
+      {
+        "name": "citation_author",
+        "content": "Kosaraju, Vineet"
+      },
+      {
+        "name": "citation_author",
+        "content": "Burda, Yuri"
+      },
+      {
+        "name": "citation_author",
+        "content": "Edwards, Harrison"
+      },
+      {
+        "name": "citation_author",
+        "content": "Baker, Bowen"
+      },
+      {
+        "name": "citation_author",
+        "content": "Lee, Teddy"
+      },
+      {
+        "name": "citation_author",
+        "content": "Leike, Jan"
+      },
+      {
+        "name": "citation_author",
+        "content": "Schulman, John "
+      },
+      {
+        "name": "citation_author",
+        "content": "Sutskever, Ilya"
+      },
+      {
+        "name": "citation_author",
+        "content": "Cobbe, Karl"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2024"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "39578"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "39601"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2024-05-31"
+      }
+    ],
+    "main_pages_read": "1-9",
+    "appendix_pages_read": "13-17",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/aca97732e30bcf1303bc22ac3924fd16-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P05",
+    "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/1b623663fd9b874366f3ce019fdfdd44-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:03:56.392191+00:00",
+    "pdf_sha256": "2f3c839a0530704544eeeb4ec2db38d52caf35e701b8881eeac751a6187c3998",
+    "pdf_bytes": 3747814,
+    "pages": 35,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P05.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P05.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning"
+      },
+      {
+        "name": "citation_author",
+        "content": "Snell, Charlie"
+      },
+      {
+        "name": "citation_author",
+        "content": "Lee, Jaehoon"
+      },
+      {
+        "name": "citation_author",
+        "content": "Xu, Kelvin"
+      },
+      {
+        "name": "citation_author",
+        "content": "Kumar, Aviral"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "10131"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "10165"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-11",
+    "appendix_pages_read": "16-17,23-26",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P06",
+    "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/871ac99fdc5282d0301934d23945ebaa-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:03:56.390002+00:00",
+    "pdf_sha256": "64c9f1a83df829092e318edf0cb46e9f6820a008da22514b222575c372559db3",
+    "pdf_bytes": 621107,
+    "pages": 27,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P06.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P06.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Training Language Models to Self-Correct via Reinforcement Learning"
+      },
+      {
+        "name": "citation_author",
+        "content": "Kumar, Aviral"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhuang, Vincent"
+      },
+      {
+        "name": "citation_author",
+        "content": "Agarwal, Rishabh"
+      },
+      {
+        "name": "citation_author",
+        "content": "Su, Yi"
+      },
+      {
+        "name": "citation_author",
+        "content": "Co-Reyes, JD"
+      },
+      {
+        "name": "citation_author",
+        "content": "Singh, Avi"
+      },
+      {
+        "name": "citation_author",
+        "content": "Baumli, Kate"
+      },
+      {
+        "name": "citation_author",
+        "content": "Iqbal, Shariq"
+      },
+      {
+        "name": "citation_author",
+        "content": "Bishop, Colton"
+      },
+      {
+        "name": "citation_author",
+        "content": "Roelofs, Rebecca"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhang, Lei"
+      },
+      {
+        "name": "citation_author",
+        "content": "McKinney, Kay"
+      },
+      {
+        "name": "citation_author",
+        "content": "Shrivastava, Disha"
+      },
+      {
+        "name": "citation_author",
+        "content": "Paduraru, Cosmin"
+      },
+      {
+        "name": "citation_author",
+        "content": "Tucker, George"
+      },
+      {
+        "name": "citation_author",
+        "content": "Precup, Doina"
+      },
+      {
+        "name": "citation_author",
+        "content": "Behbahani, Feryal"
+      },
+      {
+        "name": "citation_author",
+        "content": "Faust, Aleksandra"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "54523"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "54549"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-11",
+    "appendix_pages_read": "16-20",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P07",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:04:05.415722+00:00",
+    "pdf_sha256": "1b14865b38c3a77f38827045f67297bec1ffe03183cda2559d66c6d31b5a4b1d",
+    "pdf_bytes": 1425058,
+    "pages": 31,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P07.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P07.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning"
+      },
+      {
+        "name": "citation_author",
+        "content": "Setlur, Amrith"
+      },
+      {
+        "name": "citation_author",
+        "content": "Nagpal, Chirag"
+      },
+      {
+        "name": "citation_author",
+        "content": "Fisch, Adam"
+      },
+      {
+        "name": "citation_author",
+        "content": "Geng, Xinyang"
+      },
+      {
+        "name": "citation_author",
+        "content": "Eisenstein, Jacob"
+      },
+      {
+        "name": "citation_author",
+        "content": "Agarwal, Rishabh"
+      },
+      {
+        "name": "citation_author",
+        "content": "Agarwal, Alekh"
+      },
+      {
+        "name": "citation_author",
+        "content": "Berant, Jonathan "
+      },
+      {
+        "name": "citation_author",
+        "content": "Kumar, Aviral"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "60808"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "60838"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-11",
+    "appendix_pages_read": "16-18,28-31",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P08",
+    "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solver",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/35514d533cdc278a7780daf0dbe7d0b7-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:04:05.461426+00:00",
+    "pdf_sha256": "766ae2507dc541c397ab37ca78bcf6c3741282439a4f1cf9e5ff6b67b8cff853",
+    "pdf_bytes": 1101854,
+    "pages": 20,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P08.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P08.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solver"
+      },
+      {
+        "name": "citation_author",
+        "content": "Qi, Zhenting"
+      },
+      {
+        "name": "citation_author",
+        "content": "MA, Mingyuan"
+      },
+      {
+        "name": "citation_author",
+        "content": "Xu, Jiahang"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhang, Li Lyna"
+      },
+      {
+        "name": "citation_author",
+        "content": "Yang, Fan"
+      },
+      {
+        "name": "citation_author",
+        "content": "Yang, Mao"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "20788"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "20807"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-10",
+    "appendix_pages_read": "13-14,17",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/35514d533cdc278a7780daf0dbe7d0b7-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P09",
+    "title": "On the self-verification limitations of large language models on reasoning and planning tasks",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f3c5e56274140e0420baa3916c529210-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:04:05.386621+00:00",
+    "pdf_sha256": "b3cca01d4afb67958d82612f692e1635bed1b7b21685e8ecd2253e457f01870f",
+    "pdf_bytes": 821179,
+    "pages": 54,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P09.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P09.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "On the self-verification limitations of large language models on reasoning and planning tasks"
+      },
+      {
+        "name": "citation_author",
+        "content": "Stechly, Kaya"
+      },
+      {
+        "name": "citation_author",
+        "content": "Valmeekam, Karthik"
+      },
+      {
+        "name": "citation_author",
+        "content": "Kambhampati, Subbarao"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "98190"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "98243"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-10",
+    "appendix_pages_read": "14-15,18",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f3c5e56274140e0420baa3916c529210-Paper-Conference.pdf#page=1"
+  },
+  {
+    "id": "P10",
+    "title": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning",
+    "venue": "ICLR",
+    "year": 2025,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/ead542f13a38179d1b55b88610f959a1-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/ead542f13a38179d1b55b88610f959a1-Paper-Conference.pdf",
+    "retrieved_at": "2026-09-10T19:04:15.243678+00:00",
+    "pdf_sha256": "fec3af6ca39464e392c1fca0d028555f42f2553b17ccca8d9c1178564afa0908",
+    "pdf_bytes": 6455304,
+    "pages": 45,
+    "cache_host": "palmetto",
+    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P10.pdf",
+    "cache_text": "/scratch/runw/paper-craft/cache/papers/P10.txt",
+    "reading_status": "main_text_and_selected_appendices_read",
+    "page_metadata": [
+      {
+        "name": "citation_title",
+        "content": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning"
+      },
+      {
+        "name": "citation_author",
+        "content": "Sprague, Zayne"
+      },
+      {
+        "name": "citation_author",
+        "content": "Yin, Fangcong"
+      },
+      {
+        "name": "citation_author",
+        "content": "Rodriguez, Juan"
+      },
+      {
+        "name": "citation_author",
+        "content": "Jiang, Dongwei"
+      },
+      {
+        "name": "citation_author",
+        "content": "Wadhwa, Manya"
+      },
+      {
+        "name": "citation_author",
+        "content": "Singhal, Prasann"
+      },
+      {
+        "name": "citation_author",
+        "content": "Zhao, Xinyu"
+      },
+      {
+        "name": "citation_author",
+        "content": "Ye, Xi"
+      },
+      {
+        "name": "citation_author",
+        "content": "Mahowald, Kyle"
+      },
+      {
+        "name": "citation_author",
+        "content": "Durrett, Greg"
+      },
+      {
+        "name": "citation_journal_title",
+        "content": "International Conference on Learning Representations"
+      },
+      {
+        "name": "citation_volume",
+        "content": "2025"
+      },
+      {
+        "name": "citation_firstpage",
+        "content": "94118"
+      },
+      {
+        "name": "citation_lastpage",
+        "content": "94162"
+      },
+      {
+        "name": "citation_pdf_url",
+        "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/ead542f13a38179d1b55b88610f959a1-Paper-Conference.pdf"
+      },
+      {
+        "name": "citation_publication_date",
+        "content": "2025-05-01"
+      }
+    ],
+    "main_pages_read": "1-10",
+    "appendix_pages_read": "20-21,32,38,40-41",
+    "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+    "source_version": "Official ICLR proceedings PDF",
+    "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/ead542f13a38179d1b55b88610f959a1-Paper-Conference.pdf#page=1"
+  }
+]

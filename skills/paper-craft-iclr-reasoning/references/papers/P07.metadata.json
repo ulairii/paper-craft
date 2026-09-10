@@ -1,0 +1,87 @@
+{
+  "id": "P07",
+  "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+  "venue": "ICLR",
+  "year": 2025,
+  "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf",
+  "retrieved_at": "2026-09-10T19:04:05.415722+00:00",
+  "pdf_sha256": "1b14865b38c3a77f38827045f67297bec1ffe03183cda2559d66c6d31b5a4b1d",
+  "pdf_bytes": 1425058,
+  "pages": 31,
+  "cache_host": "palmetto",
+  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P07.pdf",
+  "cache_text": "/scratch/runw/paper-craft/cache/papers/P07.txt",
+  "reading_status": "main_text_and_selected_appendices_read",
+  "page_metadata": [
+    {
+      "name": "citation_title",
+      "content": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning"
+    },
+    {
+      "name": "citation_author",
+      "content": "Setlur, Amrith"
+    },
+    {
+      "name": "citation_author",
+      "content": "Nagpal, Chirag"
+    },
+    {
+      "name": "citation_author",
+      "content": "Fisch, Adam"
+    },
+    {
+      "name": "citation_author",
+      "content": "Geng, Xinyang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Eisenstein, Jacob"
+    },
+    {
+      "name": "citation_author",
+      "content": "Agarwal, Rishabh"
+    },
+    {
+      "name": "citation_author",
+      "content": "Agarwal, Alekh"
+    },
+    {
+      "name": "citation_author",
+      "content": "Berant, Jonathan "
+    },
+    {
+      "name": "citation_author",
+      "content": "Kumar, Aviral"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "International Conference on Learning Representations"
+    },
+    {
+      "name": "citation_volume",
+      "content": "2025"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "60808"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "60838"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2025-05-01"
+    }
+  ],
+  "main_pages_read": "1-11",
+  "appendix_pages_read": "16-18,28-31",
+  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "source_version": "Official ICLR proceedings PDF",
+  "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf#page=1"
+}
