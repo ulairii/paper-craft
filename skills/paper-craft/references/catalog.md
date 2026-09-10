@@ -9,6 +9,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iclr-reasoning` | ICLR | LLM reasoning and test-time compute | Full drafts; story and contribution framing; titles and abstracts; introductions and methods; experiment narratives; prose revision | [SKILL.md](../../paper-craft-iclr-reasoning/SKILL.md) |
 | `paper-craft-cvpr-detection` | CVPR | Object detection | Full drafts; localization, representation, assignment, efficiency, and convergence stories; method and result explanation; prose revision | [SKILL.md](../../paper-craft-cvpr-detection/SKILL.md) |
 | `paper-craft-cvpr-segmentation` | CVPR | Semantic, instance, and panoptic segmentation | Full drafts; context and boundary stories; task unification; method and experiment prose; revision | [SKILL.md](../../paper-craft-cvpr-segmentation/SKILL.md) |
+| `paper-craft-cvpr-3d` | CVPR | Point-cloud and 3D perception | Full drafts; geometric representations; LiDAR detection; pretraining and scaling narratives; result explanation; revision | [SKILL.md](../../paper-craft-cvpr-3d/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -30,6 +31,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 
 **Source collection:** [10 accepted CVPR papers from 2015–2023](../../paper-craft-cvpr-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-cvpr-segmentation/references/references.bib).
 
+### CVPR: 3D perception
+
+**Select when the contribution concerns:** point-cloud representations, LiDAR-based 3D detection, point operators, voxel or pillar encoding, geometric sampling, point-cloud pretraining, or scalable 3D backbones.
+
+**Useful signals in the material:** sparse sensor returns, coordinate transformations, point retention, voxel-to-point aggregation, 3D proposals, geometric tokenization, or neighborhood and receptive-field scaling.
+
+**Distinguish nearby work:** prefer this specialist over 2D detection or segmentation when geometry or the point-cloud representation carries the contribution, even if the output is boxes or masks. A rendering, reconstruction, or camera-only depth paper is outside this corpus's dedicated coverage; use general guidance and borrow a particular lesson only when it fits.
+
+**Source collection:** [10 accepted CVPR papers from 2017–2024](../../paper-craft-cvpr-3d/references/corpus.md), with [BibTeX](../../paper-craft-cvpr-3d/references/references.bib).
+
 ### ICLR: LLM reasoning and test-time compute
 
 **Select when the contribution concerns:** reasoning-path sampling and aggregation, chain-of-thought, self-consistency, problem decomposition, self-correction, process or outcome supervision for reasoning, reasoning verifiers, search over reasoning paths, or allocation of inference computation.
@@ -44,6 +55,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 
 | Request and material | Appropriate behavior |
 |---|---|
+| “Draft my CVPR submission,” with point sampling and LiDAR box results | Load the CVPR 3D perception skill and write the draft. |
 | “Draft my CVPR submission,” with detector assignment and box-localization results | Load the CVPR detection skill and write the draft. |
 | “Draft my ICLR submission,” with a method for allocating compute between search and revision | Load the ICLR reasoning skill and write the draft. |
 | “Draft my ICLR submission,” with a contrastive image representation method | Use general guidance; the available reasoning skill does not match this topic. |

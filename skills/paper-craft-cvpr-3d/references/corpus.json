@@ -1,0 +1,240 @@
+[
+  {
+    "id": "P01",
+    "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+    "year": 2017,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Qi_PointNet_Deep_Learning_CVPR_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf",
+    "pdf_sha256": "7c4c69310de5130b079e80c5771322ed45ca8f032d592396303bc93b19bea3ec",
+    "pages": 9,
+    "bibtex": "@InProceedings{Qi_2017_CVPR,\nauthor = {Qi, Charles R. and Su, Hao and Mo, Kaichun and Guibas, Leonidas J.},\ntitle = {PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {July},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:05.575049+00:00",
+    "authors": [
+      "Qi, Charles R.",
+      "Su, Hao",
+      "Mo, Kaichun",
+      "Guibas, Leonidas J."
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection",
+    "year": 2018,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf",
+    "pdf_sha256": "7ebad9368594921ecd9768c41430119491393dde7a851eaca4f2982c81a82010",
+    "pages": 10,
+    "bibtex": "@InProceedings{Zhou_2018_CVPR,\nauthor = {Zhou, Yin and Tuzel, Oncel},\ntitle = {VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2018}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:05.572500+00:00",
+    "authors": [
+      "Zhou, Yin",
+      "Tuzel, Oncel"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "PointPillars: Fast Encoders for Object Detection From Point Clouds",
+    "year": 2019,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf",
+    "pdf_sha256": "b1c4b0cb1bba246637ac63ecc93919d3f298cc816e8eab129eb9c6d5c4606a2c",
+    "pages": 9,
+    "bibtex": "@InProceedings{Lang_2019_CVPR,\nauthor = {Lang, Alex H. and Vora, Sourabh and Caesar, Holger and Zhou, Lubing and Yang, Jiong and Beijbom, Oscar},\ntitle = {PointPillars: Fast Encoders for Object Detection From Point Clouds},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:03.971489+00:00",
+    "authors": [
+      "Lang, Alex H.",
+      "Vora, Sourabh",
+      "Caesar, Holger",
+      "Zhou, Lubing",
+      "Yang, Jiong",
+      "Beijbom, Oscar"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "PointRCNN: 3D Object Proposal Generation and Detection From Point Cloud",
+    "year": 2019,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.pdf",
+    "pdf_sha256": "2b5cbd23efcf4f885fec2b7bd492c69748b52630766a9bebc326dc36b0be7351",
+    "pages": 10,
+    "bibtex": "@InProceedings{Shi_2019_CVPR,\nauthor = {Shi, Shaoshuai and Wang, Xiaogang and Li, Hongsheng},\ntitle = {PointRCNN: 3D Object Proposal Generation and Detection From Point Cloud},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:10.515100+00:00",
+    "authors": [
+      "Shi, Shaoshuai",
+      "Wang, Xiaogang",
+      "Li, Hongsheng"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "PointConv: Deep Convolutional Networks on 3D Point Clouds",
+    "year": 2019,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.pdf",
+    "pdf_sha256": "b89f75a8279d6af9e6867adf00bd749c3fcf3bd70adff733d2b8222b5539c377",
+    "pages": 10,
+    "bibtex": "@InProceedings{Wu_2019_CVPR,\nauthor = {Wu, Wenxuan and Qi, Zhongang and Fuxin, Li},\ntitle = {PointConv: Deep Convolutional Networks on 3D Point Clouds},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:12.210322+00:00",
+    "authors": [
+      "Wu, Wenxuan",
+      "Qi, Zhongang",
+      "Fuxin, Li"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection",
+    "year": 2020,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.pdf",
+    "pdf_sha256": "27900262a058ff0ea83913e473f25c99fc1dc78a5c425bdd4697227f55432703",
+    "pages": 10,
+    "bibtex": "@InProceedings{Shi_2020_CVPR,\nauthor = {Shi, Shaoshuai and Guo, Chaoxu and Jiang, Li and Wang, Zhe and Shi, Jianping and Wang, Xiaogang and Li, Hongsheng},\ntitle = {PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2020}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:11.734059+00:00",
+    "authors": [
+      "Shi, Shaoshuai",
+      "Guo, Chaoxu",
+      "Jiang, Li",
+      "Wang, Zhe",
+      "Shi, Jianping",
+      "Wang, Xiaogang",
+      "Li, Hongsheng"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "3DSSD: Point-Based 3D Single Stage Object Detector",
+    "year": 2020,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_3DSSD_Point-Based_3D_Single_Stage_Object_Detector_CVPR_2020_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_3DSSD_Point-Based_3D_Single_Stage_Object_Detector_CVPR_2020_paper.pdf",
+    "pdf_sha256": "412e4279acc2d7a27a30c7f9df9839f445f6cd1423c4c7161e94a173c48e6abd",
+    "pages": 9,
+    "bibtex": "@InProceedings{Yang_2020_CVPR,\nauthor = {Yang, Zetong and Sun, Yanan and Liu, Shu and Jia, Jiaya},\ntitle = {3DSSD: Point-Based 3D Single Stage Object Detector},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2020}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:17.071200+00:00",
+    "authors": [
+      "Yang, Zetong",
+      "Sun, Yanan",
+      "Liu, Shu",
+      "Jia, Jiaya"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Center-Based 3D Object Detection and Tracking",
+    "year": 2021,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.pdf",
+    "pdf_sha256": "64ad5e7924003eca6030821568f157b6be2f659316eedd818218d4d471c3f0c8",
+    "pages": 10,
+    "bibtex": "@InProceedings{Yin_2021_CVPR,\n    author    = {Yin, Tianwei and Zhou, Xingyi and Krahenbuhl, Philipp},\n    title     = {Center-Based 3D Object Detection and Tracking},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2021},\n    pages     = {11784-11793}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:20.068270+00:00",
+    "authors": [
+      "Yin, Tianwei",
+      "Zhou, Xingyi",
+      "Krahenbuhl, Philipp"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "Point-BERT: Pre-Training 3D Point Cloud Transformers With Masked Point Modeling",
+    "year": 2022,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Yu_Point-BERT_Pre-Training_3D_Point_Cloud_Transformers_With_Masked_Point_Modeling_CVPR_2022_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yu_Point-BERT_Pre-Training_3D_Point_Cloud_Transformers_With_Masked_Point_Modeling_CVPR_2022_paper.pdf",
+    "pdf_sha256": "45362248e71d14ebcaeb225d59d99db0367c593c107e85a9744a748d9c5b2450",
+    "pages": 10,
+    "bibtex": "@InProceedings{Yu_2022_CVPR,\n    author    = {Yu, Xumin and Tang, Lulu and Rao, Yongming and Huang, Tiejun and Zhou, Jie and Lu, Jiwen},\n    title     = {Point-BERT: Pre-Training 3D Point Cloud Transformers With Masked Point Modeling},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2022},\n    pages     = {19313-19322}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:19.926507+00:00",
+    "authors": [
+      "Yu, Xumin",
+      "Tang, Lulu",
+      "Rao, Yongming",
+      "Huang, Tiejun",
+      "Zhou, Jie",
+      "Lu, Jiwen"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "Point Transformer V3: Simpler Faster Stronger",
+    "year": 2024,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.pdf",
+    "pdf_sha256": "530be4e23a5042604c0fcdc3288968a9cd7ce0792307567de808b3d39601883d",
+    "pages": 12,
+    "bibtex": "@InProceedings{Wu_2024_CVPR,\n    author    = {Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang},\n    title     = {Point Transformer V3: Simpler Faster Stronger},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2024},\n    pages     = {4840-4851}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:23.166621+00:00",
+    "authors": [
+      "Wu, Xiaoyang",
+      "Jiang, Li",
+      "Wang, Peng-Shuai",
+      "Liu, Zhijian",
+      "Liu, Xihui",
+      "Qiao, Yu",
+      "Ouyang, Wanli",
+      "He, Tong",
+      "Zhao, Hengshuang"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Read all four supplementary PDF pages, sections A–D."
+    },
+    "supplement_url": "https://openaccess.thecvf.com/content/CVPR2024/supplemental/Wu_Point_Transformer_V3_CVPR_2024_supplemental.pdf"
+  }
+]
