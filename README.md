@@ -1,32 +1,73 @@
 # paper-craft
 
-Research writing, experiment design, and result-interpretation skills distilled from papers in the same conference and research area. Each released subfield skill requires **at least 10 formally accepted papers from one conference**, with individual reading notes, precise sources, counterexamples, and scope boundaries.
+**Research writing skills learned from strong papers.**
 
-The current reviewable pilot is **ICLR · LLM reasoning & test-time compute**, based on the main texts and selected appendices of 10 papers from 2023–2025. It is not a current comprehensive survey or a representation of all ICLR writing, and acceptance does not establish that a writing technique caused acceptance.
+Turn an idea, rough draft, or set of results into a paper with a clear story. paper-craft distills how published papers introduce a problem, make an insight memorable, organize experiments, explain findings, and write precise, natural English.
 
-## Start with the example
+Each skill focuses on a **conference and research area**, drawing on at least **10 papers accepted at that conference**. The lessons come with paper references and concrete writing examples.
 
-1. [SCoRe worked example](skills/paper-craft-iclr-reasoning/references/worked-example.md): how diagnoses motivate a method, how experiments support novelty, and why 15.6 pp is not the gain from one revision.
-2. [The 10 papers and individual notes](skills/paper-craft-iclr-reasoning/references/corpus.md): sampling, decomposition, verification, revision, search, compute allocation, and negative results.
-3. [Writing playbook](skills/paper-craft-iclr-reasoning/references/writing-playbook.md), [experiment playbook](skills/paper-craft-iclr-reasoning/references/experiment-playbook.md), and [claim-language examples](skills/paper-craft-iclr-reasoning/references/claim-language.md).
-4. [The callable SKILL.md](skills/paper-craft-iclr-reasoning/SKILL.md).
+## What it helps you write
 
-Example request to an assistant:
+- **The story:** find the insight that makes the work worth reading.
+- **Titles and abstracts:** make the contribution recognizable without inflated language.
+- **Introductions and methods:** connect the problem, intuition, and design so readers can follow the idea.
+- **Experiments and results:** organize around questions and explain what the findings mean.
+- **Better sentences:** replace awkward words, vague claims, and overloaded paragraphs with clear prose.
 
-> Read skills/paper-craft-iclr-reasoning/SKILL.md and review my introduction and experiment design using the results I provide. First distinguish established facts, mechanism hypotheses, and missing evidence. Give traceable paper references. Do not invent experiments.
+## Get started
 
-## Extending the project
+Clone the repository:
 
-Release skills by **conference × subfield**, rather than applying one generic prompt under different conference names. Conference/year policies belong in separate configuration; scientific argumentation principles require support from the specific corpus. Proposed future coverage includes ICLR/ICML/NeurIPS for AI, CVPR/ICCV/ECCV for computer vision, and S&P/USENIX Security/CCS/NDSS for security. This is a roadmap; only the ICLR pilot currently exists.
+```bash
+git clone https://github.com/ulairii/paper-craft.git
+```
 
-Each leaf contains a concise SKILL entry point, task-specific playbooks, per-paper evidence and versions, a worked example, and acceptance cases. If verification or self-correction becomes an independent skill, each new leaf still needs at least 10 papers from the same conference. Ten papers in a parent directory do not satisfy every child subfield.
+Give your assistant the skill file and the material you want to work on:
 
-New corpora should include positive results, conditional results, and important counterexamples. Each paper's notes should cover its story, experimental controls, interpretation chain, detail placement, and conclusions that cannot be copied. Label cross-paper recommendations as our distillation rather than attributing them to source authors. Full PDFs are not redistributed in the repository; local prose is paraphrase and analysis.
+```text
+Read paper-craft/skills/paper-craft-iclr-reasoning/SKILL.md.
 
-## Provenance and checks
+Help me rewrite the introduction below. Find the central insight,
+make the motivation flow into the method, and use plain academic English.
+Return the rewritten introduction with a short explanation of the main changes.
 
-[corpus.json](skills/paper-craft-iclr-reasoning/references/corpus.json) records source versions, SHA-256 hashes, retrieval times, and pages read. P01/P02 use pinned arXiv author versions with ICLR publication headers; the remaining papers use official proceedings PDFs. Coverage includes the main texts and specified appendices, not verification of every proof or reproduction of results.
+[Paste your draft here]
+```
 
-`python scripts/validate_pilot.py` checks corpus records, notes, reading status, and local links. `evals/cases.md` supplies manual acceptance inputs and expected behavior. Structural checks do not establish writing effectiveness; no independent-model blind test or A/B evaluation on a user's paper has been performed.
+Use the path to your clone if you are working elsewhere. If your assistant supports installing skills from folders, copy the entire `skills/paper-craft-iclr-reasoning/` directory into its configured skills location, including `references/`.
 
-The collection script requires Python requests and beautifulsoup4, system pdftotext, and a configured `ssh palmetto` connection. Download caches live on scratch. Using the skill itself only requires the repository's text files. [paths.json](paths.json) records storage locations. If a new download changes a hash, recheck the source rather than carrying forward the previous reading status.
+The skill is a collection of Markdown instructions and reading notes. Using it requires no paper downloads, Python environment, API keys, or access to the author's machines.
+
+## Available skills
+
+| Skill | Source papers | Focus |
+|---|---|---|
+| [ICLR · LLM reasoning and test-time compute](skills/paper-craft-iclr-reasoning/SKILL.md) | [10 ICLR papers, 2023–2025](skills/paper-craft-iclr-reasoning/references/corpus.md) | Sampling, decomposition, verification, self-correction, search, and compute allocation |
+
+## A small example
+
+An abstract opening that hides the idea:
+
+> We propose a novel and effective two-stage reinforcement learning framework to enhance the self-correction capabilities of large language models.
+
+A more informative opening:
+
+> A model that revises its answer must learn both when to change it and what to change. We train these behaviors in two stages: first improving revision, then jointly optimizing the initial answer and its correction.
+
+The second version gives the reader a problem and a design rationale before introducing the machinery. This is an original writing illustration inspired by SCoRe, not a quotation from the paper. The [full worked example](skills/paper-craft-iclr-reasoning/references/worked-example.md) develops the introduction, method, and experiment story.
+
+## Explore the writing lessons
+
+- [Story and section structure](skills/paper-craft-iclr-reasoning/references/writing-playbook.md)
+- [Plain English, terminology, and paragraph flow](skills/paper-craft-iclr-reasoning/references/claim-language.md)
+- [Experiments that tell the story](skills/paper-craft-iclr-reasoning/references/experiment-playbook.md)
+- [Example requests](examples/prompts.md)
+- [Paper-by-paper reading notes](skills/paper-craft-iclr-reasoning/references/corpus.md)
+
+## Contribute a skill
+
+Choose a conference and a focused research area. Read at least 10 accepted papers from that conference and distill their writing choices: how the story starts, where the insight appears, how experiments advance the argument, and which details help the reader. Include source locations and original before/after examples, rather than a list of generic writing tips.
+
+Keep the `SKILL.md` practical and put deeper analysis in `references/`. Explain what makes the papers persuasive; acceptance alone cannot establish which writing choices caused it.
+
+Future coverage is intended for ICLR, ICML, and NeurIPS; CVPR, ICCV, and ECCV; and S&P, USENIX Security, CCS, and NDSS, with skills for individual research areas. Currently, only the ICLR skill above is available.

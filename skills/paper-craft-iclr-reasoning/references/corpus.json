@@ -10,9 +10,6 @@
     "pdf_sha256": "1a49ce0373afc89d2d6e97fb1aa8230f6b818c70590d732a3187f753f4df6aba",
     "pdf_bytes": 10505941,
     "pages": 24,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P01.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P01.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [],
     "main_pages_read": "1-9",
@@ -32,9 +29,6 @@
     "pdf_sha256": "ab71759f86119d1c368cef0ffabc5499562b605188a5dd6a00ed7ca0fa995c71",
     "pdf_bytes": 731536,
     "pages": 61,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P02.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P02.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [],
     "main_pages_read": "1-9",
@@ -54,9 +48,6 @@
     "pdf_sha256": "d172f0b3e933544f5165250338e3e989036e8d826fea34093e6aed4adb5b042a",
     "pdf_bytes": 282947,
     "pages": 17,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P03.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P03.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -133,9 +124,6 @@
     "pdf_sha256": "25cde3dafac4136d4ea0c48ef61afd8192b3e5be880309e80d3c2dfd4af56644",
     "pdf_bytes": 4425431,
     "pages": 24,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P04.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P04.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -224,9 +212,6 @@
     "pdf_sha256": "2f3c839a0530704544eeeb4ec2db38d52caf35e701b8881eeac751a6187c3998",
     "pdf_bytes": 3747814,
     "pages": 35,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P05.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P05.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -291,9 +276,6 @@
     "pdf_sha256": "64c9f1a83df829092e318edf0cb46e9f6820a008da22514b222575c372559db3",
     "pdf_bytes": 621107,
     "pages": 27,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P06.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P06.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -414,9 +396,6 @@
     "pdf_sha256": "1b14865b38c3a77f38827045f67297bec1ffe03183cda2559d66c6d31b5a4b1d",
     "pdf_bytes": 1425058,
     "pages": 31,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P07.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P07.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -501,9 +480,6 @@
     "pdf_sha256": "766ae2507dc541c397ab37ca78bcf6c3741282439a4f1cf9e5ff6b67b8cff853",
     "pdf_bytes": 1101854,
     "pages": 20,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P08.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P08.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -576,9 +552,6 @@
     "pdf_sha256": "b3cca01d4afb67958d82612f692e1635bed1b7b21685e8ecd2253e457f01870f",
     "pdf_bytes": 821179,
     "pages": 54,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P09.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P09.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {
@@ -639,9 +612,6 @@
     "pdf_sha256": "fec3af6ca39464e392c1fca0d028555f42f2553b17ccca8d9c1178564afa0908",
     "pdf_bytes": 6455304,
     "pages": 45,
-    "cache_host": "palmetto",
-    "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P10.pdf",
-    "cache_text": "/scratch/runw/paper-craft/cache/papers/P10.txt",
     "reading_status": "main_text_and_selected_appendices_read",
     "page_metadata": [
       {

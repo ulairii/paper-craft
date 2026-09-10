@@ -1,9 +1,0 @@
-{
-  "source": "/home/runw/Project/paper-craft",
-  "curated_final_artifacts": "/mnt/indigo/tigersec/runw/workdirs/paper-craft",
-  "working_artifact_host": "palmetto",
-  "working_artifacts": "/scratch/runw/paper-craft",
-  "paper_cache": "/scratch/runw/paper-craft/cache/papers",
-  "rebuild": "python scripts/collect_pilot.py; inspect version hashes and reread changed sources before updating reading status",
-  "note": "Scratch is purgeable. Compact provenance and distilled evidence are versioned in source. Do not automatically promote raw downloads to Indigo."
-}

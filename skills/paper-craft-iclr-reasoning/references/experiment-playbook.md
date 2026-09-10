@@ -1,30 +1,55 @@
-# Claim-driven experiments and result interpretation
+# Experiments that carry the paper's story
 
-These recommendations are distilled from the corpus. They do not imply that every source paper performed every suggested check.
+An experiment section should help the reader understand the contribution. Start with what each experiment teaches, then select the tables, figures, and explanations that make that lesson clear.
 
-| Intended claim | Main competing explanation | Critical controls and metrics | Interpretation and boundary | Evidence |
-|---|---|---|---|---|
-| Aggregation is more reliable | More sampling alone explains the gain | Fix candidates; compare majority voting, likelihood ranking, and learned verification; plot budget curves | Attribute to selection, without guaranteeing faithful intermediate reasoning | [P01](papers/P01.md), Sections 3.4–5 |
-| Decomposition improves complex reasoning | More demonstrations or a friendlier representation | Match demonstrations/representation; slice by composition length or solution steps | Test easy-to-hard generalization; do not use another task's large gains to embellish a small aggregate gain | [P02](papers/P02.md), Tables 4/12/13 |
-| The model learns self-correction | A stronger first attempt, an oracle, or more attempts | First/final accuracy, all four correctness transitions, matched-budget resampling, and test-feedback removal | Separate net revision gains from base capability; state denominators | [P03](papers/P03.md), Fig. 1; [P06](papers/P06.md), Tables 2/4 |
-| Process supervision beats outcome supervision | Data quantity, annotation quality, or generator differences | Best-system results plus matched data/generator/capacity experiments | Give each comparison its own conclusion; do not conflate them | [P04](papers/P04.md), Figs. 3–4 |
-| A verifier better measures progress | Search changed or a stronger prover supplied the gain | Fix search; vary rewards; cross base/prover strength; use a random-reward control when relevant | Establish conditions for complementarity, not universal weak-over-strong superiority | [P07](papers/P07.md), Fig. 5; [P08](papers/P08.md), Tables 4–6 |
-| Compute allocation is better | Difficulty uses answers or uncounted sampling | Strategy×budget×difficulty; separate oracle/predicted difficulty; include routing cost | Bound claims by searched strategies; post hoc bins are not deployable routing | [P05](papers/P05.md), Section 3.2, Appendix O; [P10](papers/P10.md), Appendix G |
-| Self-verification fails | Weak prompts or one error type masking another | Verifier confusion matrix, stronger prompts, sound verifier, separate critique generation/use | Locate the failing component and retain counterexamples | [P09](papers/P09.md), Section 4, Appendix A; [P03](papers/P03.md), Section 5 |
-| CoT improves a task family | Parsing, planning, or execution changed | Same-model prompt controls, instance slices, planning/execution separation, invalid-output statistics | Do not generalize single-prompt findings to all TTC | [P10](papers/P10.md), Sections 4–5, Appendices F/H |
+## Choose the questions before arranging the tables
 
-## Cost ledger
+| Kind of paper | A useful experimental story | Source example |
+|---|---|---|
+| A simple inference change | Does it help? What about the change matters? How does behavior evolve with more samples? | [P01](papers/P01.md), Tables 2–3 and Figs. 2–3 |
+| A decomposition method | Does the method handle increasingly complex combinations? Where is the gain concentrated? | [P02](papers/P02.md), Tables 4/12 |
+| A training method motivated by failures | Do the diagnosed behaviors change? How do the stages contribute? What happens over further revisions? | [P06](papers/P06.md), Figs. 3–6 and Table 4 |
+| A supervision comparison | What performance can the system reach? What do the controlled comparisons teach about supervision? | [P04](papers/P04.md), Figs. 3–4 |
+| A compute-allocation analysis | Which strategy works at which budget and difficulty? How should that affect a practical choice? | [P05](papers/P05.md), Figs. 3/7/8 |
+| A counterintuitive finding | When does the surprising relationship appear? What comparison makes it understandable? | [P07](papers/P07.md), Fig. 5 |
+| A two-part system | How do candidate generation and selection each shape the final result? | [P08](papers/P08.md), Tables 4–5 |
+| A capability analysis | Which part of the task succeeds or fails? What explains differences across tasks? | [P09](papers/P09.md), Section 4; [P10](papers/P10.md), Sections 4–5 |
 
-Distinguish generation calls, auxiliary-model calls, input/output tokens, search expansions, difficulty estimation, offline data generation/training, and actual latency. State which quantities are measured, estimated, or excluded. Match accounting precision to the efficiency claim; unrelated metrics need not be required.
+Choose the sequence suited to the work. It need not contain every row or a universal set of experiments. If an author already has results, first organize those results into the strongest coherent explanation.
 
-A rollout in [P08](papers/P08.md) contains multiple calls. [P05](papers/P05.md) excludes difficulty-estimation overhead from its main accounting. [P07](papers/P07.md) distinguishes sample efficiency from verifier overhead. Equal N, equal parameter counts, or no fine-tuning therefore do not establish fairness. For total deployment cost claims, report accuracy within a budget or complete cost to reach target accuracy, together with assumptions for amortizing offline investment.
+## Make subsection headings express questions or findings
 
-## Uncertainty and denominators
+“Main Results,” “Ablations,” and “More Analysis” label containers. More informative headings tell the reader why the material is there:
 
-Distinguish repeated sampling, independent training seeds, and bootstrapping a fixed test set; they quantify different uncertainty. Record test size, treatment of parsing failures, and model/data versions. Do not mechanically require many seeds for a low-impact display, but small differences central to a claim need an appropriate uncertainty analysis. P01's sampling repetitions are not training seeds; P02's small-sample, overlapping error categories are not population error rates.
+- “Does agreement help beyond drawing more samples?” — inspired by P01's sampling and ranking comparisons.
+- “Where does decomposition help most?” — inspired by P02's complexity slices.
+- “How does problem difficulty change the best allocation?” — inspired by P05.
+- “What does the second attempt contribute?” — inspired by P06's revision metrics.
 
-## Interpretation paragraph template
+These are original heading suggestions, not source headings. Use a finding as the heading when it is established and central; use a question when introducing an investigation.
 
-> Under [task, model, budget], [comparison] yields [observation]. Because this control holds [variables] fixed, the result supports [narrow claim]. It is consistent with [mechanism hypothesis], but [uncontrolled factor] remains unresolved, so it does not establish [stronger claim]. The change under [counterexample condition] further limits the applicable scope.
+## Explain results in three moves
 
-This is an original writing scaffold, not a quotation. Do not copy it mechanically into every paragraph. When mechanism evidence is absent, an accurate performance description is a valid stopping point.
+1. **Give the finding.** State the result the subsection exists to communicate.
+2. **Choose the revealing comparison.** Use one or two numbers, a trend, or a task slice. Let the table carry the remaining values.
+3. **Explain the implication.** Connect the observation to the insight that motivated the method or study.
+
+For example, a paragraph about P02 should explain why gains at greater compositional length matter to easy-to-hard generalization. A paragraph about P05 should explain why a change in strategy ranking changes allocation decisions. A paragraph about P06 should explain what revision adds beyond the initial answer. “This demonstrates effectiveness” misses all three opportunities.
+
+## Use ablations to explain design choices
+
+An ablation is most useful to the narrative when the reader already understands why the component exists. [P06](papers/P06.md), Table 4, follows the earlier explanation of its training stages. [P08](papers/P08.md), Table 4, makes generation and selection separately visible. [P07](papers/P07.md), Fig. 5, gives the surprising prover-strength relationship room to be understood.
+
+Introduce the question in ordinary language, state the comparison briefly, then explain what it teaches about the design. Avoid a catalog of removed components followed by a repeated claim that each is effective. Suggest a new experiment only if it fills a specific gap in the story the author wants to tell.
+
+## Let a figure teach one idea
+
+Use a compact example to introduce an unfamiliar mechanism, as in P01/P02. Use a curve when change with budget is the idea, as in P05. Use a behavioral breakdown when final accuracy hides the phenomenon, as in P06. Match the figure to the reader's question.
+
+A caption should explain what is compared and what to notice. The prose should explain why that observation matters. Do not duplicate the entire caption in the paragraph. These recommendations follow the explanatory roles of the cited figures, not a prescription to copy their visual design.
+
+## Put details where they earn their space
+
+Explain the dataset and metric enough for the comparison to make sense. If the contribution concerns efficiency, explain the budget. If it concerns revision, explain what counts as a revision. If neither is central to a requested paragraph, do not append a general cost or verification checklist.
+
+Keep long prompts, exhaustive settings, and additional traces in appendices. A short main-text example may still be essential when it teaches the mechanism, as in P02. Relevant limitations should sharpen an interpretation: P10's task differences explain applicability; P05's difficult problems explain where an allocation rule stops helping. State the useful boundary once rather than surrounding every finding with disclaimers.

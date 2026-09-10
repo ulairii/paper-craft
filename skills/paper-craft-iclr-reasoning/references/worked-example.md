@@ -1,73 +1,75 @@
-# Worked example: distilling an argument for a self-correction paper from SCoRe
+# Writing example: make a two-stage method feel motivated
 
-Source: [P06 — Training Language Models to Self-Correct via Reinforcement Learning](papers/P06.md), ICLR 2025. This is a reverse analysis and original writing demonstration, not a sentence-by-sentence imitation or an invented completed method.
+Source: [SCoRe — Training Language Models to Self-Correct via Reinforcement Learning](papers/P06.md), ICLR 2025. This example studies how the paper connects a desired behavior, diagnoses, a training design, and experiments. All sample prose below is original, not quoted from the authors.
 
-## 1. The central story is more than an RL and two-stage label
+## Find the story behind the components
 
-The transferable argument is:
+A description such as “a two-stage RL framework for self-correction” names the machinery. The more useful story starts with the behavior: a model should repair wrong answers while retaining correct ones.
 
-1. The desired capability is to fix one's own errors while preserving correct answers.
-2. Errors in offline self-correction training may differ from those the model actually produces (Section 4/Fig. 4, p. 5).
-3. Even with online training, the model may learn not to make meaningful revisions (Section 5/Fig. 5, p. 6).
-4. Training therefore needs to address both the error distribution and incentives for revision. These two problems motivate the responsibilities of Stage I and Stage II (Fig. 6, p. 7).
-5. Evaluation must measure how answers change, not only second-attempt accuracy (Tables 2 and 4, pp. 9–10).
+SCoRe then distinguishes two difficulties. Offline training can expose the model to errors different from its own; online training can still collapse into unhelpful revision behavior. These diagnoses give the training stages a purpose before their objectives are introduced (Sections 4–5, Figs. 3–6). Appendix Fig. 11 makes the design logic explicit.
 
-**Distilled recommendation.** If a user's new method has two components, first check whether there are two distinguishable failure mechanisms. Without diagnostic experiments, copying this structure would turn hypotheses into supposed findings.
+The writing lesson is to make the reader want the mechanism before explaining its implementation.
 
-## 2. Transferable introduction paragraph roles
+## Turn that insight into an opening
 
-| Paragraph | What the reader needs to understand | Required evidence | What does not belong here |
-|---|---|---|---|
-| 1 | Why revision has distinct value | Difference between first-attempt solving and revision | General LLM history |
-| 2 | Where existing revision training fails | Distribution-shift and revision-behavior diagnoses | An untested claim that every method fails |
-| 3 | Why the simple remedy is insufficient | A control showing collapse persists online | A list of component names before motivation |
-| 4 | Which problem each training stage addresses | A correspondence between diagnoses and mechanisms | Complete hyperparameter tables |
-| 5 | Which results support the contribution and its scope | Net revision gain, first-attempt capability, critical ablations | Unconditional generality or uniqueness |
+**Before**
 
-This does not prescribe five paragraphs for every ICLR introduction. It assigns one argumentative responsibility to each paragraph.
+> We propose a novel and effective two-stage reinforcement learning framework to enhance the self-correction capabilities of large language models.
 
-## 3. Why a single improvement number is insufficient
+**After**
 
-P06 Table 2 ([official PDF, p. 9](https://proceedings.iclr.cc/paper_files/paper/2025/file/871ac99fdc5282d0301934d23945ebaa-Paper-Conference.pdf#page=9)) reports the following MATH evaluation:
+> A model that revises its answer must learn both when to change it and what to change. We train these behaviors in two stages: first improving revision, then jointly optimizing the initial answer and its correction.
 
-| System | First-attempt accuracy | Second-attempt accuracy | Second minus first |
-|---|---:|---:|---:|
-| Base model | 52.6% | 41.4% | −11.2 pp |
-| SCoRe | 60.0% | 64.4% | +4.4 pp |
+The revision replaces adjectives with the problem and the design rationale. It introduces the stages through their roles. The technical details can now answer a question the reader understands.
 
-This gives three different answers:
+This is a short conceptual opening, not a complete account of SCoRe's objectives. A full method description would next explain the first-attempt constraint and progress-based reward shaping.
 
-- How much does one SCoRe revision add? **4.4 percentage points**.
-- How much does SCoRe improve the net revision gain relative to the base model? **15.6 percentage points**, calculated as 4.4 − (−11.2).
-- How much higher is SCoRe's second-attempt accuracy than the base model's? **23.0 percentage points**. This combines changes in first-attempt capability and revision behavior; it cannot all be attributed to revision capability.
+## Give the introduction a progression
 
-The table also reports SCoRe's incorrect→correct transitions at 5.8% and correct→incorrect transitions at 1.4%, both over all problems. Their difference is the 4.4 pp net gain. A correction rate conditional on an initially wrong answer requires the number of first-attempt errors as its denominator; it cannot reuse 5.8%. Percentages and percentage points must also remain distinct.
-
-## 4. A more convincing interpretation paragraph
-
-An unsuitable summary:
-
-> Our two-stage framework improves self-correction by 15.6 points, demonstrating robust reasoning.
-
-This omits the metric's meaning and expands a task result into an undefined claim of robust reasoning.
-
-The following is newly written prose based on published data, **not a source quotation**:
-
-> On the reported MATH evaluation, SCoRe increases accuracy from 60.0% on the first attempt to 64.4% after revision. Corrections and regressions account for 5.8% and 1.4% of all problems, respectively, yielding a net gain of 4.4 percentage points. The base model instead loses 11.2 points after revision. These results support improved revision behavior in this setting; the ablations separately examine which training components contribute to that behavior.
-
-The paragraph moves from measurement to behavior, then assigns the training-design question to ablations. The accuracy table alone does not establish the full causal account of the two-stage mechanism.
-
-## 5. Make experiments serve contribution claims
-
-| Claim | Critical control | How to narrow the conclusion if evidence is insufficient |
+| Paragraph | Reader's question | Writing move |
 |---|---|---|
-| Online first-attempt distributions matter | Remove online first-attempt samples and compare first-attempt and revision changes | Claim effectiveness of the complete training procedure, not attribution to distribution matching |
-| Stage I has a distinct role | Remove Stage I while holding other settings as constant as possible | If final performance is similar, do not keep presenting it as an essential innovation |
-| Progress shaping changes revision behavior | Remove shaping and report both transition directions | Final accuracy alone cannot distinguish preservation from correction |
-| The method beats another independent attempt | Match actual budgets for independent sampling and selection | If only attempt counts match, limit the conclusion to that comparison |
+| 1 | Why is revision a distinct capability? | Explain fixing mistakes and preserving correct answers. |
+| 2 | Why is learning that behavior difficult? | Introduce the mismatch between fixed training errors and the model's own errors. |
+| 3 | Why is the obvious remedy insufficient? | Explain that online training alone can still yield unhelpful revision behavior. |
+| 4 | What is the insight behind the method? | Give each stage a role in learning useful revision. |
+| 5 | What should I remember from the results? | Explain the revision gain and what the component comparisons reveal. |
 
-The first three controls correspond to Table 4. The last recommendation extends the sampling comparison in Section 6.2: a new paper should make token and auxiliary-model costs explicit. Do not claim the source already performed complete cost matching.
+This progression is an outline for this particular story, not a requirement that introductions always contain five paragraphs.
 
-## 6. What cannot be inherited from this example
+## Write a transition that carries the reasoning
 
-Training rewards are not test-time access to correct answers. Compare P03's critique of intrinsic self-correction and P06's training intervention in a shared table of conditions. The multi-turn plateau in Appendix A.3 limits a story of endless improvement with more thought. The ablations support the evaluated design; they do not establish RL as the only approach or two stages as necessary for every model.
+**Before**
+
+> Existing methods suffer from several limitations. To overcome these challenges, we propose a two-stage framework.
+
+**After**
+
+> Training on the model's own attempts addresses the mismatch in training errors, but it does not by itself encourage useful revisions. We therefore first train the model to improve its second attempt before jointly optimizing both attempts.
+
+The revised transition names what the first remedy accomplishes and what remains. “Therefore” has an actual connection to express. This paraphrases the motivation across Sections 4–5; the source contains the full training formulation.
+
+## Explain the method through its roles
+
+A useful method-section order is:
+
+1. Explain the two-attempt interaction.
+2. Introduce why first-attempt behavior matters during revision training.
+3. Explain Stage I's constraint and second-attempt objective.
+4. Explain the move to joint optimization and progress-based shaping in Stage II.
+5. Present the equations and operational details alongside the roles they formalize.
+
+This lets the explanation prepare readers for the notation. Starting with two objective equations and only later explaining why there are two stages reverses that teaching order.
+
+## Make the experiments complete the story
+
+The most useful question is what the second attempt contributes. Table 2 reports SCoRe's MATH accuracy rising from 60.0% to 64.4%. The same table separates corrections from regressions. Table 4 then examines the training components.
+
+A result paragraph can say:
+
+> SCoRe improves answers through revision. On the reported MATH evaluation, accuracy rises from 60.0% on the first attempt to 64.4% on the second. Corrections outnumber regressions, showing that the second attempt contributes beyond the stronger initial answer. The component comparisons then examine how the training stages support this behavior.
+
+The paragraph selects the numbers needed for its point and explains their meaning. It leaves other comparisons in the table instead of repeating every cell. The first-to-second gain is 4.4 percentage points; other reported improvements use different comparisons and should retain their own labels.
+
+## What to borrow for another paper
+
+Borrow the sequence: desired behavior → specific difficulty → why a simple remedy is insufficient → motivated design → experiments that explain the behavior. Use it only when it fits the author's actual work. Keep the idea, vocabulary, and emphasis specific to that work; the value lies in the reasoning between paragraphs, not in copying SCoRe's surface wording.

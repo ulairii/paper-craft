@@ -1,55 +1,87 @@
-# Writing principles distilled from the papers
+# Make the idea easy to follow and worth remembering
 
-These are our recommendations, not author quotations or conference requirements. Each principle identifies its evidence and the conditions under which it should not be copied.
+These lessons interpret the writing choices of the source papers. They explain why an argument is persuasive; they do not claim access to the reasons behind acceptance decisions.
 
-## W1: Frame a recognizable failure, not just the importance of the field
+## 1. Find the sentence the reader should remember
 
-**Observation.** [P02](papers/P02.md), Section 1, defines an easy-to-hard generalization gap. [P06](papers/P06.md), Section 4, distinguishes distribution shift from behavioral collapse. These diagnoses give method components testable responsibilities.
+Before choosing a title or outlining sections, finish: “The useful insight is that ...” Give the paper one center of gravity.
 
-**Recommendation.** The second introduction paragraph should explain which existing approach fails, under what conditions, and how. If evidence is missing, pose a research question rather than asserting that existing methods universally fail. One opening paragraph can establish task value; half a page of AI history is unnecessary.
+| Paper | Memorable insight, paraphrased | Writing lesson |
+|---|---|---|
+| [P01](papers/P01.md), Section 2/Fig. 1 | Different reasoning paths can converge on the same answer. | A small intervention can carry a strong story when its intuition is easy to grasp. |
+| [P02](papers/P02.md), Sections 1–2 | Solving a complex problem can depend on solving its simpler parts first. | Describe a dependency, then let the method's sequence follow it. |
+| [P04](papers/P04.md), Sections 1–2 | Supervising intermediate steps and supervising outcomes are different learning choices. | A clear conceptual distinction can be the paper's organizing idea. |
+| [P07](papers/P07.md), Section 3/Fig. 2 | A promising state and a step that makes progress are different things. | Put the unfamiliar distinction beside a familiar one before formalizing it. |
+| [P05](papers/P05.md), Sections 2–3 | The useful question is how to spend extra inference compute. | An analysis can sell a better decision, even without a new algorithm. |
 
-**Boundary.** [P05](papers/P05.md) contributes compute-allocation insights without needing an invented module. A gap can be an unresolved relationship.
+Do not make the reader infer the central insight from an acronym or a list of components. Reuse the concept across the abstract, introduction, and experiments, while giving each section a different explanatory job.
 
-## W2: Order the method by problem dependencies, not code directories
+## 2. Titles: name a concept, an action, or a finding
 
-**Observation.** [P02](papers/P02.md), Fig. 1, moves from decomposition to dependent solving. [P08](papers/P08.md), Fig. 2, moves from candidate generation to consistency-based selection. [P06](papers/P06.md), Fig. 11, makes the design logic explicit.
+The source titles offer different strategies:
 
-**Recommendation.** Each method subsection should state its input, the previously established problem it addresses, how it changes a decision, and where its output goes. Equations should precisely distinguish mechanisms; examples should clarify behavior that equations leave unintuitive. Background equations that do not explain a decision difference can be omitted.
+- **Name the mechanism.** Self-Consistency and Least-to-Most give a compact handle to a comprehensible operation ([P01](papers/P01.md), [P02](papers/P02.md)). A name works when explaining it also explains the idea.
+- **Use a concrete action.** Let's Verify Step by Step makes the supervision choice immediately legible ([P04](papers/P04.md)). Memorable need not mean ornate.
+- **State the finding.** The compute-allocation and CoT-applicability titles tell readers what the analysis teaches ([P05](papers/P05.md), [P10](papers/P10.md)).
 
-**Boundary.** Component names and polished overview figures cannot replace behavioral evidence. Three system components do not automatically constitute three independent innovations.
+For a new paper, try one title of each applicable type. Choose the title that conveys the most specific useful idea. An acronym followed by “a novel unified framework” usually tells the reader less.
 
-## W3: Write contributions as new knowledge plus the evidence that establishes it
+## 3. Abstracts: compress the argument, not the table of contents
 
-**Observation.** [P04](papers/P04.md) compares supervision types through controlled experiments. [P05](papers/P05.md) analyzes budget allocation. [P03](papers/P03.md) isolates evaluation confounds. [P10](papers/P10.md) separates where from why.
+A useful sequence is problem → unresolved tension → insight → approach → main finding. Allocate sentences according to what is hard to understand; this is not a rigid five-sentence template.
 
-**Recommendation.** For methods, state which decision changes and why it helps. For analyses, state the conditional relationship revealed and how it is measured. For negative results, state the explanation ruled out and the remaining scope. Extensive experiments, state-of-the-art performance, and priority claims do not by themselves explain the knowledge gained.
+[P01](papers/P01.md), abstract and Sections 1–2, pairs a short decoding explanation with concrete improvements. [P05](papers/P05.md), abstract and Section 1, makes the allocation question carry the paper. [P06](papers/P06.md), abstract and Sections 4–5, connects the difficulty of learning self-correction to the training approach.
 
-**Boundary.** Do not promise “first” without a systematic novelty check. This pilot corpus cannot provide a complete novelty assessment for a user's new project.
+Introduce the action before its acronym. Select the result that best explains the contribution rather than listing every benchmark. A final sentence should tell the reader what the finding changes, not repeat “extensive experiments demonstrate effectiveness.”
 
-## W4: Give each experiment subsection a question, not merely a dataset
+## 4. Introductions: make the next paragraph necessary
 
-**Observation.** [P04](papers/P04.md), Sections 3/4, separate best performance from attribution. [P07](papers/P07.md), Fig. 5, tests prover strength and complementarity. [P06](papers/P06.md), Table 4, tests training components.
+A productive progression is:
 
-**Recommendation.** A useful sequence is effectiveness, source of gains, conditions of effectiveness, then cost and failure. Within a paragraph, move from question to controlled design, key observation, interpretation, and remaining limits. Do not read every table cell aloud; select comparisons and counterexamples that change the conclusion.
+1. A concrete capability or decision matters.
+2. An existing approach gets part of the way, but leaves a specific tension.
+3. A new way to view that tension suggests an insight.
+4. The method implements that insight, or the study investigates it.
+5. The main findings explain why the insight matters.
 
-**Boundary.** Not every paper needs the same four sections. Build the smallest sufficient evidence chain for the central claim. Ten more benchmarks cannot replace one missing critical control.
+The easy-to-hard framing in [P02](papers/P02.md), Section 1, makes decomposition feel motivated. In [P06](papers/P06.md), Sections 4–5, the diagnoses give each training stage a reason to exist. [P03](papers/P03.md), Section 2/Table 1, uses a different structure: a small set of confounds provides a roadmap for revisiting a popular claim.
 
-## W5: Use boundaries to make claims precise
+Write the transition itself. “However, existing methods remain limited” leaves the reader waiting. A transition such as “Training on fixed mistakes leaves the model unprepared for the mistakes it generates itself” identifies the problem the next paragraph can solve. This example is original prose inspired by P06.
 
-**Observation.** Hard problems and high inference loads alter the model/compute tradeoff in [P05](papers/P05.md). [P09](papers/P09.md) includes cases where self-critique helps. [P10](papers/P10.md) limits its scope to single-prompt CoT.
+## 5. Methods: teach the idea in the order a reader can understand it
 
-**Recommendation.** Put decisive conditions near the headline. Replace unconditional superiority with the evaluated budget/task range and the conditions where the advantage disappears. A useful limitation guides a choice; a generic statement that there is room for improvement does not.
+Start with the central decision. Explain the input and desired outcome, give the intuition, and then introduce the operations and notation.
 
-**Boundary.** Do not defend an overbroad title simply because it appeared in an accepted paper, or elevate a negative result into an impossibility theorem. Accepted papers also need auditing.
+- [P01](papers/P01.md), Fig. 1/Section 2: paths → answers → aggregation. The conceptual picture prepares the reader for the aggregation alternatives.
+- [P02](papers/P02.md), Fig. 1/Tables 1–3: decomposition → dependent solving. The worked prompt shows what the dependency means.
+- [P08](papers/P08.md), Fig. 2/Section 3: generation → selection. Each part addresses a recognizable part of the task.
+- [P07](papers/P07.md), Fig. 2/Section 3: a simple example distinguishes value from progress before the more technical argument.
 
-## W6: Keep decisive details; move recoverable detail out of the main argument
+Define symbols where they are used. Put an equation immediately after the sentence that explains its purpose. Describe a component by what it does before assigning it an elaborate name. The method section should feel like learning an idea, not touring the implementation.
 
-| Information | Needed in the main text when | Usually suitable for an appendix | Source |
-|---|---|---|---|
-| Prompts | Instructions are the intervention, or feedback conveys correctness | Full long demonstrations and all task templates | P02 Sections 2–3; P03 Section 5 |
-| Budgets | The headline concerns compute, speed, or fair comparison | Expanded hardware details and per-task token tables | P05 Section 3.2; P08 A.3 |
-| Data | Splits or extra supervision change the comparison's meaning | Complete annotation and quality-control procedures | P04 Section 2.4, Appendices B/C |
-| Failure examples | They expose a key failure mechanism; explain selection | More trajectories and complete error records | P01 Section 5; P02 Section 7.4 |
-| Hyperparameters | They define the search space, sampling budget, selection, or stopping | Complete training configurations not decisive for the claim | P05 Appendix O; P06 Appendix B |
+## 6. Contributions: give each bullet a different job
 
-Suitable for an appendix does not mean optional to record. Irrelevant model tutorials, table-by-table repetition, and repeated promotional sentences can be deleted. Negative results, costs, and extra supervision should not disappear.
+A method, a finding, and a useful dataset can be separate contributions. “We propose X,” “We introduce the components of X,” and “We combine them into framework X” describe one contribution three times.
+
+[P04](papers/P04.md) connects a supervision comparison with a data contribution. [P05](papers/P05.md) makes analytical guidance the contribution. [P10](papers/P10.md) separates the question of where CoT helps from the question of why. Let the work determine the contribution type; do not force every paper to sell architectural novelty.
+
+Replace evaluative adjectives with content: what changed, what became possible, or what was learned. Preserve a confident finding when the material supports it.
+
+## 7. Detail: explain now, expand later
+
+The main-text question is: “Does the reader need this to understand the idea or interpret the result?”
+
+| Keep near the argument | Expand in the appendix | Usually cut |
+|---|---|---|
+| A short example that makes a dependency clear | Complete prompts for every task | A general history of LLMs |
+| The role of each training stage | Full optimizer and hyperparameter tables | Repeated descriptions of the same contribution |
+| What a plotted axis or comparison means | Additional runs, traces, and task tables | Prose that reads every table cell |
+| A task condition that explains a surprising result | Detailed implementation choices | Decorative equations and inflated component names |
+
+[P02](papers/P02.md) uses method examples to teach decomposition while placing extensive prompts in appendices. [P06](papers/P06.md) uses its main figures to explain training behavior and puts full configurations and prompts in Appendices B–C. [P05](papers/P05.md) keeps budget and difficulty central because they are the subject of the paper. Follow the role of a detail, not a blanket rule that every technical detail deserves main-text space.
+
+## 8. End with understanding
+
+[P10](papers/P10.md), Sections 4–5, moves from where CoT helps to planning and execution. [P09](papers/P09.md), Section 4, separates verification, critique generation, and critique use. Both demonstrate a useful analytical move: replace a broad question with distinctions the reader can use.
+
+A discussion should state what the reader can now reason about or choose differently. Explain a meaningful boundary once, where it helps that decision. Avoid repeating a disclaimer after every result or ending with an empty promise of future work.

@@ -9,9 +9,6 @@
   "pdf_sha256": "2f3c839a0530704544eeeb4ec2db38d52caf35e701b8881eeac751a6187c3998",
   "pdf_bytes": 3747814,
   "pages": 35,
-  "cache_host": "palmetto",
-  "cache_pdf": "/scratch/runw/paper-craft/cache/papers/P05.pdf",
-  "cache_text": "/scratch/runw/paper-craft/cache/papers/P05.txt",
   "reading_status": "main_text_and_selected_appendices_read",
   "page_metadata": [
     {
