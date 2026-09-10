@@ -19,6 +19,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-icml-representation` | ICML | Self-supervised and language–image representations | Full drafts; learning principles, data efficiency, transfer interfaces, identifiability and dynamics; experiment explanation and revision | [SKILL.md](../../paper-craft-icml-representation/SKILL.md) |
 | `paper-craft-icml-generative` | ICML | Generative models and sampling | Full drafts; probabilistic modeling, objectives, generation quality–cost tradeoffs, conditioning, domain adaptation, composition; revision | [SKILL.md](../../paper-craft-icml-generative/SKILL.md) |
 | `paper-craft-icml-rl` | ICML | Reinforcement learning | Full drafts; policy optimization, actor–critic estimation, offline RL, visual control, experience replay, model-based planning, online adaptation; revision | [SKILL.md](../../paper-craft-icml-rl/SKILL.md) |
+| `paper-craft-iclr-representation` | ICLR | Self-supervised, graph, masked, and language–image representations | Full drafts; information and supervision design, collapse explanations, local transfer, data and compute efficiency; revision | [SKILL.md](../../paper-craft-iclr-representation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -127,7 +128,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | “Draft my CVPR submission,” with point sampling and LiDAR box results | Load the CVPR 3D perception skill and write the draft. |
 | “Draft my CVPR submission,” with detector assignment and box-localization results | Load the CVPR detection skill and write the draft. |
 | “Draft my ICLR submission,” with a method for allocating compute between search and revision | Load the ICLR reasoning skill and write the draft. |
-| “Draft my ICLR submission,” with a contrastive image representation method | Use the ICML representation specialist as a cross-conference reference with general guidance; retain ICLR as the target. |
+| “Draft my ICLR submission,” with a contrastive image representation method | Load the ICLR representation specialist and write the draft. |
 | “Draft my NeurIPS submission,” with process-reward reasoning experiments | Use reasoning lessons as a cross-conference reference while retaining NeurIPS as the target. |
 | “Draft my ICLR submission,” with no identified method or results | Ask for the material needed to write; do not infer reasoning from the conference alone. |
 
@@ -160,6 +161,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** choose this specialist when better decisions or learning behavior carry the contribution, even if the method contains a contrastive encoder, generative world model, or transformer. Choose representation learning when reusable features and transfer are the main result; choose generative models when modeling or synthesis quality is the main result. LLM reasoning without an RL control contribution belongs to a reasoning specialist when available for the requested venue.
 
 **Source collection:** [10 accepted ICML papers from 2015–2022](../../paper-craft-icml-rl/references/corpus.md), with [BibTeX](../../paper-craft-icml-rl/references/references.bib).
+
+### ICLR: representation learning
+
+**Select when the contribution concerns:** information objectives, graph representation learning, contrastive negatives, feature collapse, masked image pretraining, local representations, language–image alignment, or data-efficient representation learning.
+
+**Useful signals in the material:** paired views, local/global targets, covariance or spectral diagnostics, projection heads, frozen probes, tokenizers, patch-level transfer, negative sampling, or quality–resource comparisons.
+
+**Distinguish nearby work:** choose this specialist when reusable features or an explanation of representation learning carries the contribution. Masked reconstruction is a representation pretext task here; choose generative guidance when sample synthesis is the main result. Choose reasoning guidance for LLM inference-time search or reasoning-path allocation. Image or graph data alone does not decide the topic.
+
+**Source collection:** [10 accepted ICLR papers from 2019–2022](../../paper-craft-iclr-representation/references/corpus.md), with [BibTeX](../../paper-craft-iclr-representation/references/references.bib).
 
 ## Adding a specialist
 

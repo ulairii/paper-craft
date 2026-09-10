@@ -1,0 +1,303 @@
+[
+  {
+    "id": "P01",
+    "title": "Learning deep representations by mutual information estimation and maximization",
+    "authors": [
+      "R Devon Hjelm",
+      "Alex Fedorov",
+      "Samuel Lavoie-Marchildon",
+      "Karan Grewal",
+      "Phil Bachman",
+      "Adam Trischler",
+      "Yoshua Bengio"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1808.06670",
+    "source_version": "arXiv:1808.06670v5",
+    "pdf_url": "https://arxiv.org/pdf/1808.06670v5",
+    "pdf_sha256": "8325c5969b7b03654b206e4a27c9e036d17c6723295be86e3d05d8d6fff4e9c9",
+    "pages": 24,
+    "retrieved_at": "2026-09-10T22:41:50.661600+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: R Devon Hjelm [ view email ] [v1] Mon, 20 Aug 2018 19:52:51 UTC (7,056 KB) [v2] Fri, 24 Aug 2018 04:02:03 UTC (7,055 KB) [v3] Wed, 3 Oct 2018 17:21:53 UTC (7,792 KB) [v4] Sat, 26 Jan 2019 14:33:00 UTC (8,078 KB) [v5] Fri, 22 Feb 2019 18:38:15 UTC (8,075 KB)",
+    "venue": "ICLR",
+    "year": 2019,
+    "landing_url": "https://openreview.net/forum?id=Bklr3j0cKX",
+    "official_pdf_url": "https://openreview.net/pdf?id=Bklr3j0cKX",
+    "bibtex": "@inproceedings{\nhjelm2018learning,\ntitle={Learning deep representations by mutual information estimation and maximization},\nauthor={R Devon Hjelm and Alex Fedorov and Samuel Lavoie-Marchildon and Karan Grewal and Phil Bachman and Adam Trischler and Yoshua Bengio},\nbooktitle={International Conference on Learning Representations},\nyear={2019},\nurl={https://openreview.net/forum?id=Bklr3j0cKX},\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "PDF pages 15–16 and 18–21: estimator, negative-count, objective and representation analyses."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Deep Graph Infomax",
+    "authors": [
+      "Petar Veličković",
+      "William Fedus",
+      "William L. Hamilton",
+      "Pietro Liò",
+      "Yoshua Bengio",
+      "R Devon Hjelm"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1809.10341",
+    "source_version": "arXiv:1809.10341v2",
+    "pdf_url": "https://arxiv.org/pdf/1809.10341v2",
+    "pdf_sha256": "f21afabaa0cc9f27f00c2c15c881ff06b5f6c79b5677e6e6695d2b767168fb4b",
+    "pages": 17,
+    "retrieved_at": "2026-09-10T22:41:50.340405+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Petar Veličković [ view email ] [v1] Thu, 27 Sep 2018 04:53:24 UTC (8,894 KB) [v2] Fri, 21 Dec 2018 15:44:59 UTC (8,897 KB)",
+    "venue": "ICLR",
+    "year": 2019,
+    "landing_url": "https://openreview.net/forum?id=rklz9iAcKQ",
+    "official_pdf_url": "https://openreview.net/pdf?id=rklz9iAcKQ",
+    "bibtex": "@inproceedings{\nveličković2018deep,\ntitle={Deep Graph Infomax},\nauthor={Petar Veličković and William Fedus and William L. Hamilton and Pietro Liò and Yoshua Bengio and R Devon Hjelm},\nbooktitle={International Conference on Learning Representations},\nyear={2019},\nurl={https://openreview.net/forum?id=rklz9iAcKQ},\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "PDF pages 14–17: dataset definitions, dimension removal and corruption."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "Contrastive Learning with Hard Negative Samples",
+    "authors": [
+      "Joshua David Robinson",
+      "Ching-Yao Chuang",
+      "Suvrit Sra",
+      "Stefanie Jegelka"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2010.04592",
+    "source_version": "arXiv:2010.04592v2",
+    "pdf_url": "https://arxiv.org/pdf/2010.04592v2",
+    "pdf_sha256": "4b3dbb6bc1aa5e8bc8248df4606817b0781d5b00af441dd4f5841c7cea5ecf4a",
+    "pages": 28,
+    "retrieved_at": "2026-09-10T22:41:50.369316+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Joshua Robinson [ view email ] [v1] Fri, 9 Oct 2020 14:18:53 UTC (19,077 KB) [v2] Sun, 24 Jan 2021 22:19:30 UTC (3,126 KB)",
+    "venue": "ICLR",
+    "year": 2021,
+    "landing_url": "https://openreview.net/forum?id=CR1XOQ0UTh-",
+    "official_pdf_url": "https://openreview.net/pdf?id=CR1XOQ0UTh-",
+    "bibtex": "@inproceedings{\nrobinson2021contrastive,\ntitle={Contrastive Learning with Hard Negative Samples},\nauthor={Joshua David Robinson and Ching-Yao Chuang and Suvrit Sra and Stefanie Jegelka},\nbooktitle={International Conference on Learning Representations},\nyear={2021},\nurl={https://openreview.net/forum?id=CR1XOQ0UTh-}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "PDF pages 22–28: graph extension, additional experiments and implementation; theorem proofs were not read."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "Large-Scale Representation Learning on Graphs via Bootstrapping",
+    "authors": [
+      "Shantanu Thakoor",
+      "Corentin Tallec",
+      "Mohammad Gheshlaghi Azar",
+      "Mehdi Azabou",
+      "Eva L Dyer",
+      "Remi Munos",
+      "Petar Veličković",
+      "Michal Valko"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2102.06514",
+    "source_version": "arXiv:2102.06514v3",
+    "pdf_url": "https://arxiv.org/pdf/2102.06514v3",
+    "pdf_sha256": "e5dad781d9591d20f665b2bce39f35218b0fa8dc53ad6b5c7153711961c82eb0",
+    "pages": 21,
+    "retrieved_at": "2026-09-10T22:41:57.384404+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Shantanu Thakoor [ view email ] [v1] Fri, 12 Feb 2021 13:36:39 UTC (4,609 KB) [v2] Thu, 4 Nov 2021 12:19:00 UTC (4,689 KB) [v3] Mon, 20 Feb 2023 10:48:57 UTC (4,687 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=0UXT6PpRpW",
+    "official_pdf_url": "https://openreview.net/pdf?id=0UXT6PpRpW",
+    "bibtex": "@inproceedings{\nthakoor2022largescale,\ntitle={Large-Scale Representation Learning on Graphs via Bootstrapping},\nauthor={Shantanu Thakoor and Corentin Tallec and Mohammad Gheshlaghi Azar and Mehdi Azabou and Eva L Dyer and Remi Munos and Petar Veli{\\v{c}}kovi{\\'c} and Michal Valko},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=0UXT6PpRpW}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "PDF pages 15–21: full appendices, including frozen evaluation at the largest scale."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning",
+    "authors": [
+      "Adrien Bardes",
+      "Jean Ponce",
+      "Yann LeCun"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2105.04906",
+    "source_version": "arXiv:2105.04906v3",
+    "pdf_url": "https://arxiv.org/pdf/2105.04906v3",
+    "pdf_sha256": "c227c290d5eb2ba459fd502de3b4e1da36a0ea4c88989b7d8153e211751e9e77",
+    "pages": 23,
+    "retrieved_at": "2026-09-10T22:41:55.315426+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Adrien Bardes [ view email ] [v1] Tue, 11 May 2021 09:53:21 UTC (813 KB) [v2] Fri, 15 Oct 2021 11:27:50 UTC (1,552 KB) [v3] Fri, 28 Jan 2022 12:23:37 UTC (1,905 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=xm6YD62D1Ub",
+    "official_pdf_url": "https://openreview.net/pdf?id=xm6YD62D1Ub",
+    "bibtex": "@inproceedings{\nbardes2022vicreg,\ntitle={{VICR}eg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning},\nauthor={Adrien Bardes and Jean Ponce and Yann LeCun},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=xm6YD62D1Ub}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "PDF pages 16–23: implementation, loss, batch, architecture, modality, dynamics and running-time studies."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "Understanding Dimensional Collapse in Contrastive Self-supervised Learning",
+    "authors": [
+      "Li Jing",
+      "Pascal Vincent",
+      "Yann LeCun",
+      "Yuandong Tian"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2110.09348",
+    "source_version": "arXiv:2110.09348v3",
+    "pdf_url": "https://arxiv.org/pdf/2110.09348v3",
+    "pdf_sha256": "575847f8de13f88d1814e74566a5148ac30a6c40429e67c223c22761a5785d6f",
+    "pages": 17,
+    "retrieved_at": "2026-09-10T22:41:55.810301+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Li Jing [ view email ] [v1] Mon, 18 Oct 2021 14:22:19 UTC (3,087 KB) [v2] Wed, 2 Feb 2022 19:03:47 UTC (535 KB) [v3] Sat, 23 Apr 2022 16:44:20 UTC (542 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=YevsQ05DEN7",
+    "official_pdf_url": "https://openreview.net/pdf?id=YevsQ05DEN7",
+    "bibtex": "@inproceedings{\njing2022understanding,\ntitle={Understanding Dimensional Collapse in Contrastive Self-supervised Learning},\nauthor={Li Jing and Pascal Vincent and Yann LeCun and Yuandong Tian},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=YevsQ05DEN7}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "PDF pages 12–17: matrix dynamics, delayed proofs, extensions, setup and ablations."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "BEiT: BERT Pre-Training of Image Transformers",
+    "authors": [
+      "Hangbo Bao",
+      "Li Dong",
+      "Songhao Piao",
+      "Furu Wei"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2106.08254",
+    "source_version": "arXiv:2106.08254v2",
+    "pdf_url": "https://arxiv.org/pdf/2106.08254v2",
+    "pdf_sha256": "6455f47a0ad99294c9e1eb8a361da558f87f9e4446f5d6c0b02c20646a93741c",
+    "pages": 18,
+    "retrieved_at": "2026-09-10T22:42:00.523883+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Li Dong [ view email ] [v1] Tue, 15 Jun 2021 16:02:37 UTC (418 KB) [v2] Sat, 3 Sep 2022 14:11:33 UTC (438 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=p-BhZSz59o4",
+    "official_pdf_url": "https://openreview.net/pdf?id=p-BhZSz59o4",
+    "bibtex": "@inproceedings{\nbao2022beit,\ntitle={{BE}iT: {BERT} Pre-Training of Image Transformers},\nauthor={Hangbo Bao and Li Dong and Songhao Piao and Furu Wei},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=p-BhZSz59o4}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "PDF pages 14–18: architecture, scale, tokenizer, linear probes, joint training and setup."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Image BERT Pre-training with Online Tokenizer",
+    "authors": [
+      "Jinghao Zhou",
+      "Chen Wei",
+      "Huiyu Wang",
+      "Wei Shen",
+      "Cihang Xie",
+      "Alan Yuille",
+      "Tao Kong"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2111.07832",
+    "source_version": "arXiv:2111.07832v3",
+    "pdf_url": "https://arxiv.org/pdf/2111.07832v3",
+    "pdf_sha256": "fdfe7d26e8721c160cde5b4105975fb7baa3133669d2145857eeaf4b863c463f",
+    "pages": 29,
+    "retrieved_at": "2026-09-10T22:42:01.537162+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Jinghao Zhou [ view email ] [v1] Mon, 15 Nov 2021 15:18:05 UTC (14,041 KB) [v2] Thu, 9 Dec 2021 09:02:52 UTC (14,040 KB) [v3] Thu, 27 Jan 2022 09:20:49 UTC (14,040 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=ydopy-e6Dg",
+    "official_pdf_url": "https://openreview.net/pdf?id=ydopy-e6Dg",
+    "bibtex": "@inproceedings{\nzhou2022image,\ntitle={Image {BERT} Pre-training with Online Tokenizer},\nauthor={Jinghao Zhou and Chen Wei and Huiyu Wang and Wei Shen and Cihang Xie and Alan Yuille and Tao Kong},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=ydopy-e6Dg}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "PDF pages 13–22: pseudocode, multi-crop, protocols, robustness, ablations and tokenizer comparisons; the later visual gallery was not inspected."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "FILIP: Fine-grained Interactive Language-Image Pre-Training",
+    "authors": [
+      "Lewei Yao",
+      "Runhui Huang",
+      "Lu Hou",
+      "Guansong Lu",
+      "Minzhe Niu",
+      "Hang Xu",
+      "Xiaodan Liang",
+      "Zhenguo Li",
+      "Xin Jiang",
+      "Chunjing Xu"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2111.07783",
+    "source_version": "arXiv:2111.07783v1",
+    "pdf_url": "https://arxiv.org/pdf/2111.07783v1",
+    "pdf_sha256": "a96b9abad3eaff90382c49ac6f8f567db33f5a228bb2a07ae733905b89901bae",
+    "pages": 18,
+    "retrieved_at": "2026-09-10T22:42:02.937841+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Lewei Yao [ view email ] [v1] Tue, 9 Nov 2021 17:15:38 UTC (3,310 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=cpDhcsEDC2",
+    "official_pdf_url": "https://openreview.net/pdf?id=cpDhcsEDC2",
+    "bibtex": "@inproceedings{\nyao2022filip,\ntitle={{FILIP}: Fine-grained Interactive Language-Image Pre-Training},\nauthor={Lewei Yao and Runhui Huang and Lu Hou and Guansong Lu and Minzhe Niu and Hang Xu and Xiaodan Liang and Zhenguo Li and Xin Jiang and Chunjing Xu},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=cpDhcsEDC2}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "PDF pages 14–15 and 17–18: data, implementation, retrieval and prompt definitions."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image  Pre-training Paradigm",
+    "authors": [
+      "Yangguang Li",
+      "Feng Liang",
+      "Lichen Zhao",
+      "Yufeng Cui",
+      "Wanli Ouyang",
+      "Jing Shao",
+      "Fengwei Yu",
+      "Junjie Yan"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2110.05208",
+    "source_version": "arXiv:2110.05208v2",
+    "pdf_url": "https://arxiv.org/pdf/2110.05208v2",
+    "pdf_sha256": "82a460b2c118b6b73a3477da111d5bdf9a4ff73ae69d66f1e3aebcdfa914d493",
+    "pages": 17,
+    "retrieved_at": "2026-09-10T22:42:05.627766+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Yufeng Cui [ view email ] [v1] Mon, 11 Oct 2021 12:17:32 UTC (18,738 KB) [v2] Mon, 14 Mar 2022 08:53:07 UTC (18,965 KB)",
+    "venue": "ICLR",
+    "year": 2022,
+    "landing_url": "https://openreview.net/forum?id=zq1iJkNk3uN",
+    "official_pdf_url": "https://openreview.net/pdf?id=zq1iJkNk3uN",
+    "bibtex": "@inproceedings{\nli2022supervision,\ntitle={Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image  Pre-training Paradigm},\nauthor={Yangguang Li and Feng Liang and Lichen Zhao and Yufeng Cui and Wanli Ouyang and Jing Shao and Fengwei Yu and Junjie Yan},\nbooktitle={International Conference on Learning Representations},\nyear={2022},\nurl={https://openreview.net/forum?id=zq1iJkNk3uN}\n}",
+    "metadata_note": "Official conference metadata from OpenReview; the versioned author arXiv PDF linked here is the full text read. It is not asserted to be byte-identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "PDF pages 13–17: full appendices."
+    }
+  }
+]
