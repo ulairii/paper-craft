@@ -22,6 +22,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iclr-representation` | ICLR | Self-supervised, graph, masked, and language–image representations | Full drafts; information and supervision design, collapse explanations, local transfer, data and compute efficiency; revision | [SKILL.md](../../paper-craft-iclr-representation/SKILL.md) |
 | `paper-craft-iclr-generative` | ICLR | Generative models and sampling | Full drafts; generative objectives, tractable learning, flows, GANs, diffusion, sampling efficiency, conditional synthesis, reward fine-tuning; revision | [SKILL.md](../../paper-craft-iclr-generative/SKILL.md) |
 | `paper-craft-neurips-representation` | NeurIPS | Self-supervised, supervised contrastive, graph, and local representations | Full drafts; learning objectives, invariance, label efficiency, transfer analysis and local/global tradeoffs | [SKILL.md](../../paper-craft-neurips-representation/SKILL.md) |
+| `paper-craft-neurips-generative` | NeurIPS | Generative models and sampling | Full drafts; learning principles, training repairs, flows, VAEs, diffusion, guidance, quality–cost tradeoffs and revision | [SKILL.md](../../paper-craft-neurips-generative/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -193,6 +194,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** policy or reward learning belongs with reinforcement learning when it carries the contribution, even when an encoder is trained contrastively. Sample synthesis belongs with generative modeling. Detection or segmentation used to evaluate general features does not by itself make the work a task-specific vision method. Keep the author's target conference when borrowing another venue's writing examples.
 
 **Source collection:** [10 accepted NeurIPS papers from 2019–2022](../../paper-craft-neurips-representation/references/corpus.md), with [BibTeX](../../paper-craft-neurips-representation/references/references.bib).
+
+### NeurIPS: generative models
+
+**Select when the contribution concerns:** adversarial or variational generation, invertible density models, generative architecture, diffusion training, controllable synthesis, sampler design, or generation quality–cost tradeoffs.
+
+**Useful signals in the material:** generated samples, density estimates, fidelity and coverage, denoising objectives, invertible transformations, latent hierarchies, guidance scales, fixed-checkpoint sampling, and evaluation budgets.
+
+**Distinguish nearby work:** reusable features and downstream probes call for representation guidance when they carry the contribution. A policy learned with a generative model calls for reinforcement-learning guidance when decision-making is central. Reward-based image adaptation belongs here when synthesis quality is the main result. A sampling-budget paper about language reasoning belongs to reasoning guidance rather than this image-generation corpus.
+
+**Source collection:** [10 accepted NeurIPS papers from 2014–2022](../../paper-craft-neurips-generative/references/corpus.md), with [BibTeX](../../paper-craft-neurips-generative/references/references.bib).
 
 ## Adding a specialist
 

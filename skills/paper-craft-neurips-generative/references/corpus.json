@@ -1,0 +1,269 @@
+[
+  {
+    "title": "Generative Adversarial Nets",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+    "year": 2014,
+    "venue": "NeurIPS",
+    "id": "P01",
+    "bibtex": "@inproceedings{NIPS2014_f033ed80,\n author = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {Z. Ghahramani and M. Welling and C. Cortes and N. Lawrence and K. Weinberger},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Generative Adversarial Nets},\n url = {https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf},\n volume = {27},\n year = {2014}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Bibtex.bib",
+    "authors": [
+      "Goodfellow, Ian J.",
+      "Pouget-Abadie, Jean",
+      "Mirza, Mehdi",
+      "Xu, Bing",
+      "Warde-Farley, David",
+      "Ozair, Sherjil",
+      "Courville, Aaron",
+      "Bengio, Yoshua"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf",
+    "pdf_sha256": "331961622a2f6588c48a34ecddc6a3d052ffe8fcfba333f233d5f27b2da5565d",
+    "pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:56.786285+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "No separate supplement linked."
+    }
+  },
+  {
+    "title": "Improved Techniques for Training GANs",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2016/hash/8a3363abe792db2d8761d6403605aeb7-Abstract.html",
+    "year": 2016,
+    "venue": "NeurIPS",
+    "id": "P02",
+    "bibtex": "@inproceedings{NIPS2016_8a3363ab,\n author = {Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi and Chen, Xi},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Improved Techniques for Training GANs},\n url = {https://proceedings.neurips.cc/paper_files/paper/2016/file/8a3363abe792db2d8761d6403605aeb7-Paper.pdf},\n volume = {29},\n year = {2016}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/8a3363abe792db2d8761d6403605aeb7-Bibtex.bib",
+    "authors": [
+      "Salimans, Tim",
+      "Goodfellow, Ian",
+      "Zaremba, Wojciech",
+      "Cheung, Vicki",
+      "Radford, Alec",
+      "Chen, Xi",
+      "Chen, Xi"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/8a3363abe792db2d8761d6403605aeb7-Paper.pdf",
+    "pdf_sha256": "cdef79a876a81483a2c00d239fe893212351c407e700e806393526cf694a8129",
+    "pages": 9,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2016/file/8a3363abe792db2d8761d6403605aeb7-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:56.501217+00:00",
+    "supplement_note": "The official linked ZIP contains supplementary-material-NIPS.pdf for Robust k-means: a theoretical revisit, not this paper. This unrelated PDF is excluded from the reading corpus.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "The official linked ZIP contains an unrelated k-means supplement; it was excluded. The full main argument and experiments were read."
+    }
+  },
+  {
+    "title": "Improved Training of Wasserstein GANs",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/892c3b1c6dccd52936e27cbd0ff683d6-Abstract.html",
+    "year": 2017,
+    "venue": "NeurIPS",
+    "id": "P03",
+    "bibtex": "@inproceedings{NIPS2017_892c3b1c,\n author = {Gulrajani, Ishaan and Ahmed, Faruk and Arjovsky, Martin and Dumoulin, Vincent and Courville, Aaron},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Improved Training of Wasserstein GANs},\n url = {https://proceedings.neurips.cc/paper_files/paper/2017/file/892c3b1c6dccd52936e27cbd0ff683d6-Paper.pdf},\n volume = {30},\n year = {2017}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/892c3b1c6dccd52936e27cbd0ff683d6-Bibtex.bib",
+    "authors": [
+      "Gulrajani, Ishaan",
+      "Ahmed, Faruk",
+      "Arjovsky, Martin",
+      "Dumoulin, Vincent",
+      "Courville, Aaron"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/892c3b1c6dccd52936e27cbd0ff683d6-Paper.pdf",
+    "pdf_sha256": "f120e5c0d8cac26ebae680c9db63aacc3a1760fb9ae924132451f31e617959fc",
+    "pages": 11,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/892c3b1c6dccd52936e27cbd0ff683d6-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:56.601695+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/892c3b1c6dccd52936e27cbd0ff683d6-Supplemental.zip",
+    "supplement_archive_member": "nips_supp_3.pdf",
+    "supplement_pages": 9,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1–4: gradient-penalty variants, architectures and experiments."
+    }
+  },
+  {
+    "title": "Glow: Generative Flow with Invertible 1x1 Convolutions",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/d139db6a236200b21cc7f752979132d0-Abstract.html",
+    "year": 2018,
+    "venue": "NeurIPS",
+    "id": "P04",
+    "bibtex": "@inproceedings{NEURIPS2018_d139db6a,\n author = {Kingma, Durk P and Dhariwal, Prafulla},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Glow: Generative Flow with Invertible 1x1 Convolutions},\n url = {https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf},\n volume = {31},\n year = {2018}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Bibtex.bib",
+    "authors": [
+      "Kingma, Durk P",
+      "Dhariwal, Prafulla"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Paper.pdf",
+    "pdf_sha256": "d7a73a44abbe31a25aee78b45ea0da9113748564fbac3e12d0009570fbab50d2",
+    "pages": 10,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:02.851749+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/d139db6a236200b21cc7f752979132d0-Supplemental.zip",
+    "supplement_archive_member": "neurips_appendix.pdf",
+    "supplement_pages": 7,
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Complete supplement, pages 1–7."
+    }
+  },
+  {
+    "title": "Neural Spline Flows",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/7ac71d433f282034e088473244df8c02-Abstract.html",
+    "year": 2019,
+    "venue": "NeurIPS",
+    "id": "P05",
+    "bibtex": "@inproceedings{NEURIPS2019_7ac71d43,\n author = {Durkan, Conor and Bekasov, Artur and Murray, Iain and Papamakarios, George},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Neural Spline Flows},\n url = {https://proceedings.neurips.cc/paper_files/paper/2019/file/7ac71d433f282034e088473244df8c02-Paper.pdf},\n volume = {32},\n year = {2019}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/7ac71d433f282034e088473244df8c02-Bibtex.bib",
+    "authors": [
+      "Durkan, Conor",
+      "Bekasov, Artur",
+      "Murray, Iain",
+      "Papamakarios, George"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/7ac71d433f282034e088473244df8c02-Paper.pdf",
+    "pdf_sha256": "c145b5b378c072bef66f6e22cbd15703b68ecc0d2b8776753f8dd4ef7190fd17",
+    "pages": 12,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/7ac71d433f282034e088473244df8c02-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:02.846933+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/7ac71d433f282034e088473244df8c02-Supplemental.zip",
+    "supplement_archive_member": "nsf-appendix.pdf",
+    "supplement_pages": 6,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Complete supplement, pages 1–6."
+    }
+  },
+  {
+    "title": "Denoising Diffusion Probabilistic Models",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P06",
+    "bibtex": "@inproceedings{NEURIPS2020_4c5bcfec,\n author = {Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {6840--6851},\n publisher = {Curran Associates, Inc.},\n title = {Denoising Diffusion Probabilistic Models},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10298-/bibtex",
+    "authors": [
+      "Ho, Jonathan",
+      "Jain, Ajay",
+      "Abbeel, Pieter"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf",
+    "pdf_sha256": "cb471d4c0063cad56f8d74b6a72fa7dad1677f8423a0a81349487a63bb58d3de",
+    "pages": 12,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Supplemental.pdf",
+    "supplement_pages": 13,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:12.050060+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1–4 and 10–13: derivations, evaluation and compression analysis."
+    }
+  },
+  {
+    "title": "NVAE: A Deep Hierarchical Variational Autoencoder",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/e3b21256183cf7c2c7a66be163579d37-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P07",
+    "bibtex": "@inproceedings{NEURIPS2020_e3b21256,\n author = {Vahdat, Arash and Kautz, Jan},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {19667--19679},\n publisher = {Curran Associates, Inc.},\n title = {NVAE: A Deep Hierarchical Variational Autoencoder},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/e3b21256183cf7c2c7a66be163579d37-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/11374-/bibtex",
+    "authors": [
+      "Vahdat, Arash",
+      "Kautz, Jan"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/e3b21256183cf7c2c7a66be163579d37-Paper.pdf",
+    "pdf_sha256": "b48ed8e497806ef398737dfd97d33b22809b59c8a055b4b854de1d191f9675c0",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/e3b21256183cf7c2c7a66be163579d37-Supplemental.pdf",
+    "supplement_pages": 8,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:16.491482+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Complete supplement, pages 1–8; qualitative discussion uses text and captions."
+    }
+  },
+  {
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/49ad23d1ec9fa4bd8d77d02681df5cfa-Abstract.html",
+    "year": 2021,
+    "venue": "NeurIPS",
+    "id": "P08",
+    "bibtex": "@inproceedings{NEURIPS2021_49ad23d1,\n author = {Dhariwal, Prafulla and Nichol, Alexander},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},\n pages = {8780--8794},\n publisher = {Curran Associates, Inc.},\n title = {Diffusion Models Beat GANs on Image Synthesis},\n url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf},\n volume = {34},\n year = {2021}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/12295-/bibtex",
+    "authors": [
+      "Dhariwal, Prafulla",
+      "Nichol, Alexander"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf",
+    "pdf_sha256": "a5952286ac4e028b290191c9bdb0246d2fc825c865705e5216685c56180ec0b9",
+    "pages": 15,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Supplemental.pdf",
+    "supplement_pages": 30,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:16.799348+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–10: architecture, guidance, compute, derivations and qualitative interpretation."
+    }
+  },
+  {
+    "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/a98846e9d9cc01cfb87eb694d946ce6b-Abstract-Conference.html",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "id": "P09",
+    "bibtex": "@inproceedings{NEURIPS2022_a98846e9,\n author = {Karras, Tero and Aittala, Miika and Aila, Timo and Laine, Samuli},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/068431-1926},\n editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},\n pages = {26565--26577},\n publisher = {Curran Associates, Inc.},\n title = {Elucidating the Design Space of Diffusion-Based Generative Models},\n url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf},\n volume = {35},\n year = {2022}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/18035-/bibtex",
+    "authors": [
+      "Karras, Tero",
+      "Aittala, Miika",
+      "Aila, Timo",
+      "Laine, Samuli"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Paper-Conference.pdf",
+    "pdf_sha256": "dfc1e011f88510c5f8123adb3409e3b9b7f3a126495a6db8faf73d21977e0a77",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a98846e9d9cc01cfb87eb694d946ce6b-Supplemental-Conference.pdf",
+    "supplement_pages": 36,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:25.049627+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 9, 16, 27–29 and 31–35: comparisons, preconditioning, discretization, stochasticity and training details."
+    }
+  },
+  {
+    "title": "DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/260a14acce2a89dad36adc8eefe7c59e-Abstract-Conference.html",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "id": "P10",
+    "bibtex": "@inproceedings{NEURIPS2022_260a14ac,\n author = {Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and LI, Chongxuan and Zhu, Jun},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/068431-0418},\n editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},\n pages = {5775--5787},\n publisher = {Curran Associates, Inc.},\n title = {DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps},\n url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/260a14acce2a89dad36adc8eefe7c59e-Paper-Conference.pdf},\n volume = {35},\n year = {2022}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/18921-/bibtex",
+    "authors": [
+      "Lu, Cheng",
+      "Zhou, Yuhao",
+      "Bao, Fan",
+      "Chen, Jianfei",
+      "LI, Chongxuan",
+      "Zhu, Jun"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/260a14acce2a89dad36adc8eefe7c59e-Paper-Conference.pdf",
+    "pdf_sha256": "ab49ae982d82e683a62d9475284a3adfa53760cdbbf11431a32c82c84d7bd91d",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/260a14acce2a89dad36adc8eefe7c59e-Supplemental-Conference.pdf",
+    "supplement_pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:12:29.306180+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 2–3 and 8–15: formulation, assumptions, implementation choices and complete experimental analysis."
+    }
+  }
+]
