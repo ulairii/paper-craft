@@ -1,0 +1,246 @@
+[
+  {
+    "id": "P01",
+    "title": "SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters",
+    "year": 2018,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yifan_Xu_SpiderCNN_Deep_Learning_ECCV_2018_paper.php",
+    "authors": [
+      "Yifan Xu",
+      "Tianqi Fan",
+      "Mingye Xu",
+      "Long Zeng",
+      "Yu Qiao"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Yifan_Xu_SpiderCNN_Deep_Learning_ECCV_2018_paper.pdf",
+    "pdf_sha256": "01b89f710c2bda9052b8efa6c236d3075fded2f473dfad076ea0548c07a34399",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:30.998186+00:00",
+    "bibtex": "@inproceedings{eccv3dP01,\n  author = {Yifan Xu and Tianqi Fan and Mingye Xu and Long Zeng and Yu Qiao},\n  title = {SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2018},\n  url = {https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yifan_Xu_SpiderCNN_Deep_Learning_ECCV_2018_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D Local Descriptors",
+    "year": 2018,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Tolga_Birdal_PPF-FoldNet_Unsupervised_Learning_ECCV_2018_paper.php",
+    "authors": [
+      "Haowen Deng",
+      "Tolga Birdal",
+      "Slobodan Ilic"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Tolga_Birdal_PPF-FoldNet_Unsupervised_Learning_ECCV_2018_paper.pdf",
+    "pdf_sha256": "9dd71e014ac43b1badb4d015ca31c12288c8db97a757b87ff1bb398f1d6c0376",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:31.244854+00:00",
+    "bibtex": "@inproceedings{eccv3dP02,\n  author = {Haowen Deng and Tolga Birdal and Slobodan Ilic},\n  title = {PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D Local Descriptors},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2018},\n  url = {https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Tolga_Birdal_PPF-FoldNet_Unsupervised_Learning_ECCV_2018_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/893_ECCV_2020_paper.php",
+    "authors": [
+      "Saining Xie",
+      "Jiatao Gu",
+      "Demi Guo",
+      "Charles R. Qi",
+      "Leonidas Guibas",
+      "Or Litany"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480579.pdf",
+    "pdf_sha256": "7519d1eaa7c148a8b84cb8cb6cb784d9a1ec66bd8c6f8b7b8994b92d75ed660f",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:31.168546+00:00",
+    "bibtex": "@inproceedings{eccv3dP03,\n  author = {Saining Xie and Jiatao Gu and Demi Guo and Charles R. Qi and Leonidas Guibas and Or Litany},\n  title = {PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/893_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–4: downstream components, augmentation, optimization, and transfer comparisons."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480579-supp.pdf"
+  },
+  {
+    "id": "P04",
+    "title": "H3DNet: 3D Object Detection Using Hybrid Geometric Primitives",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1561_ECCV_2020_paper.php",
+    "authors": [
+      "Zaiwei Zhang",
+      "Bo Sun",
+      "Haitao Yang",
+      "Qixing Huang"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570307.pdf",
+    "pdf_sha256": "8a7eac9d53983855575cf60ca58cf74708792246bc95ad8a409894d042b7cbe2",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:40.035676+00:00",
+    "bibtex": "@inproceedings{eccv3dP04,\n  author = {Zaiwei Zhang and Bo Sun and Haitao Yang and Qixing Huang},\n  title = {H3DNet: 3D Object Detection Using Hybrid Geometric Primitives},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1561_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–9: loss and differentiation, primitive observability, errors, and correlations."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570307-supp.pdf"
+  },
+  {
+    "id": "P05",
+    "title": "SSN: Shape Signature Networks for Multi-class Object Detection from Point Clouds",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5131_ECCV_2020_paper.php",
+    "authors": [
+      "Xinge Zhu      Yuexin Ma      Tai Wang      Yan Xu Jianping Shi      Dahua Lin"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700579.pdf",
+    "pdf_sha256": "2e77362915772de3fbce876310afba5e06fddb8e7a291879c249980d51ba46fe",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:39.459308+00:00",
+    "bibtex": "@inproceedings{eccv3dP05,\n  author = {Xinge Zhu      Yuexin Ma      Tai Wang      Yan Xu Jianping Shi      Dahua Lin},\n  title = {SSN: Shape Signature Networks for Multi-class Object Detection from Point Clouds},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5131_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "Masked Autoencoders for Point Cloud Self-Supervised Learning",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/800_ECCV_2022_paper.php",
+    "authors": [
+      "Yatian Pang",
+      "Wenxiao Wang",
+      "Francis E.H. Tay",
+      "Wei Liu",
+      "Yonghong Tian",
+      "Li Yuan"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620591.pdf",
+    "pdf_sha256": "e8a33f8ef92b44f2212c20dc384fcef71e51b73cd28dbf8e5e40d5691b787756",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:39.541858+00:00",
+    "bibtex": "@inproceedings{eccv3dP06,\n  author = {Yatian Pang and Wenxiao Wang and Francis E.H. Tay and Wei Liu and Yonghong Tian and Li Yuan},\n  title = {Masked Autoencoders for Point Cloud Self-Supervised Learning},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/800_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–5: configurations, downstream heads, model size, and reconstruction versus transfer."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620591-supp.pdf"
+  },
+  {
+    "id": "P07",
+    "title": "BEVFormer: Learning Bird’s-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/694_ECCV_2022_paper.php",
+    "authors": [
+      "Zhiqi Li",
+      "Wenhai Wang",
+      "Hongyang Li",
+      "Enze Xie",
+      "Chonghao Sima",
+      "Tong Lu",
+      "Yu Qiao",
+      "Jifeng Dai"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690001.pdf",
+    "pdf_sha256": "59eadb553235771dfec8d59d27f5a0b9d7650dbcc692eff0c26be3426f96d7c5",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:46.616339+00:00",
+    "bibtex": "@inproceedings{eccv3dP07,\n  author = {Zhiqi Li and Wenhai Wang and Hongyang Li and Enze Xie and Chonghao Sima and Tong Lu and Yu Qiao and Jifeng Dai},\n  title = {BEVFormer: Learning Bird’s-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/694_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–5: implementation, Waymo protocol, calibration noise, and temporal ablations."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690001-supp.pdf"
+  },
+  {
+    "id": "P08",
+    "title": "PETR: Position Embedding Transformation for Multi-View 3D Object Detection",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4420_ECCV_2022_paper.php",
+    "authors": [
+      "Yingfei Liu",
+      "Tiancai Wang",
+      "Xiangyu Zhang",
+      "Jian Sun"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870523.pdf",
+    "pdf_sha256": "2b8e11baf616758b4bdc287afce67b413cb06a9bbc33b6811f416c2e57104c8d",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:47.075654+00:00",
+    "bibtex": "@inproceedings{eccv3dP08,\n  author = {Yingfei Liu and Tiancai Wang and Xiangyu Zhang and Jian Sun},\n  title = {PETR: Position Embedding Transformation for Multi-View 3D Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4420_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "SWFormer: Sparse Window Transformer for 3D Object Detection in Point Clouds",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6236_ECCV_2022_paper.php",
+    "authors": [
+      "Pei Sun",
+      "Mingxing Tan",
+      "Weiyue Wang",
+      "Chenxi Liu",
+      "Fei Xia",
+      "Zhaoqi Leng",
+      "Dragomir Anguelov"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700422.pdf",
+    "pdf_sha256": "711c954149fda05398357ae0705e38f96ab315506bfdf5a5eaa63b1e8326e3b3",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:46.441077+00:00",
+    "bibtex": "@inproceedings{eccv3dP09,\n  author = {Pei Sun and Mingxing Tan and Weiyue Wang and Chenxi Liu and Fei Xia and Zhaoqi Leng and Dragomir Anguelov},\n  title = {SWFormer: Sparse Window Transformer for 3D Object Detection in Point Clouds},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6236_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "PARE-Net: Position-Aware Rotation-Equivariant Networks for Robust Point Cloud Registration",
+    "year": 2024,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9456_ECCV_2024_paper.php",
+    "authors": [
+      "Runzhao Yao",
+      "Shaoyi Du*",
+      "Wenting Cui",
+      "Canhui Tang",
+      "Chengwu Yang"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09456.pdf",
+    "pdf_sha256": "f556af53c43d19c5eebb52c08667c811b4ca8cb8139229a64df8c58de3e28c14",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:38:54.356606+00:00",
+    "bibtex": "@inproceedings{eccv3dP10,\n  author = {Runzhao Yao and Shaoyi Du* and Wenting Cui and Canhui Tang and Chengwu Yang},\n  title = {PARE-Net: Position-Aware Rotation-Equivariant Networks for Robust Point Cloud Registration},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2024},\n  url = {https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9456_ECCV_2024_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–11 and 13: equivariance, augmentation, metrics, controls, transfer, and limitations."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09456-supp.pdf"
+  }
+]

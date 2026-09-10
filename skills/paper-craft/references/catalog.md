@@ -15,6 +15,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iccv-3d` | ICCV | Point clouds, geometric detection, registration, and camera BEV | Full drafts; observation and representation stories; geometric aggregation; efficiency tradeoffs; experiment prose; revision | [SKILL.md](../../paper-craft-iccv-3d/SKILL.md) |
 | `paper-craft-eccv-detection` | ECCV | Object detection | Full drafts; keypoint and set representations; training and localization; semi-supervised and open-vocabulary narratives; revision | [SKILL.md](../../paper-craft-eccv-detection/SKILL.md) |
 | `paper-craft-eccv-segmentation` | ECCV | Semantic, instance, and interactive segmentation | Full drafts; context and detail; instance representations; heterogeneous tasks; open-vocabulary transfer; result explanation and revision | [SKILL.md](../../paper-craft-eccv-segmentation/SKILL.md) |
+| `paper-craft-eccv-3d` | ECCV | Point clouds, registration, geometric detection, pretraining, and camera fusion | Full drafts; geometric and representation stories; invariant and equivariant features; explanatory experiments; revision | [SKILL.md](../../paper-craft-eccv-3d/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -95,6 +96,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use detection when box localization or detector assignment carries the contribution. Choose this specialist when mask prediction, pixel grouping, or the segmentation task interface is central, even if boxes are supplied as prompts. General vision–language representation learning and 3D sensor geometry need their own primary guidance.
 
 **Source collection:** [10 accepted ECCV papers from 2018–2024](../../paper-craft-eccv-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-eccv-segmentation/references/references.bib).
+
+### ECCV: 3D perception
+
+**Select when the contribution concerns:** point-set operators, rigid registration, scene or masked point pretraining, geometric primitive detection, shape supervision, camera-based 3D fusion, or sparse voxel attention.
+
+**Useful signals in the material:** local point geometry, correspondences, rotation behavior, low-label transfer, reconstruction versus recognition, primitive constraints, calibrated views, aligned history, and empty object centers.
+
+**Distinguish nearby work:** choose this specialist when 3D observations or geometric representation carry the main insight, even if the output is boxes or segmentation. Choose a general representation specialist when the contribution is modality-independent. Rendering, reconstruction, and general depth estimation are outside this corpus's dedicated coverage.
+
+**Source collection:** [10 accepted ECCV papers from 2018–2024](../../paper-craft-eccv-3d/references/corpus.md), with [BibTeX](../../paper-craft-eccv-3d/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 
