@@ -16,6 +16,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-eccv-detection` | ECCV | Object detection | Full drafts; keypoint and set representations; training and localization; semi-supervised and open-vocabulary narratives; revision | [SKILL.md](../../paper-craft-eccv-detection/SKILL.md) |
 | `paper-craft-eccv-segmentation` | ECCV | Semantic, instance, and interactive segmentation | Full drafts; context and detail; instance representations; heterogeneous tasks; open-vocabulary transfer; result explanation and revision | [SKILL.md](../../paper-craft-eccv-segmentation/SKILL.md) |
 | `paper-craft-eccv-3d` | ECCV | Point clouds, registration, geometric detection, pretraining, and camera fusion | Full drafts; geometric and representation stories; invariant and equivariant features; explanatory experiments; revision | [SKILL.md](../../paper-craft-eccv-3d/SKILL.md) |
+| `paper-craft-icml-representation` | ICML | Self-supervised and language–image representations | Full drafts; learning principles, data efficiency, transfer interfaces, identifiability and dynamics; experiment explanation and revision | [SKILL.md](../../paper-craft-icml-representation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -124,9 +125,19 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | “Draft my CVPR submission,” with point sampling and LiDAR box results | Load the CVPR 3D perception skill and write the draft. |
 | “Draft my CVPR submission,” with detector assignment and box-localization results | Load the CVPR detection skill and write the draft. |
 | “Draft my ICLR submission,” with a method for allocating compute between search and revision | Load the ICLR reasoning skill and write the draft. |
-| “Draft my ICLR submission,” with a contrastive image representation method | Use general guidance; the available reasoning skill does not match this topic. |
+| “Draft my ICLR submission,” with a contrastive image representation method | Use the ICML representation specialist as a cross-conference reference with general guidance; retain ICLR as the target. |
 | “Draft my NeurIPS submission,” with process-reward reasoning experiments | Use reasoning lessons as a cross-conference reference while retaining NeurIPS as the target. |
 | “Draft my ICLR submission,” with no identified method or results | Ask for the material needed to write; do not infer reasoning from the conference alone. |
+
+### ICML: representation learning
+
+**Select when the contribution concerns:** self-supervised learning objectives or recipes, contrastive or non-contrastive representations, language–image pretraining, label-efficient transfer, representation identifiability, or explanations of learned features and training dynamics.
+
+**Useful signals in the material:** positive-pair construction, augmentation invariance, projection or prediction heads, frozen-feature and fine-tuned transfer, natural-language task specification, spectral diagnostics, or controlled comparisons of supervision and data sources.
+
+**Distinguish nearby work:** use a generative specialist when sample generation carries the contribution, even if the model also has an encoder. Use reinforcement learning when learning a policy or reward-driven behavior carries it. A vision benchmark does not make representation-learning research a detection or segmentation paper. For another target venue, use that venue's matching specialist when available; otherwise identify this corpus as a cross-conference reference.
+
+**Source collection:** [10 accepted ICML papers from 2020–2023](../../paper-craft-icml-representation/references/corpus.md), with [BibTeX](../../paper-craft-icml-representation/references/references.bib).
 
 ## Adding a specialist
 

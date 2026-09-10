@@ -1,0 +1,274 @@
+[
+  {
+    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+    "landing_url": "https://proceedings.mlr.press/v119/chen20j.html",
+    "year": 2020,
+    "venue": "ICML",
+    "id": "P01",
+    "bibtex": "@InProceedings{pmlr-v119-chen20j,\n  title = \t {A Simple Framework for Contrastive Learning of Visual Representations},\n  author =       {Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {1597--1607},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/chen20j/chen20j.pdf},\n  url = \t {https://proceedings.mlr.press/v119/chen20j.html}\n}",
+    "authors": [
+      "Chen, Ting",
+      "Kornblith, Simon",
+      "Norouzi, Mohammad",
+      "Hinton, Geoffrey"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v119/chen20j/chen20j.pdf",
+    "pdf_sha256": "cc620e511bafe8b4b11ca3415f6d7bcf127a05818087bfa49905de3a2e50bc2d",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v119/chen20j/chen20j-supp.pdf",
+    "supplement_pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:18.262963+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 3–4 and 7–9: augmentations, projection, transfer, component context."
+    }
+  },
+  {
+    "title": "Data-Efficient Image Recognition with Contrastive Predictive Coding",
+    "landing_url": "https://proceedings.mlr.press/v119/henaff20a.html",
+    "year": 2020,
+    "venue": "ICML",
+    "id": "P02",
+    "bibtex": "@InProceedings{pmlr-v119-henaff20a,\n  title = \t {Data-Efficient Image Recognition with Contrastive Predictive Coding},\n  author =       {Hénaff, Olivier J. and Srinivas, Aravind and De Fauw, Jeffrey and Razavi, Ali and Doersch, Carl and Eslami, S. M. Ali and van den Oord, Aaron},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {4182--4192},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/henaff20a/henaff20a.pdf},\n  url = \t {https://proceedings.mlr.press/v119/henaff20a.html}\n}",
+    "authors": [
+      "Hénaff, Olivier J.",
+      "Srinivas, Aravind",
+      "De Fauw, Jeffrey",
+      "Razavi, Ali",
+      "Doersch, Carl",
+      "Eslami, S. M. Ali",
+      "van den Oord, Aaron"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v119/henaff20a/henaff20a.pdf",
+    "pdf_sha256": "bb8982d448e00cd02afef11fb6f856a331935b638f60be79dcb6f0bc07398618",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v119/henaff20a/henaff20a-supp.pdf",
+    "supplement_pages": 2,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:17.793489+00:00",
+    "landing_authors": [
+      "Henaff, Olivier"
+    ],
+    "landing_bibtex": "@InProceedings{pmlr-v119-henaff20a,\n  title = \t {Data-Efficient Image Recognition with Contrastive Predictive Coding},\n  author =       {Henaff, Olivier},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {4182--4192},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/henaff20a/henaff20a.pdf},\n  url = \t {https://proceedings.mlr.press/v119/henaff20a.html}\n}",
+    "metadata_note": "The landing-page export lists only Olivier Henaff. The reference uses the full author list printed in the official proceedings PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–2: full supplement."
+    }
+  },
+  {
+    "title": "Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere",
+    "landing_url": "https://proceedings.mlr.press/v119/wang20k.html",
+    "year": 2020,
+    "venue": "ICML",
+    "id": "P03",
+    "bibtex": "@InProceedings{pmlr-v119-wang20k,\n  title = \t {Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere},\n  author =       {Wang, Tongzhou and Isola, Phillip},\n  booktitle = \t {Proceedings of the 37th International Conference on Machine Learning},\n  pages = \t {9929--9939},\n  year = \t {2020},\n  editor = \t {III, Hal Daumé and Singh, Aarti},\n  volume = \t {119},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {13--18 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v119/wang20k/wang20k.pdf},\n  url = \t {https://proceedings.mlr.press/v119/wang20k.html}\n}",
+    "authors": [
+      "Wang, Tongzhou",
+      "Isola, Phillip"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v119/wang20k/wang20k.pdf",
+    "pdf_sha256": "cc0c7a0f5d8a0874f39173918831eae52e4c0e1fe3e480436cef572b05ddb631",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v119/wang20k/wang20k-supp.pdf",
+    "supplement_pages": 26,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:18.175463+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–9: theoretical derivations and metric tradeoffs."
+    }
+  },
+  {
+    "title": "Barlow Twins: Self-Supervised Learning via Redundancy Reduction",
+    "landing_url": "https://proceedings.mlr.press/v139/zbontar21a.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P04",
+    "bibtex": "@InProceedings{pmlr-v139-zbontar21a,\n  title = \t {Barlow Twins: Self-Supervised Learning via Redundancy Reduction},\n  author =       {Zbontar, Jure and Jing, Li and Misra, Ishan and LeCun, Yann and Deny, Stephane},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {12310--12320},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/zbontar21a/zbontar21a.pdf},\n  url = \t {https://proceedings.mlr.press/v139/zbontar21a.html}\n}",
+    "authors": [
+      "Zbontar, Jure",
+      "Jing, Li",
+      "Misra, Ishan",
+      "LeCun, Yann",
+      "Deny, Stephane"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/zbontar21a/zbontar21a.pdf",
+    "pdf_sha256": "8c31a5584f797e2bd0f6f05e0f5f14a649ef89b8c465212ccc5491b45a285ff5",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v139/zbontar21a/zbontar21a-supp.pdf",
+    "supplement_pages": 2,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:28.022329+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–2: full supplement."
+    }
+  },
+  {
+    "title": "Understanding self-supervised learning dynamics without contrastive pairs",
+    "landing_url": "https://proceedings.mlr.press/v139/tian21a.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P05",
+    "bibtex": "@InProceedings{pmlr-v139-tian21a,\n  title = \t {Understanding self-supervised learning dynamics without contrastive pairs},\n  author =       {Tian, Yuandong and Chen, Xinlei and Ganguli, Surya},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {10268--10278},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/tian21a/tian21a.pdf},\n  url = \t {https://proceedings.mlr.press/v139/tian21a.html}\n}",
+    "authors": [
+      "Tian, Yuandong",
+      "Chen, Xinlei",
+      "Ganguli, Surya"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/tian21a/tian21a.pdf",
+    "pdf_sha256": "d7707cc5f3742330c558a92f20ad8edb3d39b0b93c2e62e37fbd5d05c6cd5399",
+    "pages": 11,
+    "supplement_url": "https://proceedings.mlr.press/v139/tian21a/tian21a-supp.pdf",
+    "supplement_pages": 12,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:29.438766+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 3–4 and 9–10: dynamics and non-isotropic cases."
+    }
+  },
+  {
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "landing_url": "https://proceedings.mlr.press/v139/radford21a.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P06",
+    "bibtex": "@InProceedings{pmlr-v139-radford21a,\n  title = \t {Learning Transferable Visual Models From Natural Language Supervision},\n  author =       {Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {8748--8763},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/radford21a/radford21a.pdf},\n  url = \t {https://proceedings.mlr.press/v139/radford21a.html}\n}",
+    "authors": [
+      "Radford, Alec",
+      "Kim, Jong Wook",
+      "Hallacy, Chris",
+      "Ramesh, Aditya",
+      "Goh, Gabriel",
+      "Agarwal, Sandhini",
+      "Sastry, Girish",
+      "Askell, Amanda",
+      "Mishkin, Pamela",
+      "Clark, Jack",
+      "Krueger, Gretchen",
+      "Sutskever, Ilya"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/radford21a/radford21a.pdf",
+    "pdf_sha256": "2a4952960f350e50a3a4a847371b80b8aaa09ba82d1c2a8f6b30450e392a1fe4",
+    "pages": 16,
+    "supplement_url": "https://proceedings.mlr.press/v139/radford21a/radford21a-supp.pdf",
+    "supplement_pages": 25,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:29.049630+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–12",
+      "supplement_or_appendix": "Pages 1, 8–10 and 23–24: evaluation, prompts and selected task details."
+    }
+  },
+  {
+    "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+    "landing_url": "https://proceedings.mlr.press/v139/jia21b.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P07",
+    "bibtex": "@InProceedings{pmlr-v139-jia21b,\n  title = \t {Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision},\n  author =       {Jia, Chao and Yang, Yinfei and Xia, Ye and Chen, Yi-Ting and Parekh, Zarana and Pham, Hieu and Le, Quoc and Sung, Yun-Hsuan and Li, Zhen and Duerig, Tom},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {4904--4916},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/jia21b/jia21b.pdf},\n  url = \t {https://proceedings.mlr.press/v139/jia21b.html}\n}",
+    "authors": [
+      "Jia, Chao",
+      "Yang, Yinfei",
+      "Xia, Ye",
+      "Chen, Yi-Ting",
+      "Parekh, Zarana",
+      "Pham, Hieu",
+      "Le, Quoc",
+      "Sung, Yun-Hsuan",
+      "Li, Zhen",
+      "Duerig, Tom"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/jia21b/jia21b.pdf",
+    "pdf_sha256": "48d142eb9424e93b48dcf852305c18f660a487f735c133ec790430cc6696c469",
+    "pages": 13,
+    "supplement_url": "https://proceedings.mlr.press/v139/jia21b/jia21b-supp.pdf",
+    "supplement_pages": 2,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:38.539775+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Pages 1–2: full supplement."
+    }
+  },
+  {
+    "title": "Contrastive Learning Inverts the Data Generating Process",
+    "landing_url": "https://proceedings.mlr.press/v139/zimmermann21a.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P08",
+    "bibtex": "@InProceedings{pmlr-v139-zimmermann21a,\n  title = \t {Contrastive Learning Inverts the Data Generating Process},\n  author =       {Zimmermann, Roland S. and Sharma, Yash and Schneider, Steffen and Bethge, Matthias and Brendel, Wieland},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {12979--12990},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/zimmermann21a/zimmermann21a.pdf},\n  url = \t {https://proceedings.mlr.press/v139/zimmermann21a.html}\n}",
+    "authors": [
+      "Zimmermann, Roland S.",
+      "Sharma, Yash",
+      "Schneider, Steffen",
+      "Bethge, Matthias",
+      "Brendel, Wieland"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/zimmermann21a/zimmermann21a.pdf",
+    "pdf_sha256": "abee858ec48e7d8421c13a0a3d4d4c0978e4a9abd282965029b044aa072fed0c",
+    "pages": 12,
+    "supplement_url": "https://proceedings.mlr.press/v139/zimmermann21a/zimmermann21a-supp.pdf",
+    "supplement_pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:40.072404+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Pages 1–9: full supplement."
+    }
+  },
+  {
+    "title": "Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP)",
+    "landing_url": "https://proceedings.mlr.press/v162/fang22a.html",
+    "year": 2022,
+    "venue": "ICML",
+    "id": "P09",
+    "bibtex": "@InProceedings{pmlr-v162-fang22a,\n  title = \t {Data Determines Distributional Robustness in Contrastive Language Image Pre-training ({CLIP})},\n  author =       {Fang, Alex and Ilharco, Gabriel and Wortsman, Mitchell and Wan, Yuhao and Shankar, Vaishaal and Dave, Achal and Schmidt, Ludwig},\n  booktitle = \t {Proceedings of the 39th International Conference on Machine Learning},\n  pages = \t {6216--6234},\n  year = \t {2022},\n  editor = \t {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},\n  volume = \t {162},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {17--23 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v162/fang22a/fang22a.pdf},\n  url = \t {https://proceedings.mlr.press/v162/fang22a.html}\n}",
+    "authors": [
+      "Fang, Alex",
+      "Ilharco, Gabriel",
+      "Wortsman, Mitchell",
+      "Wan, Yuhao",
+      "Shankar, Vaishaal",
+      "Dave, Achal",
+      "Schmidt, Ludwig"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v162/fang22a/fang22a.pdf",
+    "pdf_sha256": "f4b9fb280e5fb9bae1d1c63004f4ffcbc1d4eaaa01a93e2846ff5e99161862e6",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:35.343617+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendices B–M in the main PDF, pages 13–19."
+    }
+  },
+  {
+    "title": "On the Stepwise Nature of Self-Supervised Learning",
+    "landing_url": "https://proceedings.mlr.press/v202/simon23a.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P10",
+    "bibtex": "@InProceedings{pmlr-v202-simon23a,\n  title = \t {On the Stepwise Nature of Self-Supervised Learning},\n  author =       {Simon, James B and Knutins, Maksis and Ziyin, Liu and Geisz, Daniel and Fetterman, Abraham J and Albrecht, Joshua},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {31852--31876},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/simon23a/simon23a.pdf},\n  url = \t {https://proceedings.mlr.press/v202/simon23a.html}\n}",
+    "authors": [
+      "Simon, James B",
+      "Knutins, Maksis",
+      "Ziyin, Liu",
+      "Geisz, Daniel",
+      "Fetterman, Abraham J",
+      "Albrecht, Joshua"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/simon23a/simon23a.pdf",
+    "pdf_sha256": "4410e11cca2febe75445e45831374a93b4a1b80ed8b200b5c7eef65619bbb117",
+    "pages": 25,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:03:40.988149+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 14–15 and 19–25: empirical extension, measurements, interpretation, and proposed future interventions."
+    }
+  }
+]
