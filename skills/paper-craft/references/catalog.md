@@ -12,6 +12,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-cvpr-3d` | CVPR | Point-cloud and 3D perception | Full drafts; geometric representations; LiDAR detection; pretraining and scaling narratives; result explanation; revision | [SKILL.md](../../paper-craft-cvpr-3d/SKILL.md) |
 | `paper-craft-iccv-detection` | ICCV | Object detection | Full drafts; simplification, alignment, loss and matching stories; semi-supervised detection; method and result prose; revision | [SKILL.md](../../paper-craft-iccv-detection/SKILL.md) |
 | `paper-craft-iccv-segmentation` | ICCV | Semantic, instance, open-vocabulary, and promptable segmentation | Full drafts; spatial refinement, context, mask representations, transfer and prompt narratives; revision | [SKILL.md](../../paper-craft-iccv-segmentation/SKILL.md) |
+| `paper-craft-iccv-3d` | ICCV | Point clouds, geometric detection, registration, and camera BEV | Full drafts; observation and representation stories; geometric aggregation; efficiency tradeoffs; experiment prose; revision | [SKILL.md](../../paper-craft-iccv-3d/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -62,6 +63,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use detection when box assignment or localization is the main contribution. Use this specialist for 2D mask representations and task interfaces, including open-vocabulary masks; a general vision-language representation paper needs its own representation-learning guidance. Point-cloud geometry belongs to 3D perception.
 
 **Source collection:** [10 accepted ICCV papers from 2015–2023](../../paper-craft-iccv-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-iccv-segmentation/references/references.bib).
+
+### ICCV: 3D perception
+
+**Select when the contribution concerns:** point-cloud detection or recognition, rigid registration, real-scan benchmarks, point or voxel attention, range-view LiDAR detection, superpoint segmentation, or sparse camera-based BEV detection.
+
+**Useful signals in the material:** surface-to-center geometry, cross-cloud correspondence, incomplete observations, metric neighborhoods, range-dependent scale, region-level prediction, and temporal projection into camera views.
+
+**Distinguish nearby work:** use this specialist when 3D geometry or sensor representation carries the contribution, even if the outputs are boxes or labels. Use 2D detection or segmentation for contributions primarily about image-space boxes or masks. Rendering, reconstruction, and general depth estimation are outside this corpus's dedicated coverage.
+
+**Source collection:** [10 accepted ICCV papers from 2019–2023](../../paper-craft-iccv-3d/references/corpus.md), with [BibTeX](../../paper-craft-iccv-3d/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 
