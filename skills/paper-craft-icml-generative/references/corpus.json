@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
+    "landing_url": "https://proceedings.mlr.press/v32/rezende14.html",
+    "year": 2014,
+    "venue": "ICML",
+    "id": "P01",
+    "bibtex": "@InProceedings{pmlr-v32-rezende14,\n  title = \t {Stochastic Backpropagation and Approximate Inference in Deep Generative Models},\n  author = \t {Rezende, Danilo Jimenez and Mohamed, Shakir and Wierstra, Daan},\n  booktitle = \t {Proceedings of the 31st International Conference on Machine Learning},\n  pages = \t {1278--1286},\n  year = \t {2014},\n  editor = \t {Xing, Eric P. and Jebara, Tony},\n  volume = \t {32},\n  number =       {2},\n  series = \t {Proceedings of Machine Learning Research},\n  address = \t {Beijing, China},\n  month = \t {22--24 Jun},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v32/rezende14.pdf},\n  url = \t {https://proceedings.mlr.press/v32/rezende14.html}\n}",
+    "authors": [
+      "Rezende, Danilo Jimenez",
+      "Mohamed, Shakir",
+      "Wierstra, Daan"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v32/rezende14.pdf",
+    "pdf_sha256": "2f8821103767a6a9e27176d36451da3f3128e3036801026148d4ed8c65c0018b",
+    "pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:07.663414+00:00",
+    "supplement_url": "https://proceedings.mlr.press/v32/rezende14-supp.pdf",
+    "supplement_pages": 5,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–5: full supplement."
+    }
+  },
+  {
+    "title": "Variational Inference with Normalizing Flows",
+    "landing_url": "https://proceedings.mlr.press/v37/rezende15.html",
+    "year": 2015,
+    "venue": "ICML",
+    "id": "P02",
+    "bibtex": "@InProceedings{pmlr-v37-rezende15,\n  title = \t {Variational Inference with Normalizing Flows},\n  author = \t {Rezende, Danilo and Mohamed, Shakir},\n  booktitle = \t {Proceedings of the 32nd International Conference on Machine Learning},\n  pages = \t {1530--1538},\n  year = \t {2015},\n  editor = \t {Bach, Francis and Blei, David},\n  volume = \t {37},\n  series = \t {Proceedings of Machine Learning Research},\n  address = \t {Lille, France},\n  month = \t {07--09 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v37/rezende15.pdf},\n  url = \t {https://proceedings.mlr.press/v37/rezende15.html}\n}",
+    "authors": [
+      "Rezende, Danilo",
+      "Mohamed, Shakir"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v37/rezende15.pdf",
+    "pdf_sha256": "f23313ce8e35165be79324c4490e537dba349e19ff942cf368e6e8333df0c1b6",
+    "pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:07.521165+00:00",
+    "supplement_url": "https://proceedings.mlr.press/v37/rezende15-supp.pdf",
+    "supplement_pages": 1,
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Page 1: full supplement, invertibility conditions."
+    }
+  },
+  {
+    "title": "Wasserstein Generative Adversarial Networks",
+    "landing_url": "https://proceedings.mlr.press/v70/arjovsky17a.html",
+    "year": 2017,
+    "venue": "ICML",
+    "id": "P03",
+    "bibtex": "@InProceedings{pmlr-v70-arjovsky17a,\n  title = \t {{W}asserstein Generative Adversarial Networks},\n  author =       {Martin Arjovsky and Soumith Chintala and L{\\'e}on Bottou},\n  booktitle = \t {Proceedings of the 34th International Conference on Machine Learning},\n  pages = \t {214--223},\n  year = \t {2017},\n  editor = \t {Precup, Doina and Teh, Yee Whye},\n  volume = \t {70},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {06--11 Aug},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a.pdf},\n  url = \t {https://proceedings.mlr.press/v70/arjovsky17a.html}\n}",
+    "authors": [
+      "Martin Arjovsky",
+      "Soumith Chintala",
+      "L{\\'e"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a.pdf",
+    "pdf_sha256": "08ae9585c68b916043f025f0ea649b88a7455e23d57001b9e208ad27f6c3f606",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a-supp.pdf",
+    "supplement_pages": 14,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:13.238717+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Pages 1–8: distance properties, assumptions, proofs and connections."
+    }
+  },
+  {
+    "title": "Improved Denoising Diffusion Probabilistic Models",
+    "landing_url": "https://proceedings.mlr.press/v139/nichol21a.html",
+    "year": 2021,
+    "venue": "ICML",
+    "id": "P04",
+    "bibtex": "@InProceedings{pmlr-v139-nichol21a,\n  title = \t {Improved Denoising Diffusion Probabilistic Models},\n  author =       {Nichol, Alexander Quinn and Dhariwal, Prafulla},\n  booktitle = \t {Proceedings of the 38th International Conference on Machine Learning},\n  pages = \t {8162--8171},\n  year = \t {2021},\n  editor = \t {Meila, Marina and Zhang, Tong},\n  volume = \t {139},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {18--24 Jul},\n  publisher =    {PMLR},\n  pdf = \t {http://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf},\n  url = \t {https://proceedings.mlr.press/v139/nichol21a.html}\n}",
+    "authors": [
+      "Nichol, Alexander Quinn",
+      "Dhariwal, Prafulla"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf",
+    "pdf_sha256": "e365be4acbef22492cbe7c534019a025981cd88598c1e8e04f40d588f024d39d",
+    "pages": 10,
+    "supplement_url": "https://proceedings.mlr.press/v139/nichol21a/nichol21a-supp.pdf",
+    "supplement_pages": 8,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:17.373883+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Pages 1–3: hyperparameters, fast sampling, likelihood–quality tradeoff."
+    }
+  },
+  {
+    "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+    "landing_url": "https://proceedings.mlr.press/v162/nichol22a.html",
+    "year": 2022,
+    "venue": "ICML",
+    "id": "P05",
+    "bibtex": "@InProceedings{pmlr-v162-nichol22a,\n  title = \t {{GLIDE}: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models},\n  author =       {Nichol, Alexander Quinn and Dhariwal, Prafulla and Ramesh, Aditya and Shyam, Pranav and Mishkin, Pamela and Mcgrew, Bob and Sutskever, Ilya and Chen, Mark},\n  booktitle = \t {Proceedings of the 39th International Conference on Machine Learning},\n  pages = \t {16784--16804},\n  year = \t {2022},\n  editor = \t {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},\n  volume = \t {162},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {17--23 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v162/nichol22a/nichol22a.pdf},\n  url = \t {https://proceedings.mlr.press/v162/nichol22a.html}\n}",
+    "authors": [
+      "Nichol, Alexander Quinn",
+      "Dhariwal, Prafulla",
+      "Ramesh, Aditya",
+      "Shyam, Pranav",
+      "Mishkin, Pamela",
+      "Mcgrew, Bob",
+      "Sutskever, Ilya",
+      "Chen, Mark"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v162/nichol22a/nichol22a.pdf",
+    "pdf_sha256": "84d88dd197a825a2d094ee261fecb47fb242f5eeb8d7cb08b928240414e8e8aa",
+    "pages": 21,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:13.532170+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 12–14 and 16: evaluation, model details, inpainting and selected release-model discussion."
+    }
+  },
+  {
+    "title": "Consistency Models",
+    "landing_url": "https://proceedings.mlr.press/v202/song23a.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P06",
+    "bibtex": "@InProceedings{pmlr-v202-song23a,\n  title = \t {Consistency Models},\n  author =       {Song, Yang and Dhariwal, Prafulla and Chen, Mark and Sutskever, Ilya},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {32211--32252},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/song23a/song23a.pdf},\n  url = \t {https://proceedings.mlr.press/v202/song23a.html}\n}",
+    "authors": [
+      "Song, Yang",
+      "Dhariwal, Prafulla",
+      "Chen, Mark",
+      "Sutskever, Ilya"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/song23a/song23a.pdf",
+    "pdf_sha256": "8f65127c770a8e8994777010ed36dfcf64fc38f840042778eef7fe8ab2c12e10",
+    "pages": 42,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:18.308235+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 15–17 and 24–26: distillation proof, training analysis, continuous-time experiments and evaluation setup."
+    }
+  },
+  {
+    "title": "TabDDPM: Modelling Tabular Data with Diffusion Models",
+    "landing_url": "https://proceedings.mlr.press/v202/kotelnikov23a.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P07",
+    "bibtex": "@InProceedings{pmlr-v202-kotelnikov23a,\n  title = \t {{T}ab{DDPM}: Modelling Tabular Data with Diffusion Models},\n  author =       {Kotelnikov, Akim and Baranchuk, Dmitry and Rubachev, Ivan and Babenko, Artem},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {17564--17579},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/kotelnikov23a/kotelnikov23a.pdf},\n  url = \t {https://proceedings.mlr.press/v202/kotelnikov23a.html}\n}",
+    "authors": [
+      "Kotelnikov, Akim",
+      "Baranchuk, Dmitry",
+      "Rubachev, Ivan",
+      "Babenko, Artem"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/kotelnikov23a/kotelnikov23a.pdf",
+    "pdf_sha256": "490899fb963b6281e36a172fef20ea5dcede977a39db523d4a96689972878ba6",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:18.706797+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Appendix pages 11–14: transfer to another evaluator, distribution metrics and nearest-record comparisons."
+    }
+  },
+  {
+    "title": "AudioLDM: Text-to-Audio Generation with Latent Diffusion Models",
+    "landing_url": "https://proceedings.mlr.press/v202/liu23f.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P08",
+    "bibtex": "@InProceedings{pmlr-v202-liu23f,\n  title = \t {{A}udio{LDM}: Text-to-Audio Generation with Latent Diffusion Models},\n  author =       {Liu, Haohe and Chen, Zehua and Yuan, Yi and Mei, Xinhao and Liu, Xubo and Mandic, Danilo and Wang, Wenwu and Plumbley, Mark D},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {21450--21474},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/liu23f/liu23f.pdf},\n  url = \t {https://proceedings.mlr.press/v202/liu23f.html}\n}",
+    "authors": [
+      "Liu, Haohe",
+      "Chen, Zehua",
+      "Yuan, Yi",
+      "Mei, Xinhao",
+      "Liu, Xubo",
+      "Mandic, Danilo",
+      "Wang, Wenwu",
+      "Plumbley, Mark D"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/liu23f/liu23f.pdf",
+    "pdf_sha256": "c2afdd668528dc063d8d4599c10558b3e1179e6f2ee12a0302747fee7267b247",
+    "pages": 25,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:22.922073+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 13–16: component training, evaluation, adaptation, cost and limitations."
+    }
+  },
+  {
+    "title": "Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC",
+    "landing_url": "https://proceedings.mlr.press/v202/du23a.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P09",
+    "bibtex": "@InProceedings{pmlr-v202-du23a,\n  title = \t {Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and {MCMC}},\n  author =       {Du, Yilun and Durkan, Conor and Strudel, Robin and Tenenbaum, Joshua B. and Dieleman, Sander and Fergus, Rob and Sohl-Dickstein, Jascha and Doucet, Arnaud and Grathwohl, Will Sussman},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {8489--8510},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/du23a/du23a.pdf},\n  url = \t {https://proceedings.mlr.press/v202/du23a.html}\n}",
+    "authors": [
+      "Du, Yilun",
+      "Durkan, Conor",
+      "Strudel, Robin",
+      "Tenenbaum, Joshua B.",
+      "Dieleman, Sander",
+      "Fergus, Rob",
+      "Sohl-Dickstein, Jascha",
+      "Doucet, Arnaud",
+      "Grathwohl, Will Sussman"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/du23a/du23a.pdf",
+    "pdf_sha256": "c736e5fb102bbffbe37468089e27958669ac0477bd1800b7e121c71c8424efbc",
+    "pages": 22,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:23.714579+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Appendix pages 16–22: sampling, composition, energy parameterizations, failures and experimental details."
+    }
+  },
+  {
+    "title": "Fast Sampling of Diffusion Models via Operator Learning",
+    "landing_url": "https://proceedings.mlr.press/v202/zheng23d.html",
+    "year": 2023,
+    "venue": "ICML",
+    "id": "P10",
+    "bibtex": "@InProceedings{pmlr-v202-zheng23d,\n  title = \t {Fast Sampling of Diffusion Models via Operator Learning},\n  author =       {Zheng, Hongkai and Nie, Weili and Vahdat, Arash and Azizzadenesheli, Kamyar and Anandkumar, Anima},\n  booktitle = \t {Proceedings of the 40th International Conference on Machine Learning},\n  pages = \t {42390--42402},\n  year = \t {2023},\n  editor = \t {Krause, Andreas and Brunskill, Emma and Cho, Kyunghyun and Engelhardt, Barbara and Sabato, Sivan and Scarlett, Jonathan},\n  volume = \t {202},\n  series = \t {Proceedings of Machine Learning Research},\n  month = \t {23--29 Jul},\n  publisher =    {PMLR},\n  pdf = \t {https://proceedings.mlr.press/v202/zheng23d/zheng23d.pdf},\n  url = \t {https://proceedings.mlr.press/v202/zheng23d.html}\n}",
+    "authors": [
+      "Zheng, Hongkai",
+      "Nie, Weili",
+      "Vahdat, Arash",
+      "Azizzadenesheli, Kamyar",
+      "Anandkumar, Anima"
+    ],
+    "pdf_url": "https://proceedings.mlr.press/v202/zheng23d/zheng23d.pdf",
+    "pdf_sha256": "2172b8b8da3b3b6bb2a5209df4ada770f6c963e3faba78a37aa02a931f492246",
+    "pages": 13,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T22:16:24.142927+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Appendix pages 11–13: temporal spectrum, unseen temporal resolution and further discussion."
+    }
+  }
+]

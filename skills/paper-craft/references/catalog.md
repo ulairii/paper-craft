@@ -17,6 +17,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-eccv-segmentation` | ECCV | Semantic, instance, and interactive segmentation | Full drafts; context and detail; instance representations; heterogeneous tasks; open-vocabulary transfer; result explanation and revision | [SKILL.md](../../paper-craft-eccv-segmentation/SKILL.md) |
 | `paper-craft-eccv-3d` | ECCV | Point clouds, registration, geometric detection, pretraining, and camera fusion | Full drafts; geometric and representation stories; invariant and equivariant features; explanatory experiments; revision | [SKILL.md](../../paper-craft-eccv-3d/SKILL.md) |
 | `paper-craft-icml-representation` | ICML | Self-supervised and language–image representations | Full drafts; learning principles, data efficiency, transfer interfaces, identifiability and dynamics; experiment explanation and revision | [SKILL.md](../../paper-craft-icml-representation/SKILL.md) |
+| `paper-craft-icml-generative` | ICML | Generative models and sampling | Full drafts; probabilistic modeling, objectives, generation quality–cost tradeoffs, conditioning, domain adaptation, composition; revision | [SKILL.md](../../paper-craft-icml-generative/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -138,6 +139,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use a generative specialist when sample generation carries the contribution, even if the model also has an encoder. Use reinforcement learning when learning a policy or reward-driven behavior carries it. A vision benchmark does not make representation-learning research a detection or segmentation paper. For another target venue, use that venue's matching specialist when available; otherwise identify this corpus as a cross-conference reference.
 
 **Source collection:** [10 accepted ICML papers from 2020–2023](../../paper-craft-icml-representation/references/corpus.md), with [BibTeX](../../paper-craft-icml-representation/references/references.bib).
+
+### ICML: generative models
+
+**Select when the contribution concerns:** probabilistic generative learning, variational posterior families, adversarial or diffusion objectives, sample generation, conditional synthesis, diffusion distillation, fast sampling, or model composition.
+
+**Useful signals in the material:** generated samples, likelihood or variational bounds, fidelity and coverage, guidance tradeoffs, noise-to-data mappings, teacher trajectories, sampling evaluations and latency, or synthetic-data utility.
+
+**Distinguish nearby work:** use representation learning when the encoder's transferable features carry the contribution and generation is only a pretraining task. A learned world model belongs primarily to reinforcement learning when its contribution is decision making or policy improvement; use this specialist for its generative modeling argument. Select by what the method contributes, not by the presence of a diffusion backbone alone.
+
+**Source collection:** [10 accepted ICML papers from 2014–2023](../../paper-craft-icml-generative/references/corpus.md), with [BibTeX](../../paper-craft-icml-generative/references/references.bib).
 
 ## Adding a specialist
 
