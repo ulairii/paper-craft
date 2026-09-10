@@ -21,6 +21,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-icml-rl` | ICML | Reinforcement learning | Full drafts; policy optimization, actor–critic estimation, offline RL, visual control, experience replay, model-based planning, online adaptation; revision | [SKILL.md](../../paper-craft-icml-rl/SKILL.md) |
 | `paper-craft-iclr-representation` | ICLR | Self-supervised, graph, masked, and language–image representations | Full drafts; information and supervision design, collapse explanations, local transfer, data and compute efficiency; revision | [SKILL.md](../../paper-craft-iclr-representation/SKILL.md) |
 | `paper-craft-iclr-generative` | ICLR | Generative models and sampling | Full drafts; generative objectives, tractable learning, flows, GANs, diffusion, sampling efficiency, conditional synthesis, reward fine-tuning; revision | [SKILL.md](../../paper-craft-iclr-generative/SKILL.md) |
+| `paper-craft-neurips-representation` | NeurIPS | Self-supervised, supervised contrastive, graph, and local representations | Full drafts; learning objectives, invariance, label efficiency, transfer analysis and local/global tradeoffs | [SKILL.md](../../paper-craft-neurips-representation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -182,6 +183,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** select representation learning when the transferable encoder features are the contribution. Select LLM reasoning when inference-time language reasoning is the contribution. A generative image model fine-tuned with policy gradients belongs here when generation quality or controllability carries the paper; a new decision-making algorithm may call for a reinforcement-learning specialist. Match the scientific contribution rather than a shared word such as “flow,” “diffusion,” or “reward.”
 
 **Source collection:** [10 accepted ICLR papers from 2014–2024](../../paper-craft-iclr-generative/references/corpus.md), with [BibTeX](../../paper-craft-iclr-generative/references/references.bib).
+
+### NeurIPS: representation learning
+
+**Select when the contribution concerns:** self-supervised or supervised contrastive objectives, positive/negative construction, augmentation invariance, graph representations, local/global features, label-efficient pretraining and distillation, or empirical explanations of transfer.
+
+**Useful signals in the material:** frozen readouts, fine-tuned transfer, predictor or projection heads, assignment prediction, augmentation interactions, local matching, label-budget curves, and controlled feature or initialization analyses.
+
+**Distinguish nearby work:** policy or reward learning belongs with reinforcement learning when it carries the contribution, even when an encoder is trained contrastively. Sample synthesis belongs with generative modeling. Detection or segmentation used to evaluate general features does not by itself make the work a task-specific vision method. Keep the author's target conference when borrowing another venue's writing examples.
+
+**Source collection:** [10 accepted NeurIPS papers from 2019–2022](../../paper-craft-neurips-representation/references/corpus.md), with [BibTeX](../../paper-craft-neurips-representation/references/references.bib).
 
 ## Adding a specialist
 

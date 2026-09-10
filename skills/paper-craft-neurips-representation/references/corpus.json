@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Learning Representations by Maximizing Mutual Information Across Views",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/ddf354219aac374f1d40b7e760ee5bb7-Abstract.html",
+    "year": 2019,
+    "venue": "NeurIPS",
+    "id": "P01",
+    "bibtex": "@inproceedings{NEURIPS2019_ddf35421,\n author = {Bachman, Philip and Hjelm, R Devon and Buchwalter, William},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n pages = {},\n publisher = {Curran Associates, Inc.},\n title = {Learning Representations by Maximizing Mutual Information Across Views},\n url = {https://proceedings.neurips.cc/paper_files/paper/2019/file/ddf354219aac374f1d40b7e760ee5bb7-Paper.pdf},\n volume = {32},\n year = {2019}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/ddf354219aac374f1d40b7e760ee5bb7-Bibtex.bib",
+    "authors": [
+      "Bachman, Philip",
+      "Hjelm, R Devon",
+      "Buchwalter, William"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/ddf354219aac374f1d40b7e760ee5bb7-Paper.pdf",
+    "pdf_sha256": "91646583402e67066cf6772b7e2db570a1bc442776381bb80b1cc299bf376e24",
+    "pages": 11,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:12.830639+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "No separate supplement linked; the complete main argument was read."
+    }
+  },
+  {
+    "title": "Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P02",
+    "bibtex": "@inproceedings{NEURIPS2020_f3ada80d,\n author = {Grill, Jean-Bastien and Strub, Florian and Altch\\'{e}, Florent and Tallec, Corentin and Richemond, Pierre and Buchatskaya, Elena and Doersch, Carl and Avila Pires, Bernardo and Guo, Zhaohan and Gheshlaghi Azar, Mohammad and Piot, Bilal and kavukcuoglu, koray and Munos, Remi and Valko, Michal},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {21271--21284},\n publisher = {Curran Associates, Inc.},\n title = {Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/11510-/bibtex",
+    "authors": [
+      "Grill, Jean-Bastien",
+      "Strub, Florian",
+      "Altché, Florent",
+      "Tallec, Corentin",
+      "Richemond, Pierre",
+      "Buchatskaya, Elena",
+      "Doersch, Carl",
+      "Avila Pires, Bernardo",
+      "Guo, Zhaohan",
+      "Gheshlaghi Azar, Mohammad",
+      "Piot, Bilal",
+      "kavukcuoglu, koray",
+      "Munos, Remi",
+      "Valko, Michal"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf",
+    "pdf_sha256": "d6a3c810134ffdddabe827689499cf5b4802227a381fe09795f637263af2f97d",
+    "pages": 14,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Supplemental.pdf",
+    "supplement_pages": 20,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:19.576571+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–4 and 7–17: setup, transfer, ablations and predictor analysis."
+    }
+  },
+  {
+    "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/70feb62b69f16e0238f741fab228fec2-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P03",
+    "bibtex": "@inproceedings{NEURIPS2020_70feb62b,\n author = {Caron, Mathilde and Misra, Ishan and Mairal, Julien and Goyal, Priya and Bojanowski, Piotr and Joulin, Armand},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {9912--9924},\n publisher = {Curran Associates, Inc.},\n title = {Unsupervised Learning of Visual Features by Contrasting Cluster Assignments},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/70feb62b69f16e0238f741fab228fec2-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10555-/bibtex",
+    "authors": [
+      "Caron, Mathilde",
+      "Misra, Ishan",
+      "Mairal, Julien",
+      "Goyal, Priya",
+      "Bojanowski, Piotr",
+      "Joulin, Armand"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/70feb62b69f16e0238f741fab228fec2-Paper.pdf",
+    "pdf_sha256": "a18124b18b012b502c9d584fa527f08218858e7c41152aaf250bd8a3c0f69b60",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/70feb62b69f16e0238f741fab228fec2-Supplemental.pdf",
+    "supplement_pages": 11,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:18.790955+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Supplement pages 1–9: assignment, multicrop, evaluation and ablations."
+    }
+  },
+  {
+    "title": "Big Self-Supervised Models are Strong Semi-Supervised Learners",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/fcbc95ccdd551da181207c0c1400c655-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P04",
+    "bibtex": "@inproceedings{NEURIPS2020_fcbc95cc,\n author = {Chen, Ting and Kornblith, Simon and Swersky, Kevin and Norouzi, Mohammad and Hinton, Geoffrey E},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {22243--22255},\n publisher = {Curran Associates, Inc.},\n title = {Big Self-Supervised Models are Strong Semi-Supervised Learners},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/fcbc95ccdd551da181207c0c1400c655-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/11590-/bibtex",
+    "authors": [
+      "Chen, Ting",
+      "Kornblith, Simon",
+      "Swersky, Kevin",
+      "Norouzi, Mohammad",
+      "Hinton, Geoffrey E"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/fcbc95ccdd551da181207c0c1400c655-Paper.pdf",
+    "pdf_sha256": "5a0445eef4d760514eefce8deeacd8661261280b977a9e79820ec15d501e4b77",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/fcbc95ccdd551da181207c0c1400c655-Supplemental.pdf",
+    "supplement_pages": 5,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:25.520101+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Complete supplement, pages 1–5."
+    }
+  },
+  {
+    "title": "Supervised Contrastive Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P05",
+    "bibtex": "@inproceedings{NEURIPS2020_d89a66c7,\n author = {Khosla, Prannay and Teterwak, Piotr and Wang, Chen and Sarna, Aaron and Tian, Yonglong and Isola, Phillip and Maschinot, Aaron and Liu, Ce and Krishnan, Dilip},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {18661--18673},\n publisher = {Curran Associates, Inc.},\n title = {Supervised Contrastive Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/11291-/bibtex",
+    "authors": [
+      "Khosla, Prannay",
+      "Teterwak, Piotr",
+      "Wang, Chen",
+      "Sarna, Aaron",
+      "Tian, Yonglong",
+      "Isola, Phillip",
+      "Maschinot, Aaron",
+      "Liu, Ce",
+      "Krishnan, Dilip"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf",
+    "pdf_sha256": "3da9d0812b27de20e3623ea0f71933dd866f10459fdf04e1129f9f5abdc093cd",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Supplemental.pdf",
+    "supplement_pages": 11,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:31.241291+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1–9: gradients, positive counts, corruption and training choices."
+    }
+  },
+  {
+    "title": "What Makes for Good Views for Contrastive Learning?",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/4c2e5eaae9152079b9e95845750bb9ab-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P06",
+    "bibtex": "@inproceedings{NEURIPS2020_4c2e5eaa,\n author = {Tian, Yonglong and Sun, Chen and Poole, Ben and Krishnan, Dilip and Schmid, Cordelia and Isola, Phillip},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {6827--6839},\n publisher = {Curran Associates, Inc.},\n title = {What Makes for Good Views for Contrastive Learning?},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/4c2e5eaae9152079b9e95845750bb9ab-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10297-/bibtex",
+    "authors": [
+      "Tian, Yonglong",
+      "Sun, Chen",
+      "Poole, Ben",
+      "Krishnan, Dilip",
+      "Schmid, Cordelia",
+      "Isola, Phillip"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c2e5eaae9152079b9e95845750bb9ab-Paper.pdf",
+    "pdf_sha256": "df08b011a83d566c431bbcd4edcf90cb282ebe006ece5d6185696f36d6afc7a2",
+    "pages": 13,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/4c2e5eaae9152079b9e95845750bb9ab-Supplemental.pdf",
+    "supplement_pages": 13,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:32.307829+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1–8: proof, controlled views, augmentation and transfer."
+    }
+  },
+  {
+    "title": "Debiased Contrastive Learning",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/63c3ddcc7b23daa1e42dc41f9a44a873-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P07",
+    "bibtex": "@inproceedings{NEURIPS2020_63c3ddcc,\n author = {Chuang, Ching-Yao and Robinson, Joshua and Lin, Yen-Chen and Torralba, Antonio and Jegelka, Stefanie},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {8765--8775},\n publisher = {Curran Associates, Inc.},\n title = {Debiased Contrastive Learning},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/63c3ddcc7b23daa1e42dc41f9a44a873-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10459-/bibtex",
+    "authors": [
+      "Chuang, Ching-Yao",
+      "Robinson, Joshua",
+      "Lin, Yen-Chen",
+      "Torralba, Antonio",
+      "Jegelka, Stefanie"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/63c3ddcc7b23daa1e42dc41f9a44a873-Paper.pdf",
+    "pdf_sha256": "4e999a39783ae2c61c189ef1128efa4ff3c1be9bf0365e140d513f25333a3f1e",
+    "pages": 11,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/63c3ddcc7b23daa1e42dc41f9a44a873-Supplemental.pdf",
+    "supplement_pages": 9,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:37.804500+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "Supplement pages 1–3 and 7–9: selected derivations and complete experimental details."
+    }
+  },
+  {
+    "title": "What is being transferred in transfer learning?",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/0607f4c705595b911a4f3e7a127b44e0-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P08",
+    "bibtex": "@inproceedings{NEURIPS2020_0607f4c7,\n author = {Neyshabur, Behnam and Sedghi, Hanie and Zhang, Chiyuan},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {512--523},\n publisher = {Curran Associates, Inc.},\n title = {What is being transferred in transfer learning? },\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/9768-/bibtex",
+    "authors": [
+      "Neyshabur, Behnam",
+      "Sedghi, Hanie",
+      "Zhang, Chiyuan"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Paper.pdf",
+    "pdf_sha256": "701384760137a3bf63051773de660ec44af669810022358309f95423be368572",
+    "pages": 12,
+    "supplement_archive_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Supplemental.zip",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:37.885194+00:00",
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/0607f4c705595b911a4f3e7a127b44e0-Supplemental.zip",
+    "supplement_archive_member": "Supplementary_materials_submission_11474/What_is_being_transferred_in_transfer_learning_.part2.13_28.pdf",
+    "supplement_pages": 16,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Main appendix PDF inside the official supplement ZIP, pages 1–8 and 14–16; separate figure-gallery PDFs were not used."
+    }
+  },
+  {
+    "title": "Graph Contrastive Learning with Augmentations",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/3fe230348e9a12c13120749e3f9fa4cd-Abstract.html",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "id": "P09",
+    "bibtex": "@inproceedings{NEURIPS2020_3fe23034,\n author = {You, Yuning and Chen, Tianlong and Sui, Yongduo and Chen, Ting and Wang, Zhangyang and Shen, Yang},\n booktitle = {Advances in Neural Information Processing Systems},\n editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},\n pages = {5812--5823},\n publisher = {Curran Associates, Inc.},\n title = {Graph Contrastive Learning with Augmentations},\n url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf},\n volume = {33},\n year = {2020}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/10212-/bibtex",
+    "authors": [
+      "You, Yuning",
+      "Chen, Tianlong",
+      "Sui, Yongduo",
+      "Chen, Ting",
+      "Wang, Zhangyang",
+      "Shen, Yang"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Paper.pdf",
+    "pdf_sha256": "51be2d8ab2e2f5cf5aba3f580ff96cbac0f799a7bb75fff26757a7905a58ace5",
+    "pages": 12,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/3fe230348e9a12c13120749e3f9fa4cd-Supplemental.pdf",
+    "supplement_pages": 7,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:42.769756+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Supplement pages 1–6: algorithms, augmentation studies, evaluation and theoretical connection."
+    }
+  },
+  {
+    "title": "VICRegL: Self-Supervised Learning of Local Visual Features",
+    "landing_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/39cee562b91611c16ac0b100f0bc1ea1-Abstract-Conference.html",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "id": "P10",
+    "bibtex": "@inproceedings{NEURIPS2022_39cee562,\n author = {Bardes, Adrien and Ponce, Jean and LeCun, Yann},\n booktitle = {Advances in Neural Information Processing Systems},\n doi = {10.52202/068431-0640},\n editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},\n pages = {8799--8810},\n publisher = {Curran Associates, Inc.},\n title = {VICRegL: Self-Supervised Learning of Local Visual Features},\n url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/39cee562b91611c16ac0b100f0bc1ea1-Paper-Conference.pdf},\n volume = {35},\n year = {2022}\n}",
+    "bibtex_url": "https://proceedings.neurips.cc/paper_files/paper/19317-/bibtex",
+    "authors": [
+      "Bardes, Adrien",
+      "Ponce, Jean",
+      "LeCun, Yann"
+    ],
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/39cee562b91611c16ac0b100f0bc1ea1-Paper-Conference.pdf",
+    "pdf_sha256": "a6c2afea333b4b98b4769fde5c67c0f3a4e5d769a67b3ed5c891c2c006e6c6f0",
+    "pages": 12,
+    "supplement_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/39cee562b91611c16ac0b100f0bc1ea1-Supplemental-Conference.pdf",
+    "supplement_pages": 6,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:11:48.412409+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "Complete supplement, pages 1–6; figure discussion is based on captions."
+    }
+  }
+]
