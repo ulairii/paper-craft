@@ -59,6 +59,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [ICCV · Object detection](skills/paper-craft-iccv-detection/SKILL.md) | [10 ICCV papers, 2015–2023](skills/paper-craft-iccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-detection/references/references.bib) | Spatial alignment, dense losses, anchor-free prediction, pseudo labels, and transformer training |
 | [ICCV · Segmentation](skills/paper-craft-iccv-segmentation/SKILL.md) | [10 ICCV papers, 2015–2023](skills/paper-craft-iccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-segmentation/references/references.bib) | Spatial refinement, efficient context, query masks, open-vocabulary transfer, and prompting |
 | [ICCV · 3D perception](skills/paper-craft-iccv-3d/SKILL.md) | [10 ICCV papers, 2019–2023](skills/paper-craft-iccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-3d/references/references.bib) | Geometric detection, registration, real scans, sparse representations, and camera BEV |
+| [ECCV · Object detection](skills/paper-craft-eccv-detection/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-detection/references/references.bib) | Output reformulation, adaptive training, precise boxes, semi-supervised and open-vocabulary learning |
 
 ## A small example
 

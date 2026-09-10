@@ -13,6 +13,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-iccv-detection` | ICCV | Object detection | Full drafts; simplification, alignment, loss and matching stories; semi-supervised detection; method and result prose; revision | [SKILL.md](../../paper-craft-iccv-detection/SKILL.md) |
 | `paper-craft-iccv-segmentation` | ICCV | Semantic, instance, open-vocabulary, and promptable segmentation | Full drafts; spatial refinement, context, mask representations, transfer and prompt narratives; revision | [SKILL.md](../../paper-craft-iccv-segmentation/SKILL.md) |
 | `paper-craft-iccv-3d` | ICCV | Point clouds, geometric detection, registration, and camera BEV | Full drafts; observation and representation stories; geometric aggregation; efficiency tradeoffs; experiment prose; revision | [SKILL.md](../../paper-craft-iccv-3d/SKILL.md) |
+| `paper-craft-eccv-detection` | ECCV | Object detection | Full drafts; keypoint and set representations; training and localization; semi-supervised and open-vocabulary narratives; revision | [SKILL.md](../../paper-craft-eccv-detection/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -73,6 +74,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** use this specialist when 3D geometry or sensor representation carries the contribution, even if the outputs are boxes or labels. Use 2D detection or segmentation for contributions primarily about image-space boxes or masks. Rendering, reconstruction, and general depth estimation are outside this corpus's dedicated coverage.
 
 **Source collection:** [10 accepted ICCV papers from 2019–2023](../../paper-craft-iccv-3d/references/corpus.md), with [BibTeX](../../paper-craft-iccv-3d/references/references.bib).
+
+### ECCV: object detection
+
+**Select when the contribution concerns:** box or keypoint representations, set prediction, adaptive assignment, detector training, precise boundary localization, semi-supervised box learning, open-vocabulary detection, or geometry in detector attention.
+
+**Useful signals in the material:** duplicate predictions, strict-overlap AP, changing proposal quality, dense teacher outputs, pseudo-box uncertainty, text-conditioned regions, and convergence of detection queries.
+
+**Distinguish nearby work:** use this specialist for ECCV submissions whose central contribution is detecting objects. A mask-only contribution belongs to segmentation, even if it uses a detector; a general language–image representation belongs to representation learning unless object localization carries the insight. Three-dimensional sensor geometry belongs to 3D perception.
+
+**Source collection:** [10 accepted ECCV papers from 2018–2024](../../paper-craft-eccv-detection/references/corpus.md), with [BibTeX](../../paper-craft-eccv-detection/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 

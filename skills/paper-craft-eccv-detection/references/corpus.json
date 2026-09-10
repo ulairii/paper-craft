@@ -1,0 +1,254 @@
+[
+  {
+    "id": "P01",
+    "title": "CornerNet: Detecting Objects as Paired Keypoints",
+    "year": 2018,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.php",
+    "authors": [
+      "Hei Law",
+      "Jia Deng"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf",
+    "pdf_sha256": "83810bf1b447761381f6409ba4680225f275a9164a5ba42afae6e1767cbbc44f",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:36.699071+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP01,\n  author = {Hei Law and Jia Deng},\n  title = {CornerNet: Detecting Objects as Paired Keypoints},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2018},\n  url = {https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "End-to-End Object Detection with Transformers",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/832_ECCV_2020_paper.php",
+    "authors": [
+      "Nicolas Carion",
+      "Francisco Massa",
+      "Gabriel Synnaeve",
+      "Nicolas Usunier",
+      "Alexander Kirillov",
+      "Sergey Zagoruyko"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460205.pdf",
+    "pdf_sha256": "cf016cbc2c80a6bc43ae0058d1824fba77630ddb7e4ac7224e6d0905a51356f8",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:37.499716+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP02,\n  author = {Nicolas Carion and Francisco Massa and Gabriel Synnaeve and Nicolas Usunier and Alexander Kirillov and Sergey Zagoruyko},\n  title = {End-to-End Object Detection with Transformers},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/832_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2335_ECCV_2020_paper.php",
+    "authors": [
+      "Hongkai Zhang",
+      "Hong Chang",
+      "Bingpeng Ma",
+      "Naiyan Wang",
+      "Xilin Chen"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600256.pdf",
+    "pdf_sha256": "aee954b54357627c4af744585d55c5dcbcdbc5909545a5680457d024301e6ed8",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:36.792346+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP03,\n  author = {Hongkai Zhang and Hong Chang and Bingpeng Ma and Naiyan Wang and Xilin Chen},\n  title = {Dynamic R-CNN: Towards High Quality Object Detection via Dynamic Training},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2335_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "Probabilistic Anchor Assignment with IoU Prediction for Object Detection",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5041_ECCV_2020_paper.php",
+    "authors": [
+      "Kang Kim",
+      "Hee Seok Lee"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700358.pdf",
+    "pdf_sha256": "8b869607e70764ece31ef8994600917fd6c6a065c2860c63433eb13fdb265652",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:43.972978+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP04,\n  author = {Kang Kim and Hee Seok Lee},\n  title = {Probabilistic Anchor Assignment with IoU Prediction for Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/5041_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "Side-Aware Boundary Localization for More Precise Object Detection",
+    "year": 2020,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2272_ECCV_2020_paper.php",
+    "authors": [
+      "Jiaqi Wang",
+      "Wenwei Zhang",
+      "Yuhang Cao",
+      "Kai Chen",
+      "Jiangmiao Pang",
+      "Tao Gong",
+      "Jianping Shi",
+      "Chen Change Loy",
+      "Dahua Lin"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490392.pdf",
+    "pdf_sha256": "cec13717d50f1a2cf527e8af63a223ed1f363b65ffeb378728e3f7656c2a344e",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:43.499192+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP05,\n  author = {Jiaqi Wang and Wenwei Zhang and Yuhang Cao and Kai Chen and Jiangmiao Pang and Tao Gong and Jianping Shi and Chen Change Loy and Dahua Lin},\n  title = {Side-Aware Boundary Localization for More Precise Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2020},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2272_ECCV_2020_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "Dense Teacher: Dense Pseudo-Labels for Semi-Supervised Object Detection",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/961_ECCV_2022_paper.php",
+    "authors": [
+      "Hongyu Zhou",
+      "Zheng Ge",
+      "Songtao Liu",
+      "Weixin Mao",
+      "Zeming Li",
+      "Haiyan Yu",
+      "Jian Sun"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690036.pdf",
+    "pdf_sha256": "03c261c79eb982224acc68678b9faf590b6662666e511e46853052f2161db778",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:59.676824+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP06,\n  author = {Hongyu Zhou and Zheng Ge and Songtao Liu and Weixin Mao and Zeming Li and Haiyan Yu and Jian Sun},\n  title = {Dense Teacher: Dense Pseudo-Labels for Semi-Supervised Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/961_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2783_ECCV_2022_paper.php",
+    "authors": [
+      "Gang Li",
+      "Xiang Li",
+      "Yujie Wang",
+      "Yichao Wu",
+      "Ding Liang",
+      "Shanshan Zhang"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690449.pdf",
+    "pdf_sha256": "674dd60daef34564158d82c1d540c6189c368869c051ba731824d38d8934ba4b",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:50.668006+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP07,\n  author = {Gang Li and Xiang Li and Yujie Wang and Yichao Wu and Ding Liang and Shanshan Zhang},\n  title = {PseCo: Pseudo Labeling and Consistency Training for Semi-Supervised Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2783_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Open-Vocabulary DETR with Conditional Matching",
+    "year": 2022,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1248_ECCV_2022_paper.php",
+    "authors": [
+      "Yuhang Zang",
+      "Wei Li",
+      "Kaiyang Zhou",
+      "Chen Huang",
+      "Chen Change Loy"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690107.pdf",
+    "pdf_sha256": "9b2c5fae80efa5f90d2bfc0e565f3b27b78bc37556bb34bb11d2f4521775eeb9",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:50.771348+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP08,\n  author = {Yuhang Zang and Wei Li and Kaiyang Zhou and Chen Huang and Chen Change Loy},\n  title = {Open-Vocabulary DETR with Conditional Matching},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2022},\n  url = {https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1248_ECCV_2022_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read pages 1–5: failure discussion, proposal construction, embedding loss, query copies, and implementation. Figure discussion uses text and captions."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690107-supp.pdf"
+  },
+  {
+    "id": "P09",
+    "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+    "year": 2024,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6319_ECCV_2024_paper.php",
+    "authors": [
+      "Shilong Liu",
+      "Zhaoyang Zeng",
+      "Tianhe Ren",
+      "Feng Li",
+      "Hao Zhang",
+      "Jie Yang",
+      "Qing Jiang",
+      "Chunyuan Li",
+      "Jianwei Yang",
+      "Hang Su",
+      "Jun Zhu",
+      "Lei Zhang"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06319.pdf",
+    "pdf_sha256": "7de5928a4e894a40065a1e5848716d02a4cdb49729e0d5d9459d053cc9334a5a",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:57.154696+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP09,\n  author = {Shilong Liu and Zhaoyang Zeng and Tianhe Ren and Feng Li and Hao Zhang and Jie Yang and Qing Jiang and Chunyuan Li and Jianwei Yang and Hang Su and Jun Zhu and Lei Zhang},\n  title = {Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2024},\n  url = {https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6319_ECCV_2024_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Read supplement PDF pages 2–4 and 8–10: data composition, transfer from DINO, closed-set results, query count, language encoder, and selected transfer analyses. Other pages are not used for these notes."
+    },
+    "supplement_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06319-supp.pdf"
+  },
+  {
+    "id": "P10",
+    "title": "Relation DETR: Exploring Explicit Position Relation Prior for Object Detection",
+    "year": 2024,
+    "venue": "ECCV",
+    "landing_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6646_ECCV_2024_paper.php",
+    "authors": [
+      "Xiuquan Hou",
+      "Meiqin Liu",
+      "Senlin Zhang",
+      "Ping Wei",
+      "Badong Chen",
+      "Xuguang Lan"
+    ],
+    "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06646.pdf",
+    "pdf_sha256": "486f8dafae326f372b050397f6bc8bec572310488048cbe72994fb4b8b65e79d",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:30:57.194731+00:00",
+    "bibtex": "@inproceedings{eccvdetectionP10,\n  author = {Xiuquan Hou and Meiqin Liu and Senlin Zhang and Ping Wei and Badong Chen and Xuguang Lan},\n  title = {Relation DETR: Exploring Explicit Position Relation Prior for Object Detection},\n  booktitle = {European Conference on Computer Vision (ECCV)},\n  year = {2024},\n  url = {https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6646_ECCV_2024_paper.php}\n}",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement": "Not used for these notes."
+    }
+  }
+]
