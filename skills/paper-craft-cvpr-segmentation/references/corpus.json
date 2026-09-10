@@ -1,0 +1,245 @@
+[
+  {
+    "id": "P01",
+    "title": "Fully Convolutional Networks for Semantic Segmentation",
+    "year": 2015,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf",
+    "pdf_sha256": "c6396bd8405157633a81da8d38bfd15fe8cf804d03fa37d7f0a022451149c372",
+    "pages": 10,
+    "bibtex": "@InProceedings{Long_2015_CVPR,\nauthor = {Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},\ntitle = {Fully Convolutional Networks for Semantic Segmentation},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2015}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:50.664856+00:00",
+    "authors": [
+      "Long, Jonathan",
+      "Shelhamer, Evan",
+      "Darrell, Trevor"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Pyramid Scene Parsing Network",
+    "year": 2017,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.pdf",
+    "pdf_sha256": "1dd0eb848b2776fc4ec3b2ee57b02fa00d8ae6b57a4655e739cea5866246fb8f",
+    "pages": 10,
+    "bibtex": "@InProceedings{Zhao_2017_CVPR,\nauthor = {Zhao, Hengshuang and Shi, Jianping and Qi, Xiaojuan and Wang, Xiaogang and Jia, Jiaya},\ntitle = {Pyramid Scene Parsing Network},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {July},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:51.598430+00:00",
+    "authors": [
+      "Zhao, Hengshuang",
+      "Shi, Jianping",
+      "Qi, Xiaojuan",
+      "Wang, Xiaogang",
+      "Jia, Jiaya"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation",
+    "year": 2017,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Lin_RefineNet_Multi-Path_Refinement_CVPR_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_RefineNet_Multi-Path_Refinement_CVPR_2017_paper.pdf",
+    "pdf_sha256": "1f0184e3225894542b852694ed0ba87bf60a2dffd656f7a442924a62e11b1397",
+    "pages": 10,
+    "bibtex": "@InProceedings{Lin_2017_CVPR,\nauthor = {Lin, Guosheng and Milan, Anton and Shen, Chunhua and Reid, Ian},\ntitle = {RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {July},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:49.838390+00:00",
+    "authors": [
+      "Lin, Guosheng",
+      "Milan, Anton",
+      "Shen, Chunhua",
+      "Reid, Ian"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "Context Encoding for Semantic Segmentation",
+    "year": 2018,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_Context_Encoding_for_CVPR_2018_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_Context_Encoding_for_CVPR_2018_paper.pdf",
+    "pdf_sha256": "c14ab9fbde516fb19a799b7be390f3c0fa0f82c43da23a0cf1ec98ce8b1f7ff3",
+    "pages": 10,
+    "bibtex": "@InProceedings{Zhang_2018_CVPR,\nauthor = {Zhang, Hang and Dana, Kristin and Shi, Jianping and Zhang, Zhongyue and Wang, Xiaogang and Tyagi, Ambrish and Agrawal, Amit},\ntitle = {Context Encoding for Semantic Segmentation},\nbooktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2018}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:56.105390+00:00",
+    "authors": [
+      "Zhang, Hang",
+      "Dana, Kristin",
+      "Shi, Jianping",
+      "Zhang, Zhongyue",
+      "Wang, Xiaogang",
+      "Tyagi, Ambrish",
+      "Agrawal, Amit"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "Dual Attention Network for Scene Segmentation",
+    "year": 2019,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Fu_Dual_Attention_Network_for_Scene_Segmentation_CVPR_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Fu_Dual_Attention_Network_for_Scene_Segmentation_CVPR_2019_paper.pdf",
+    "pdf_sha256": "e6861233d7a5f07660b5d84265cf7940fc35080e11c71404327cb9703b7782f3",
+    "pages": 9,
+    "bibtex": "@InProceedings{Fu_2019_CVPR,\nauthor = {Fu, Jun and Liu, Jing and Tian, Haijie and Li, Yong and Bao, Yongjun and Fang, Zhiwei and Lu, Hanqing},\ntitle = {Dual Attention Network for Scene Segmentation},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:57.159474+00:00",
+    "authors": [
+      "Fu, Jun",
+      "Liu, Jing",
+      "Tian, Haijie",
+      "Li, Yong",
+      "Bao, Yongjun",
+      "Fang, Zhiwei",
+      "Lu, Hanqing"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "Panoptic Feature Pyramid Networks",
+    "year": 2019,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Kirillov_Panoptic_Feature_Pyramid_Networks_CVPR_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Feature_Pyramid_Networks_CVPR_2019_paper.pdf",
+    "pdf_sha256": "99f0e117cefd0944a168a034890d074bd677c2f47052b6f9be8470edd08cba02",
+    "pages": 10,
+    "bibtex": "@InProceedings{Kirillov_2019_CVPR,\nauthor = {Kirillov, Alexander and Girshick, Ross and He, Kaiming and Dollar, Piotr},\ntitle = {Panoptic Feature Pyramid Networks},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:35:59.021070+00:00",
+    "authors": [
+      "Kirillov, Alexander",
+      "Girshick, Ross",
+      "He, Kaiming",
+      "Dollar, Piotr"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "PointRend: Image Segmentation As Rendering",
+    "year": 2020,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Kirillov_PointRend_Image_Segmentation_As_Rendering_CVPR_2020_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Kirillov_PointRend_Image_Segmentation_As_Rendering_CVPR_2020_paper.pdf",
+    "pdf_sha256": "1c534b9d5dcef9fdf0e6318fb593cede34b769c84763f363c33aa3adb754e8e5",
+    "pages": 10,
+    "bibtex": "@InProceedings{Kirillov_2020_CVPR,\nauthor = {Kirillov, Alexander and Wu, Yuxin and He, Kaiming and Girshick, Ross},\ntitle = {PointRend: Image Segmentation As Rendering},\nbooktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\nmonth = {June},\nyear = {2020}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:07.033529+00:00",
+    "authors": [
+      "Kirillov, Alexander",
+      "Wu, Yuxin",
+      "He, Kaiming",
+      "Girshick, Ross"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Masked-Attention Mask Transformer for Universal Image Segmentation",
+    "year": 2022,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Masked-Attention_Mask_Transformer_for_Universal_Image_Segmentation_CVPR_2022_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Cheng_Masked-Attention_Mask_Transformer_for_Universal_Image_Segmentation_CVPR_2022_paper.pdf",
+    "pdf_sha256": "4374a5b09a2f75bb37ff1016d92ff37cf4d386e5b75d0451be9e16f7e53d8276",
+    "pages": 10,
+    "bibtex": "@InProceedings{Cheng_2022_CVPR,\n    author    = {Cheng, Bowen and Misra, Ishan and Schwing, Alexander G. and Kirillov, Alexander and Girdhar, Rohit},\n    title     = {Masked-Attention Mask Transformer for Universal Image Segmentation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2022},\n    pages     = {1290-1299}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:03.741687+00:00",
+    "authors": [
+      "Cheng, Bowen",
+      "Misra, Ishan",
+      "Schwing, Alexander G.",
+      "Kirillov, Alexander",
+      "Girdhar, Rohit"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "Mask DINO: Towards a Unified Transformer-Based Framework for Object Detection and Segmentation",
+    "year": 2023,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Li_Mask_DINO_Towards_a_Unified_Transformer-Based_Framework_for_Object_Detection_CVPR_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Mask_DINO_Towards_a_Unified_Transformer-Based_Framework_for_Object_Detection_CVPR_2023_paper.pdf",
+    "pdf_sha256": "b00d1c020f119778864101b7dffca74dda800c957a7a46c81f4a279c3f9fabda",
+    "pages": 10,
+    "bibtex": "@InProceedings{Li_2023_CVPR,\n    author    = {Li, Feng and Zhang, Hao and Xu, Huaizhe and Liu, Shilong and Zhang, Lei and Ni, Lionel M. and Shum, Heung-Yeung},\n    title     = {Mask DINO: Towards a Unified Transformer-Based Framework for Object Detection and Segmentation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {3041-3050}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:07.031411+00:00",
+    "authors": [
+      "Li, Feng",
+      "Zhang, Hao",
+      "Xu, Huaizhe",
+      "Liu, Shilong",
+      "Zhang, Lei",
+      "Ni, Lionel M.",
+      "Shum, Heung-Yeung"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "OneFormer: One Transformer To Rule Universal Image Segmentation",
+    "year": 2023,
+    "venue": "CVPR",
+    "landing_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Jain_OneFormer_One_Transformer_To_Rule_Universal_Image_Segmentation_CVPR_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Jain_OneFormer_One_Transformer_To_Rule_Universal_Image_Segmentation_CVPR_2023_paper.pdf",
+    "pdf_sha256": "22bb833c3f9554f33d7a66ad9dc51a7dad3e15b68695dcb35fafa48cd643e3dc",
+    "pages": 10,
+    "bibtex": "@InProceedings{Jain_2023_CVPR,\n    author    = {Jain, Jitesh and Li, Jiachen and Chiu, Mang Tik and Hassani, Ali and Orlov, Nikita and Shi, Humphrey},\n    title     = {OneFormer: One Transformer To Rule Universal Image Segmentation},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {2989-2998}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T20:36:11.035972+00:00",
+    "authors": [
+      "Jain, Jitesh",
+      "Li, Jiachen",
+      "Chiu, Mang Tik",
+      "Hassani, Ali",
+      "Orlov, Nikita",
+      "Shi, Humphrey"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Read sections A–F and figure captions on PDF pages 1–8; references not needed."
+    },
+    "supplement_url": "https://openaccess.thecvf.com/content/CVPR2023/supplemental/Jain_OneFormer_One_Transformer_CVPR_2023_supplemental.pdf"
+  }
+]

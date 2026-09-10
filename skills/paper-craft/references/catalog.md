@@ -8,6 +8,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 |---|---|---|---|---|
 | `paper-craft-iclr-reasoning` | ICLR | LLM reasoning and test-time compute | Full drafts; story and contribution framing; titles and abstracts; introductions and methods; experiment narratives; prose revision | [SKILL.md](../../paper-craft-iclr-reasoning/SKILL.md) |
 | `paper-craft-cvpr-detection` | CVPR | Object detection | Full drafts; localization, representation, assignment, efficiency, and convergence stories; method and result explanation; prose revision | [SKILL.md](../../paper-craft-cvpr-detection/SKILL.md) |
+| `paper-craft-cvpr-segmentation` | CVPR | Semantic, instance, and panoptic segmentation | Full drafts; context and boundary stories; task unification; method and experiment prose; revision | [SKILL.md](../../paper-craft-cvpr-segmentation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -18,6 +19,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** mask prediction and pixel labeling belong to segmentation when they carry the contribution. Point-cloud geometry and 3D box prediction belong to 3D perception. An LLM that happens to describe objects is not automatically a detector paper.
 
 **Source collection:** [10 accepted CVPR papers from 2014–2022](../../paper-craft-cvpr-detection/references/corpus.md), with [BibTeX](../../paper-craft-cvpr-detection/references/references.bib).
+
+### CVPR: segmentation
+
+**Select when the contribution concerns:** semantic pixel labeling, instance masks, panoptic grouping, mask boundaries, scene context for segmentation, or unifying segmentation tasks.
+
+**Useful signals in the material:** mask quality and boundary results; feature refinement for dense labels; context-dependent category confusion; task-conditioned masks; joint semantic, instance, and panoptic predictions.
+
+**Distinguish nearby work:** use detection as primary when box localization or detector assignment carries the contribution and masks are secondary. Use segmentation as primary when mask representation, boundary quality, or grouping semantics is the insight. Point sampling in a 2D mask is different from 3D point-cloud perception.
+
+**Source collection:** [10 accepted CVPR papers from 2015–2023](../../paper-craft-cvpr-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-cvpr-segmentation/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 

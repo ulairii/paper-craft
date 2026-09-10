@@ -54,6 +54,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 |---|---|---|
 | [ICLR · LLM reasoning and test-time compute](skills/paper-craft-iclr-reasoning/SKILL.md) | [10 ICLR papers, 2023–2025](skills/paper-craft-iclr-reasoning/references/corpus.md) | Sampling, decomposition, verification, self-correction, search, and compute allocation |
 | [CVPR · Object detection](skills/paper-craft-cvpr-detection/SKILL.md) | [10 CVPR papers, 2014–2022](skills/paper-craft-cvpr-detection/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-detection/references/references.bib) | Localization, feature pyramids, assignment, sparse proposals, efficiency, and convergence |
+| [CVPR · Segmentation](skills/paper-craft-cvpr-segmentation/SKILL.md) | [10 CVPR papers, 2015–2023](skills/paper-craft-cvpr-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-segmentation/references/references.bib) | Dense prediction, context, boundaries, refinement, and task unification |
 
 ## A small example
 
