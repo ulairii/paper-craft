@@ -1,6 +1,19 @@
 # Try paper-craft
 
-First ask your assistant to read `skills/paper-craft-iclr-reasoning/SKILL.md` from your clone. Then give it a task and the material to write from.
+First ask your assistant to read `skills/paper-craft/SKILL.md` from your clone, or invoke the installed `paper-craft` entry point. It selects the writing guidance from your target conference and material; you do not need to name a specialist.
+
+## Write a full submission draft
+
+```text
+I am submitting to ICLR. Write a full draft from the method description
+and experiment results in these files. Find the central insight and make
+the experiment section explain it. Use plain academic English and save
+the manuscript as draft.md. Keep brief placeholders for missing details.
+
+[Paths to the method description and results]
+```
+
+The entry point infers the research topic from the files. It loads a matching specialist when available and uses general guidance otherwise. The output should be a manuscript draft, not only a proposed outline.
 
 ## Find the story
 

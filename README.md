@@ -22,23 +22,33 @@ Clone the repository:
 git clone https://github.com/ulairii/paper-craft.git
 ```
 
-Give your assistant the skill file and the material you want to work on:
+Give your assistant the shared entry point and the material you want to work on:
 
 ```text
-Read paper-craft/skills/paper-craft-iclr-reasoning/SKILL.md.
+Read paper-craft/skills/paper-craft/SKILL.md.
 
-Help me rewrite the introduction below. Find the central insight,
-make the motivation flow into the method, and use plain academic English.
-Return the rewritten introduction with a short explanation of the main changes.
+I am submitting to ICLR. Write a full paper draft from my method and
+existing experiment results. Find the central story, explain the important
+comparisons, and use plain academic English.
 
-[Paste your draft here]
+[Paste your method and results, or provide their file paths]
 ```
 
-Use the path to your clone if you are working elsewhere. If your assistant supports installing skills from folders, copy the entire `skills/paper-craft-iclr-reasoning/` directory into its configured skills location, including `references/`.
+Use the path to your clone if you are working elsewhere. The assistant reads your material, selects the appropriate conference-and-subfield skill, and writes the requested draft. You can also ask for a single section, an outline, or a sentence edit.
+
+If your assistant supports installing skills from folders, copy **all folders inside `skills/` together** into its configured skills location, preserving their names and `references/` directories. Invoke the `paper-craft` entry point using your assistant's supported invocation method. The entry point uses relative paths to load the specialists; copying only its folder provides general guidance but omits the specialist content.
 
 The skill is a collection of Markdown instructions and reading notes. Using it requires no paper downloads, Python environment, API keys, or access to the author's machines.
 
-## Available skills
+## One entry point, specialized writing lessons
+
+[paper-craft](skills/paper-craft/SKILL.md) uses a [catalog](skills/paper-craft/references/catalog.md) to match the target conference, central research topic, and writing task. It infers the topic from the supplied work rather than asking you to choose a directory.
+
+If the work spans several areas, it chooses one primary skill and draws on another only where useful. If no specialist fits, it continues with general writing guidance and briefly notes the coverage gap. An ICLR target alone does not cause every paper to be treated as LLM reasoning.
+
+The entry point must be loaded or installed in your assistant; cloning a repository alone does not activate it.
+
+### Available specialists
 
 | Skill | Source papers | Focus |
 |---|---|---|
@@ -69,5 +79,7 @@ The second version gives the reader a problem and a design rationale before intr
 Choose a conference and a focused research area. Read at least 10 accepted papers from that conference and distill their writing choices: how the story starts, where the insight appears, how experiments advance the argument, and which details help the reader. Include source locations and original before/after examples, rather than a list of generic writing tips.
 
 Keep the `SKILL.md` practical and put deeper analysis in `references/`. Explain what makes the papers persuasive; acceptance alone cannot establish which writing choices caused it.
+
+Add the new folder alongside the existing skills and register it in the [catalog](skills/paper-craft/references/catalog.md), including its conference, topic signals, supported writing tasks, and distinctions from neighboring topics. Keep specialist directories together on the same Git branch. Users continue to call `paper-craft` as the collection grows.
 
 Future coverage is intended for ICLR, ICML, and NeurIPS; CVPR, ICCV, and ECCV; and S&P, USENIX Security, CCS, and NDSS, with skills for individual research areas. Currently, only the ICLR skill above is available.
