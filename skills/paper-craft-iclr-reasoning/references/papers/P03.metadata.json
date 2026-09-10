@@ -73,7 +73,7 @@
   ],
   "main_pages_read": "1-9",
   "appendix_pages_read": "13-14",
-  "reading_scope": "正文及列出的相关附录；未声称通读全部附录或复核理论证明",
+  "reading_scope": "Main text and the listed selected appendices; no claim of reading every appendix or auditing theoretical proofs.",
   "source_version": "Official ICLR proceedings PDF",
   "acceptance_evidence": "https://proceedings.iclr.cc/paper_files/paper/2024/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf#page=1"
 }

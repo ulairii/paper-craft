@@ -1,30 +1,30 @@
-# 主张驱动的实验与结果解释
+# Claim-driven experiments and result interpretation
 
-下面是由语料蒸馏的实验建议；不是声称每篇源文已经完成全部检查。
+These recommendations are distilled from the corpus. They do not imply that every source paper performed every suggested check.
 
-| 想卖的主张 | 首要竞争解释 | 核心对照与指标 | 如何解释；不得跨越的边界 | 依据 |
+| Intended claim | Main competing explanation | Critical controls and metrics | Interpretation and boundary | Evidence |
 |---|---|---|---|---|
-| 聚合更可靠 | 只是多采样 | 固定候选池比较多数票、似然排序、学习验证器；画预算曲线 | 归因于选择；不据正确答案保证推理过程忠实 | [P01](papers/P01.md) §§3.4–5 |
-| 分解改善复杂推理 | 示例更多、表示更友好 | 匹配示例/表示；按组合长度或步数切片 | 对应 easy-to-hard；总体微小收益不能借用另一个任务的大收益包装 | [P02](papers/P02.md) Tables 4/12/13 |
-| 模型学会自纠错 | 首轮更强；oracle 帮忙；更多尝试 | 首轮/末轮、四种正确性转移；相同预算重采样；测试反馈剥离 | 区分净修订收益与基础能力收益；写清分母 | [P03](papers/P03.md) Fig.1；[P06](papers/P06.md) Tables 2/4 |
-| 过程监督优于结果监督 | 数据量、标注质量、生成器不同 | 一组最佳系统结果＋一组匹配数据/生成器/容量的归因实验 | 两组各回答自己的问题，不混用 | [P04](papers/P04.md) Figs.3–4 |
-| verifier 衡量进展更好 | 改了搜索或依赖更强 prover | 固定搜索；奖励变体；base×prover 强度交叉；必要时随机奖励对照 | 支持互补性条件，非“弱者总胜强者” | [P07](papers/P07.md) Fig.5；[P08](papers/P08.md) Tables 4–6 |
-| 计算分配更优 | difficulty 使用答案或免费额外采样 | 策略×预算×难度；oracle/可预测难度分列；计入路由成本 | 限定策略搜索集合；测试分箱不等于可部署路由 | [P05](papers/P05.md) §3.2、附录 O；[P10](papers/P10.md) 附录 G |
-| 自验证失败 | prompt 差；一种错误掩盖另一种 | verifier 混淆矩阵；强化提示；sound verifier；批评生成/利用分开 | 结论定位到失败环节并保留反例 | [P09](papers/P09.md) §4、附录 A；[P03](papers/P03.md) §5 |
-| CoT 改善某类任务 | parser、规划或执行改变 | 同模型 prompt 控制；实例切片；计划/执行拆分；无效输出统计 | 不将 single-prompt 结论泛化到全部 TTC | [P10](papers/P10.md) §§4–5、附录 F/H |
+| Aggregation is more reliable | More sampling alone explains the gain | Fix candidates; compare majority voting, likelihood ranking, and learned verification; plot budget curves | Attribute to selection, without guaranteeing faithful intermediate reasoning | [P01](papers/P01.md), Sections 3.4–5 |
+| Decomposition improves complex reasoning | More demonstrations or a friendlier representation | Match demonstrations/representation; slice by composition length or solution steps | Test easy-to-hard generalization; do not use another task's large gains to embellish a small aggregate gain | [P02](papers/P02.md), Tables 4/12/13 |
+| The model learns self-correction | A stronger first attempt, an oracle, or more attempts | First/final accuracy, all four correctness transitions, matched-budget resampling, and test-feedback removal | Separate net revision gains from base capability; state denominators | [P03](papers/P03.md), Fig. 1; [P06](papers/P06.md), Tables 2/4 |
+| Process supervision beats outcome supervision | Data quantity, annotation quality, or generator differences | Best-system results plus matched data/generator/capacity experiments | Give each comparison its own conclusion; do not conflate them | [P04](papers/P04.md), Figs. 3–4 |
+| A verifier better measures progress | Search changed or a stronger prover supplied the gain | Fix search; vary rewards; cross base/prover strength; use a random-reward control when relevant | Establish conditions for complementarity, not universal weak-over-strong superiority | [P07](papers/P07.md), Fig. 5; [P08](papers/P08.md), Tables 4–6 |
+| Compute allocation is better | Difficulty uses answers or uncounted sampling | Strategy×budget×difficulty; separate oracle/predicted difficulty; include routing cost | Bound claims by searched strategies; post hoc bins are not deployable routing | [P05](papers/P05.md), Section 3.2, Appendix O; [P10](papers/P10.md), Appendix G |
+| Self-verification fails | Weak prompts or one error type masking another | Verifier confusion matrix, stronger prompts, sound verifier, separate critique generation/use | Locate the failing component and retain counterexamples | [P09](papers/P09.md), Section 4, Appendix A; [P03](papers/P03.md), Section 5 |
+| CoT improves a task family | Parsing, planning, or execution changed | Same-model prompt controls, instance slices, planning/execution separation, invalid-output statistics | Do not generalize single-prompt findings to all TTC | [P10](papers/P10.md), Sections 4–5, Appendices F/H |
 
-## 成本账本
+## Cost ledger
 
-至少区分：生成调用、辅助模型调用、输入/输出 tokens、搜索展开、难度估计、离线数据生成与训练、实际延迟。报告哪些实测、哪些估算、哪些未计入。仅需要与自己效率主张匹配的精度，不凭空要求不相关指标。
+Distinguish generation calls, auxiliary-model calls, input/output tokens, search expansions, difficulty estimation, offline data generation/training, and actual latency. State which quantities are measured, estimated, or excluded. Match accounting precision to the efficiency claim; unrelated metrics need not be required.
 
-[P08](papers/P08.md) 的 rollout 包含多次调用；[P05](papers/P05.md) 的难度估计存在未计入成本；[P07](papers/P07.md) 的样本效率和 verifier 开销不同。由此不能把相同 N、同参数数或无微调视为自动公平。若声称部署总成本更低，报告预算内准确率或达到目标准确率所需的完整成本，并给离线投入的摊销条件。
+A rollout in [P08](papers/P08.md) contains multiple calls. [P05](papers/P05.md) excludes difficulty-estimation overhead from its main accounting. [P07](papers/P07.md) distinguishes sample efficiency from verifier overhead. Equal N, equal parameter counts, or no fine-tuning therefore do not establish fairness. For total deployment cost claims, report accuracy within a budget or complete cost to reach target accuracy, together with assumptions for amortizing offline investment.
 
-## 不确定性与分母
+## Uncertainty and denominators
 
-区分重采样重复、独立训练种子和对固定测试集 bootstrap；它们衡量不同不确定性。记录测试数量、失败解析如何处理、模型/数据版本。不要为低影响展示强制堆种子，但关键小差值必须有支持相应结论的不确定性分析。P01 的重复采样不是训练种子；P02 的小样本多标签错误分析不是总体错误率。
+Distinguish repeated sampling, independent training seeds, and bootstrapping a fixed test set; they quantify different uncertainty. Record test size, treatment of parsing failures, and model/data versions. Do not mechanically require many seeds for a low-impact display, but small differences central to a claim need an appropriate uncertainty analysis. P01's sampling repetitions are not training seeds; P02's small-sample, overlapping error categories are not population error rates.
 
-## 解释段落模板
+## Interpretation paragraph template
 
-> 在 [任务、模型、预算] 下，[比较] 出现 [观察]。由于该对照保持 [变量] 不变，结果支持 [窄主张]。这与 [机制假设] 一致；不过 [未控制因素] 尚未排除，因此不能推出 [更强主张]。在 [反例条件] 下的变化进一步限定适用范围。
+> Under [task, model, budget], [comparison] yields [observation]. Because this control holds [variables] fixed, the result supports [narrow claim]. It is consistent with [mechanism hypothesis], but [uncontrolled factor] remains unresolved, so it does not establish [stronger claim]. The change under [counterexample condition] further limits the applicable scope.
 
-这是原创写作骨架，不是引用。不要在每段机械复制；没有机制证据时，停留在性能描述也是准确结果。
+This is an original writing scaffold, not a quotation. Do not copy it mechanically into every paragraph. When mechanism evidence is absent, an accurate performance description is a valid stopping point.

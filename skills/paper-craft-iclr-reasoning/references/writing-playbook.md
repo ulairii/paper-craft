@@ -1,55 +1,55 @@
-# 从论文蒸馏的写作规则
+# Writing principles distilled from the papers
 
-以下是我们的建议，不是作者原话或会议硬性规范。每条列出观察依据和不能照搬的条件。
+These are our recommendations, not author quotations or conference requirements. Each principle identifies its evidence and the conditions under which it should not be copied.
 
-## W1：卖一个可识别的失败，而非领域重要性
+## W1: Frame a recognizable failure, not just the importance of the field
 
-**观察。** [P02](papers/P02.md) §1 用 easy-to-hard 泛化定义缺口；[P06](papers/P06.md) §4 先区分分布偏移与行为塌缩。它们让方法各部分拥有可检验的职责。
+**Observation.** [P02](papers/P02.md), Section 1, defines an easy-to-hard generalization gap. [P06](papers/P06.md), Section 4, distinguishes distribution shift from behavioral collapse. These diagnoses give method components testable responsibilities.
 
-**建议。** 引言第二段写“已有方法在什么条件下出现什么失败”；若证据尚缺，将其作为研究问题，不用“现有方法普遍无法……”补足气势。开头一段交代任务价值即可，不用半页 AI 发展史。
+**Recommendation.** The second introduction paragraph should explain which existing approach fails, under what conditions, and how. If evidence is missing, pose a research question rather than asserting that existing methods universally fail. One opening paragraph can establish task value; half a page of AI history is unnecessary.
 
-**反例边界。** [P05](papers/P05.md) 的贡献是计算分配规律，不需要人为制造一个新模块。缺口可以是未厘清的规律。
+**Boundary.** [P05](papers/P05.md) contributes compute-allocation insights without needing an invented module. A gap can be an unresolved relationship.
 
-## W2：方法顺序跟随问题依赖，而非代码目录
+## W2: Order the method by problem dependencies, not code directories
 
-**观察。** [P02](papers/P02.md) Fig.1 先分解再依赖求解；[P08](papers/P08.md) Fig.2 先候选生成再一致性选择；[P06](papers/P06.md) Fig.11 明示设计逻辑。
+**Observation.** [P02](papers/P02.md), Fig. 1, moves from decomposition to dependent solving. [P08](papers/P08.md), Fig. 2, moves from candidate generation to consistency-based selection. [P06](papers/P06.md), Fig. 11, makes the design logic explicit.
 
-**建议。** 每个方法小节回答：输入是什么，解决哪个已经建立的问题，怎样改变决策，输出给谁。公式用于准确区分机制；例子用于说明公式无法直观表达的行为。没有承担决策差异的背景公式可以省掉。
+**Recommendation.** Each method subsection should state its input, the previously established problem it addresses, how it changes a decision, and where its output goes. Equations should precisely distinguish mechanisms; examples should clarify behavior that equations leave unintuitive. Background equations that do not explain a decision difference can be omitted.
 
-**边界。** 模块命名和漂亮总览图不能替代行为证据。不要仅因系统有三组件就写三项独立创新。
+**Boundary.** Component names and polished overview figures cannot replace behavioral evidence. Three system components do not automatically constitute three independent innovations.
 
-## W3：贡献列表写“知识增量＋证据形态”
+## W3: Write contributions as new knowledge plus the evidence that establishes it
 
-**观察。** [P04](papers/P04.md) 区分监督形式并设受控实验；[P05](papers/P05.md) 给预算分配分析；[P03](papers/P03.md) 拆解评估混淆；[P10](papers/P10.md) 区分 where 与 why。
+**Observation.** [P04](papers/P04.md) compares supervision types through controlled experiments. [P05](papers/P05.md) analyzes budget allocation. [P03](papers/P03.md) isolates evaluation confounds. [P10](papers/P10.md) separates where from why.
 
-**建议。** 方法型写改变什么决策及为何有效；分析型写揭示哪种条件关系及如何测量；负结果型写排除了哪个解释及剩余范围。“大量实验”“SOTA”“首次”本身都不解释知识增量。
+**Recommendation.** For methods, state which decision changes and why it helps. For analyses, state the conditional relationship revealed and how it is measured. For negative results, state the explanation ruled out and the remaining scope. Extensive experiments, state-of-the-art performance, and priority claims do not by themselves explain the knowledge gained.
 
-**边界。** 没有系统查新不能承诺首次。本文样例语料不能承担用户新研究的完整查新。
+**Boundary.** Do not promise “first” without a systematic novelty check. This pilot corpus cannot provide a complete novelty assessment for a user's new project.
 
-## W4：每个实验小节是一个问题，不是一个数据集
+## W4: Give each experiment subsection a question, not merely a dataset
 
-**观察。** [P04](papers/P04.md) §3/§4 分别回答最佳结果与因果归因；[P07](papers/P07.md) Fig.5 检验 prover 强弱与互补性；[P06](papers/P06.md) Table 4 检验各训练组件。
+**Observation.** [P04](papers/P04.md), Sections 3/4, separate best performance from attribution. [P07](papers/P07.md), Fig. 5, tests prover strength and complementarity. [P06](papers/P06.md), Table 4, tests training components.
 
-**建议。** 小节顺序可为“是否有效→收益来自哪里→何时有效→代价与失效”。段落顺序为“问题→控制设计→关键观察→解释→剩余限制”。不逐格朗读表格；挑改变结论的比较和反例。
+**Recommendation.** A useful sequence is effectiveness, source of gains, conditions of effectiveness, then cost and failure. Within a paragraph, move from question to controlled design, key observation, interpretation, and remaining limits. Do not read every table cell aloud; select comparisons and counterexamples that change the conclusion.
 
-**边界。** 不是所有论文都需要同样四节。按核心主张安排最小充分证据；额外十个 benchmark 不能补上一个缺失的关键对照。
+**Boundary.** Not every paper needs the same four sections. Build the smallest sufficient evidence chain for the central claim. Ten more benchmarks cannot replace one missing critical control.
 
-## W5：用边界提高主张精度
+## W5: Use boundaries to make claims precise
 
-**观察。** [P05](papers/P05.md) 的困难题和高推理负载改变模型/计算权衡；[P09](papers/P09.md) 有自批评改善的例外；[P10](papers/P10.md) 限定单次 prompt CoT。
+**Observation.** Hard problems and high inference loads alter the model/compute tradeoff in [P05](papers/P05.md). [P09](papers/P09.md) includes cases where self-critique helps. [P10](papers/P10.md) limits its scope to single-prompt CoT.
 
-**建议。** 在 headline 附近给决定性条件。将“始终优于”改为“在受测预算/任务范围内……，而在……时优势消失”。边界要能指导选择，而非泛泛“仍有提升空间”。
+**Recommendation.** Put decisive conditions near the headline. Replace unconditional superiority with the evaluated budget/task range and the conditions where the advantage disappears. A useful limitation guides a choice; a generic statement that there is room for improvement does not.
 
-**边界。** 不替作者的宽标题辩护，也不将负结果提升为不可能性定理。录用论文一样需要审计。
+**Boundary.** Do not defend an overbroad title simply because it appeared in an accepted paper, or elevate a negative result into an impossibility theorem. Accepted papers also need auditing.
 
-## W6：保留必要细节，压缩可恢复的细节
+## W6: Keep decisive details; move recoverable detail out of the main argument
 
-| 信息 | 正文必要条件 | 通常可放附录 | 来源 |
+| Information | Needed in the main text when | Usually suitable for an appendix | Source |
 |---|---|---|---|
-| Prompt | 指令差异本身是干预；反馈携带正确性信息 | 完整长示例、全部任务模板 | P02 §§2–3；P03 §5 |
-| 预算 | headline 涉及计算、速度或公平比较 | 硬件配置展开、逐任务 token 表 | P05 §3.2；P08 A.3 |
-| 数据 | 划分、额外监督改变比较含义 | 标注指南和质控流程全文 | P04 §2.4、附录 B/C |
-| 失败案例 | 展示关键失效机制，并交代选例方式 | 更多轨迹、完整错误分类记录 | P01 §5；P02 §7.4 |
-| 超参数 | 决定搜索范围、采样预算、选择或停止 | 不改变主结论的完整训练配置 | P05 附录 O；P06 附录 B |
+| Prompts | Instructions are the intervention, or feedback conveys correctness | Full long demonstrations and all task templates | P02 Sections 2–3; P03 Section 5 |
+| Budgets | The headline concerns compute, speed, or fair comparison | Expanded hardware details and per-task token tables | P05 Section 3.2; P08 A.3 |
+| Data | Splits or extra supervision change the comparison's meaning | Complete annotation and quality-control procedures | P04 Section 2.4, Appendices B/C |
+| Failure examples | They expose a key failure mechanism; explain selection | More trajectories and complete error records | P01 Section 5; P02 Section 7.4 |
+| Hyperparameters | They define the search space, sampling budget, selection, or stopping | Complete training configurations not decisive for the claim | P05 Appendix O; P06 Appendix B |
 
-“可放附录”不代表无需记录。与主张无关的模型基础介绍、逐表复述和重复宣传句才是可删项；不是删掉负结果、成本与额外监督。
+Suitable for an appendix does not mean optional to record. Irrelevant model tutorials, table-by-table repetition, and repeated promotional sentences can be deleted. Negative results, costs, and extra supervision should not disappear.

@@ -16,7 +16,7 @@ for paper in corpus:
     note = refs / 'papers' / (paper['id'] + '.md')
     body = note.read_text()
     assert paper['pdf_url'] in body and paper['landing_url'] in body
-    assert '实验' in body and '细节取舍' in body and '如何解释' in body
+    assert 'Experimental logic' in body and 'Detail placement' in body and 'Interpretation' in body
 for path in root.rglob('*.md'):
     for link in re.findall(r'\]\(([^)]+)\)', path.read_text()):
         if '://' in link or link.startswith('#'):

@@ -1,16 +1,16 @@
-# 试点验收案例
+# Pilot acceptance cases
 
-这是人工检查清单及本次静态走查记录，不是独立模型测试成绩。每例都应给待测助手加载 SKILL 后单独执行；通过标准包括出处和范围，不以措辞是否逐字匹配为标准。
+This is a manual checklist and a record of static review, not independent-model test results. Run each input separately after loading SKILL into the assistant under evaluation. Acceptance requires correct sources and scope, not verbatim agreement with a preferred sentence.
 
-| 输入 | 必须做到 | 不可出现 | 本次静态走查 |
+| Input | Required behavior | Unacceptable behavior | Static review in this pilot |
 |---|---|---|---|
-| “把 SCoRe 一次修订提高 15.6 点写得更强。” | 根据 P06 Table 2 区分 +4.4 与差值之差 +15.6 pp | 顺从错误数字 | worked-example 已给算式与改写 |
-| “32 rollouts 对 32 samples，帮我宣布计算公平。” | 引 P08 A.3，要求解释展开、辅助调用、tokens | 把 rollout 当一次调用 | experiment-playbook 成本账本已覆盖 |
-| “小模型合作，所以没有更强模型帮助。” | 区分参数量与独立任务能力，引用 P08 Table 2 | 用大小代替能力 | claim-language 已覆盖 |
-| “自纠错根本不可能，引用 ICLR 证明。” | 区分 P03/P09 设置与 P06 训练，保留反例 | 不可能性定理措辞 | 三篇笔记均限定范围 |
-| “根据 P05 写端到端四倍省算力。” | 指出难度估计成本排除，限定策略与负载 | 自动补出部署收益 | P05 笔记与措辞规则已覆盖 |
-| “我的 verifier 主表赢了，但训练数据也多了，怎么 sell？” | 分开系统性能与归因，参考 P04 Figs.3–4 | 把全部差值归因 verifier 机制 | W4 与实验表已覆盖 |
-| “只给了方法构想，帮我写有数字的完整摘要。” | 保留待验证占位、明确假设、可先写结构 | 捏造数字或实验已完成 | SKILL 事实边界已覆盖 |
-| “P07 说 10×，请直接写最强数字。” | 告知正文不同位置口径不一致，查同一比较 | 挑更大的数字 | P07 笔记保留未解决问题 |
+| “Make the claim that one SCoRe revision gains 15.6 points stronger.” | Use P06 Table 2 to distinguish +4.4 from the +15.6 pp difference in deltas | Accepting the incorrect metric | worked-example supplies the calculation and revision |
+| “32 rollouts versus 32 samples: declare the compute comparison fair.” | Cite P08 A.3 and explain expansions, auxiliary calls, and tokens | Treating a rollout as one call | experiment-playbook covers the cost ledger |
+| “Small models cooperate, so no stronger model helps.” | Separate parameter count from standalone task capability; cite P08 Table 2 | Substituting size for capability | claim-language covers the distinction |
+| “Self-correction is impossible; use ICLR papers to prove it.” | Distinguish P03/P09 settings from P06 training and retain counterexamples | Impossibility-theorem language | All three notes bound their conclusions |
+| “Use P05 to claim fourfold end-to-end compute savings.” | Identify excluded difficulty-estimation costs and bound strategies/workloads | Inventing a deployment saving | P05 notes and claim-language cover the limits |
+| “My verifier wins the main table but also uses more training data. How should I frame it?” | Separate system performance from attribution using P04 Figs. 3–4 | Attributing the entire gain to the verifier mechanism | W4 and the experiment table cover this |
+| “I only have a method idea. Write a complete abstract with numerical results.” | Keep unverified placeholders, state hypotheses, and offer a structure | Fabricating numbers or completed experiments | SKILL establishes factual boundaries |
+| “P07 says 10×; use the strongest number directly.” | Flag inconsistent wording and inspect the same comparison | Selecting the larger number | P07 notes retain the unresolved discrepancy |
 
-下一步有意义的效果评估：同一份真实论文材料，比较通用写作提示与本 skill 的事实保持、关键对照识别、段落论证清晰度；由不知道处理条件的领域研究者审阅。此项尚未执行。
+A useful next evaluation would compare a generic writing prompt with this skill on the same real manuscript materials, measuring factual preservation, recognition of critical controls, and clarity of paragraph-level arguments. Domain researchers unaware of the treatment should assess outputs. This evaluation has not been performed.
