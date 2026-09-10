@@ -53,6 +53,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | Skill | Source papers | Focus |
 |---|---|---|
 | [ICLR · LLM reasoning and test-time compute](skills/paper-craft-iclr-reasoning/SKILL.md) | [10 ICLR papers, 2023–2025](skills/paper-craft-iclr-reasoning/references/corpus.md) | Sampling, decomposition, verification, self-correction, search, and compute allocation |
+| [CVPR · Object detection](skills/paper-craft-cvpr-detection/SKILL.md) | [10 CVPR papers, 2014–2022](skills/paper-craft-cvpr-detection/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-detection/references/references.bib) | Localization, feature pyramids, assignment, sparse proposals, efficiency, and convergence |
 
 ## A small example
 
@@ -82,4 +83,4 @@ Keep the `SKILL.md` practical and put deeper analysis in `references/`. Explain 
 
 Add the new folder alongside the existing skills and register it in the [catalog](skills/paper-craft/references/catalog.md), including its conference, topic signals, supported writing tasks, and distinctions from neighboring topics. Keep specialist directories together on the same Git branch. Users continue to call `paper-craft` as the collection grows.
 
-Future coverage is intended for ICLR, ICML, and NeurIPS; CVPR, ICCV, and ECCV; and S&P, USENIX Security, CCS, and NDSS, with skills for individual research areas. Currently, only the ICLR skill above is available.
+Future coverage is intended for ICLR, ICML, and NeurIPS; CVPR, ICCV, and ECCV; and S&P, USENIX Security, CCS, and NDSS, with skills for individual research areas. Available specialists are listed above; the catalog contains only usable skills with completed writing lessons.

@@ -7,6 +7,17 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | Skill | Conference | Research area | Suitable tasks | Entry point |
 |---|---|---|---|---|
 | `paper-craft-iclr-reasoning` | ICLR | LLM reasoning and test-time compute | Full drafts; story and contribution framing; titles and abstracts; introductions and methods; experiment narratives; prose revision | [SKILL.md](../../paper-craft-iclr-reasoning/SKILL.md) |
+| `paper-craft-cvpr-detection` | CVPR | Object detection | Full drafts; localization, representation, assignment, efficiency, and convergence stories; method and result explanation; prose revision | [SKILL.md](../../paper-craft-cvpr-detection/SKILL.md) |
+
+### CVPR: object detection
+
+**Select when the contribution concerns:** box detection, region or query representations, feature pyramids for detectors, positive-sample assignment, localization refinement, detector efficiency, or detector training convergence.
+
+**Useful signals in the material:** box AP and overlap-dependent results; region proposals; sparse or dense detection heads; matching and assignment; detector accuracy–speed curves. Select based on the proposed change, not the presence of COCO alone.
+
+**Distinguish nearby work:** mask prediction and pixel labeling belong to segmentation when they carry the contribution. Point-cloud geometry and 3D box prediction belong to 3D perception. An LLM that happens to describe objects is not automatically a detector paper.
+
+**Source collection:** [10 accepted CVPR papers from 2014–2022](../../paper-craft-cvpr-detection/references/corpus.md), with [BibTeX](../../paper-craft-cvpr-detection/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 
@@ -22,6 +33,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 
 | Request and material | Appropriate behavior |
 |---|---|
+| “Draft my CVPR submission,” with detector assignment and box-localization results | Load the CVPR detection skill and write the draft. |
 | “Draft my ICLR submission,” with a method for allocating compute between search and revision | Load the ICLR reasoning skill and write the draft. |
 | “Draft my ICLR submission,” with a contrastive image representation method | Use general guidance; the available reasoning skill does not match this topic. |
 | “Draft my NeurIPS submission,” with process-reward reasoning experiments | Use reasoning lessons as a cross-conference reference while retaining NeurIPS as the target. |
