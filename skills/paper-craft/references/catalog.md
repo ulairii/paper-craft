@@ -11,6 +11,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-cvpr-segmentation` | CVPR | Semantic, instance, and panoptic segmentation | Full drafts; context and boundary stories; task unification; method and experiment prose; revision | [SKILL.md](../../paper-craft-cvpr-segmentation/SKILL.md) |
 | `paper-craft-cvpr-3d` | CVPR | Point-cloud and 3D perception | Full drafts; geometric representations; LiDAR detection; pretraining and scaling narratives; result explanation; revision | [SKILL.md](../../paper-craft-cvpr-3d/SKILL.md) |
 | `paper-craft-iccv-detection` | ICCV | Object detection | Full drafts; simplification, alignment, loss and matching stories; semi-supervised detection; method and result prose; revision | [SKILL.md](../../paper-craft-iccv-detection/SKILL.md) |
+| `paper-craft-iccv-segmentation` | ICCV | Semantic, instance, open-vocabulary, and promptable segmentation | Full drafts; spatial refinement, context, mask representations, transfer and prompt narratives; revision | [SKILL.md](../../paper-craft-iccv-segmentation/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -51,6 +52,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** select the ICCV corpus when ICCV is the target; related CVPR lessons can supplement a particular mechanism. Use a segmentation specialist when masks or pixel grouping carry the central contribution, and a 3D specialist when point-cloud geometry carries it. A mask experiment alone does not determine the primary topic.
 
 **Source collection:** [10 accepted ICCV papers from 2015–2023](../../paper-craft-iccv-detection/references/corpus.md), with [BibTeX](../../paper-craft-iccv-detection/references/references.bib).
+
+### ICCV: segmentation
+
+**Select when the contribution concerns:** spatial mask refinement, structured pixel prediction, efficient context for segmentation, query-based instance masks, transformer semantic segmentation, open-vocabulary region classification, or promptable mask prediction.
+
+**Useful signals in the material:** mask or boundary quality, pixel relationships, class embeddings, mask proposal coverage, seen-versus-novel segmentation, prompt ambiguity, and segmentation transfer.
+
+**Distinguish nearby work:** use detection when box assignment or localization is the main contribution. Use this specialist for 2D mask representations and task interfaces, including open-vocabulary masks; a general vision-language representation paper needs its own representation-learning guidance. Point-cloud geometry belongs to 3D perception.
+
+**Source collection:** [10 accepted ICCV papers from 2015–2023](../../paper-craft-iccv-segmentation/references/corpus.md), with [BibTeX](../../paper-craft-iccv-segmentation/references/references.bib).
 
 ### ICLR: LLM reasoning and test-time compute
 
