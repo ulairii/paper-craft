@@ -1,0 +1,247 @@
+[
+  {
+    "id": "P01",
+    "title": "Fast R-CNN",
+    "year": 2015,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R-CNN_ICCV_2015_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf",
+    "pdf_sha256": "639348fcec52e07586f9d11676a672edfc18047b1afa009e70ee9826dc35d8c9",
+    "pages": 9,
+    "bibtex": "@InProceedings{Girshick_2015_ICCV,\nauthor = {Girshick, Ross},\ntitle = {Fast R-CNN},\nbooktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},\nmonth = {December},\nyear = {2015}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:11.245176+00:00",
+    "authors": [
+      "Girshick, Ross"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Deformable Convolutional Networks",
+    "year": 2017,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_iccv_2017/html/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf",
+    "pdf_sha256": "e51fe476cacdd650fdab6c3e9d0eaec359f1402d3efc73feee0defad1e024e29",
+    "pages": 10,
+    "bibtex": "@InProceedings{Dai_2017_ICCV,\nauthor = {Dai, Jifeng and Qi, Haozhi and Xiong, Yuwen and Li, Yi and Zhang, Guodong and Hu, Han and Wei, Yichen},\ntitle = {Deformable Convolutional Networks},\nbooktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},\nmonth = {Oct},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:11.434449+00:00",
+    "authors": [
+      "Dai, Jifeng",
+      "Qi, Haozhi",
+      "Xiong, Yuwen",
+      "Li, Yi",
+      "Zhang, Guodong",
+      "Hu, Han",
+      "Wei, Yichen"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "Mask R-CNN",
+    "year": 2017,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_iccv_2017/html/He_Mask_R-CNN_ICCV_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf",
+    "pdf_sha256": "bce24de6a1084ca80629e940d86a88187537ef18d6fd90df78dffba7b9dc9cc7",
+    "pages": 9,
+    "bibtex": "@InProceedings{He_2017_ICCV,\nauthor = {He, Kaiming and Gkioxari, Georgia and Dollar, Piotr and Girshick, Ross},\ntitle = {Mask R-CNN},\nbooktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},\nmonth = {Oct},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:11.865833+00:00",
+    "authors": [
+      "He, Kaiming",
+      "Gkioxari, Georgia",
+      "Dollar, Piotr",
+      "Girshick, Ross"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "Focal Loss for Dense Object Detection",
+    "year": 2017,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_iccv_2017/html/Lin_Focal_Loss_for_ICCV_2017_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf",
+    "pdf_sha256": "957060a5139b26ff4a41af8af84ad6be57495f11e349b805f48a1ecbdfc8cc6f",
+    "pages": 9,
+    "bibtex": "@InProceedings{Lin_2017_ICCV,\nauthor = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Dollar, Piotr},\ntitle = {Focal Loss for Dense Object Detection},\nbooktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},\nmonth = {Oct},\nyear = {2017}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:18.247267+00:00",
+    "authors": [
+      "Lin, Tsung-Yi",
+      "Goyal, Priya",
+      "Girshick, Ross",
+      "He, Kaiming",
+      "Dollar, Piotr"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "FCOS: Fully Convolutional One-Stage Object Detection",
+    "year": 2019,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Tian_FCOS_Fully_Convolutional_One-Stage_Object_Detection_ICCV_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Tian_FCOS_Fully_Convolutional_One-Stage_Object_Detection_ICCV_2019_paper.pdf",
+    "pdf_sha256": "79aa6f64b4d2d2928a3a240e9f32aee4b81f025dc50bed2fa1ed48daf98ced05",
+    "pages": 10,
+    "bibtex": "@InProceedings{Tian_2019_ICCV,\nauthor = {Tian, Zhi and Shen, Chunhua and Chen, Hao and He, Tong},\ntitle = {FCOS: Fully Convolutional One-Stage Object Detection},\nbooktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\nmonth = {October},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:17.249582+00:00",
+    "authors": [
+      "Tian, Zhi",
+      "Shen, Chunhua",
+      "Chen, Hao",
+      "He, Tong"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "CenterNet: Keypoint Triplets for Object Detection",
+    "year": 2019,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Duan_CenterNet_Keypoint_Triplets_for_Object_Detection_ICCV_2019_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Duan_CenterNet_Keypoint_Triplets_for_Object_Detection_ICCV_2019_paper.pdf",
+    "pdf_sha256": "3fe03ed918de1d326900fa4457e8763451333b28aeff7ca33eb4502dd2feb6eb",
+    "pages": 10,
+    "bibtex": "@InProceedings{Duan_2019_ICCV,\nauthor = {Duan, Kaiwen and Bai, Song and Xie, Lingxi and Qi, Honggang and Huang, Qingming and Tian, Qi},\ntitle = {CenterNet: Keypoint Triplets for Object Detection},\nbooktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\nmonth = {October},\nyear = {2019}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:19.564504+00:00",
+    "authors": [
+      "Duan, Kaiwen",
+      "Bai, Song",
+      "Xie, Lingxi",
+      "Qi, Honggang",
+      "Huang, Qingming",
+      "Tian, Qi"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "TOOD: Task-Aligned One-Stage Object Detection",
+    "year": 2021,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Feng_TOOD_Task-Aligned_One-Stage_Object_Detection_ICCV_2021_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Feng_TOOD_Task-Aligned_One-Stage_Object_Detection_ICCV_2021_paper.pdf",
+    "pdf_sha256": "f6d928bce53c2f0b42198af1808683d6c7d1dd0fb506c1061fa2a3b03925fc38",
+    "pages": 10,
+    "bibtex": "@InProceedings{Feng_2021_ICCV,\n    author    = {Feng, Chengjian and Zhong, Yujie and Gao, Yu and Scott, Matthew R. and Huang, Weilin},\n    title     = {TOOD: Task-Aligned One-Stage Object Detection},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2021},\n    pages     = {3510-3519}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:24.310536+00:00",
+    "authors": [
+      "Feng, Chengjian",
+      "Zhong, Yujie",
+      "Gao, Yu",
+      "Scott, Matthew R.",
+      "Huang, Weilin"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "End-to-End Semi-Supervised Object Detection With Soft Teacher",
+    "year": 2021,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Xu_End-to-End_Semi-Supervised_Object_Detection_With_Soft_Teacher_ICCV_2021_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_End-to-End_Semi-Supervised_Object_Detection_With_Soft_Teacher_ICCV_2021_paper.pdf",
+    "pdf_sha256": "e2beb99b7b03dacfd6c9626b2d88b5b0e94f74227fdae83a11a96315fc88846d",
+    "pages": 10,
+    "bibtex": "@InProceedings{Xu_2021_ICCV,\n    author    = {Xu, Mengde and Zhang, Zheng and Hu, Han and Wang, Jianfeng and Wang, Lijuan and Wei, Fangyun and Bai, Xiang and Liu, Zicheng},\n    title     = {End-to-End Semi-Supervised Object Detection With Soft Teacher},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2021},\n    pages     = {3060-3069}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:24.885218+00:00",
+    "authors": [
+      "Xu, Mengde",
+      "Zhang, Zheng",
+      "Hu, Han",
+      "Wang, Jianfeng",
+      "Wang, Lijuan",
+      "Wei, Fangyun",
+      "Bai, Xiang",
+      "Liu, Zicheng"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "DETRs with Collaborative Hybrid Assignments Training",
+    "year": 2023,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zong_DETRs_with_Collaborative_Hybrid_Assignments_Training_ICCV_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zong_DETRs_with_Collaborative_Hybrid_Assignments_Training_ICCV_2023_paper.pdf",
+    "pdf_sha256": "2ce6f24cffcb4de5015e050b8d79f3cd96089bcc1ab908e7c41e9b67c6c3ed92",
+    "pages": 11,
+    "bibtex": "@InProceedings{Zong_2023_ICCV,\n    author    = {Zong, Zhuofan and Song, Guanglu and Liu, Yu},\n    title     = {DETRs with Collaborative Hybrid Assignments Training},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {6748-6758}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:26.432478+00:00",
+    "authors": [
+      "Zong, Zhuofan",
+      "Song, Guanglu",
+      "Liu, Yu"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement": "Not used for these notes."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "Detection Transformer with Stable Matching",
+    "year": 2023,
+    "venue": "ICCV",
+    "landing_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Detection_Transformer_with_Stable_Matching_ICCV_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Detection_Transformer_with_Stable_Matching_ICCV_2023_paper.pdf",
+    "pdf_sha256": "69bdbcf9cb65814dcd067ad9d9fc57674e95036b2bded5a381ee1ce6bc7468cf",
+    "pages": 10,
+    "bibtex": "@InProceedings{Liu_2023_ICCV,\n    author    = {Liu, Shilong and Ren, Tianhe and Chen, Jiayu and Zeng, Zhaoyang and Zhang, Hao and Li, Feng and Li, Hongyang and Huang, Jun and Su, Hang and Zhu, Jun and Zhang, Lei},\n    title     = {Detection Transformer with Stable Matching},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {6491-6500}\n}",
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T21:03:30.441915+00:00",
+    "authors": [
+      "Liu, Shilong",
+      "Ren, Tianhe",
+      "Chen, Jiayu",
+      "Zeng, Zhaoyang",
+      "Zhang, Hao",
+      "Li, Feng",
+      "Li, Hongyang",
+      "Huang, Jun",
+      "Su, Hang",
+      "Zhu, Jun",
+      "Zhang, Lei"
+    ],
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement": "Read both supplementary PDF pages, sections A–D."
+    },
+    "supplement_url": "https://openaccess.thecvf.com/content/ICCV2023/supplemental/Liu_Detection_Transformer_with_ICCV_2023_supplemental.pdf"
+  }
+]
