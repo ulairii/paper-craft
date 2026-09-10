@@ -20,6 +20,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-icml-generative` | ICML | Generative models and sampling | Full drafts; probabilistic modeling, objectives, generation quality–cost tradeoffs, conditioning, domain adaptation, composition; revision | [SKILL.md](../../paper-craft-icml-generative/SKILL.md) |
 | `paper-craft-icml-rl` | ICML | Reinforcement learning | Full drafts; policy optimization, actor–critic estimation, offline RL, visual control, experience replay, model-based planning, online adaptation; revision | [SKILL.md](../../paper-craft-icml-rl/SKILL.md) |
 | `paper-craft-iclr-representation` | ICLR | Self-supervised, graph, masked, and language–image representations | Full drafts; information and supervision design, collapse explanations, local transfer, data and compute efficiency; revision | [SKILL.md](../../paper-craft-iclr-representation/SKILL.md) |
+| `paper-craft-iclr-generative` | ICLR | Generative models and sampling | Full drafts; generative objectives, tractable learning, flows, GANs, diffusion, sampling efficiency, conditional synthesis, reward fine-tuning; revision | [SKILL.md](../../paper-craft-iclr-generative/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -171,6 +172,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** choose this specialist when reusable features or an explanation of representation learning carries the contribution. Masked reconstruction is a representation pretext task here; choose generative guidance when sample synthesis is the main result. Choose reasoning guidance for LLM inference-time search or reasoning-path allocation. Image or graph data alone does not decide the topic.
 
 **Source collection:** [10 accepted ICLR papers from 2019–2022](../../paper-craft-iclr-representation/references/corpus.md), with [BibTeX](../../paper-craft-iclr-representation/references/references.bib).
+
+### ICLR: generative models
+
+**Select when the contribution concerns:** generative learning objectives, variational inference, invertible flows, adversarial training, diffusion or flow sampling, text-to-image model design, or reward-based adaptation of a generative model.
+
+**Useful signals in the material:** likelihood and variational bounds, generated samples, fidelity and coverage, noise-to-data trajectories, sampling evaluations and latency, conditioning controls, or downstream generation rewards.
+
+**Distinguish nearby work:** select representation learning when the transferable encoder features are the contribution. Select LLM reasoning when inference-time language reasoning is the contribution. A generative image model fine-tuned with policy gradients belongs here when generation quality or controllability carries the paper; a new decision-making algorithm may call for a reinforcement-learning specialist. Match the scientific contribution rather than a shared word such as “flow,” “diffusion,” or “reward.”
+
+**Source collection:** [10 accepted ICLR papers from 2014–2024](../../paper-craft-iclr-generative/references/corpus.md), with [BibTeX](../../paper-craft-iclr-generative/references/references.bib).
 
 ## Adding a specialist
 

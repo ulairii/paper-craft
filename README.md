@@ -66,6 +66,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [ICML · Representation learning](skills/paper-craft-icml-representation/SKILL.md) | [10 ICML papers, 2020–2023](skills/paper-craft-icml-representation/references/corpus.md) · [BibTeX](skills/paper-craft-icml-representation/references/references.bib) | Contrastive learning, language–image transfer, data efficiency, identifiability, robustness, and dynamics |
 | [ICML · Generative models](skills/paper-craft-icml-generative/SKILL.md) | [10 ICML papers, 2014–2023](skills/paper-craft-icml-generative/references/corpus.md) · [BibTeX](skills/paper-craft-icml-generative/references/references.bib) | Variational models, flows, GANs, diffusion, consistency, conditioning, new modalities, and sampling |
 | [ICML · Reinforcement learning](skills/paper-craft-icml-rl/SKILL.md) | [10 ICML papers, 2015–2022](skills/paper-craft-icml-rl/references/corpus.md) · [BibTeX](skills/paper-craft-icml-rl/references/references.bib) | Policy optimization, value learning, offline RL, visual control, replay, planning, and adaptation |
+| [ICLR · Generative models](skills/paper-craft-iclr-generative/SKILL.md) | [10 ICLR papers, 2014–2024](skills/paper-craft-iclr-generative/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-generative/references/references.bib) | Variational inference, flows, GANs, diffusion, sampling, text-to-image systems, and reward adaptation |
 
 ## A small example
 

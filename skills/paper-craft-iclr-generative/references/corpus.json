@@ -1,0 +1,279 @@
+[
+  {
+    "id": "P01",
+    "title": "Auto-Encoding Variational Bayes",
+    "authors": [
+      "Diederik P Kingma",
+      "Max Welling"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1312.6114",
+    "source_version": "arXiv:1312.6114v11",
+    "pdf_url": "https://arxiv.org/pdf/1312.6114v11",
+    "pdf_sha256": "bdcb63b79ed88f64f8ee2d43a721930d01dde5441a4dba20ecaa2342b34e017c",
+    "pages": 14,
+    "retrieved_at": "2026-09-10T22:55:07.055017+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Diederik P. Kingma Dr. [ view email ] [v1] Fri, 20 Dec 2013 20:58:10 UTC (3,884 KB) [v2] Mon, 23 Dec 2013 13:19:52 UTC (7,549 KB) [v3] Tue, 24 Dec 2013 16:08:10 UTC (7,792 KB) [v4] Fri, 27 Dec 2013 16:59:25 UTC (7,785 KB) [v5] Thu, 9 Jan 2014 20:28:50 UTC (8,284 KB) [v6] Tue, 21 Jan 2014 19:41:37 UTC (16,080 KB) [v7] Tue, 4 Feb 2014 14:10:27 UTC (8,256 KB) [v8] Mon, 3 Mar 2014 16:41:45 UTC (8,256 KB) [v9] Thu, 10 Apr 2014 16:06:37 UTC (8,257 KB) [v10] Thu, 1 May 2014 15:43:28 UTC (8,260 KB) [v11] Sat, 10 Dec 2022 21:04:00 UTC (3,451 KB)",
+    "venue": "ICLR",
+    "year": 2014,
+    "landing_url": "https://iclr.cc/archive/2014/conference-proceedings/",
+    "bibtex": "@inproceedings{kingma2014autoencoding,\n title={Auto-Encoding Variational Bayes},\n author={Kingma, Diederik P. and Welling, Max},\n booktitle={International Conference on Learning Representations},\n year={2014},\n url={https://arxiv.org/abs/1312.6114}\n}",
+    "metadata_note": "Acceptance and authors from the official ICLR 2014 proceedings list. BibTeX formatted from that metadata. Full text read is the versioned author arXiv PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–8",
+      "supplement_or_appendix": "9–14: full appendices."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Density estimation using Real NVP",
+    "authors": [
+      "Laurent Dinh",
+      "Jascha Sohl-Dickstein",
+      "Samy Bengio"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1605.08803",
+    "source_version": "arXiv:1605.08803v3",
+    "pdf_url": "https://arxiv.org/pdf/1605.08803v3",
+    "pdf_sha256": "b80d619f41d7e7fe537907bdb6029d8b6c20e6b454e1331f3271c9550e4424d6",
+    "pages": 32,
+    "retrieved_at": "2026-09-10T22:55:07.657285+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Laurent Dinh [ view email ] [v1] Fri, 27 May 2016 21:24:32 UTC (3,976 KB) [v2] Mon, 14 Nov 2016 21:37:10 UTC (4,669 KB) [v3] Mon, 27 Feb 2017 23:21:10 UTC (6,314 KB)",
+    "venue": "ICLR",
+    "year": 2017,
+    "landing_url": "https://openreview.net/forum?id=HkpbnH9lx",
+    "official_pdf_url": "https://openreview.net/pdf?id=HkpbnH9lx",
+    "bibtex": "@inproceedings{\ndinh2017density,\ntitle={Density estimation using Real {NVP}},\nauthor={Laurent Dinh and Jascha Sohl-Dickstein and Samy Bengio},\nbooktitle={International Conference on Learning Representations},\nyear={2017},\nurl={https://openreview.net/forum?id=HkpbnH9lx}\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "13–32: appendix text and captions."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "Spectral Normalization for Generative Adversarial Networks",
+    "authors": [
+      "Takeru Miyato",
+      "Toshiki Kataoka",
+      "Masanori Koyama",
+      "Yuichi Yoshida"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1802.05957",
+    "source_version": "arXiv:1802.05957v1",
+    "pdf_url": "https://arxiv.org/pdf/1802.05957v1",
+    "pdf_sha256": "af7c49a1db7366e77825b6e8bdb38b27f9efa957f40666b7612628716b50c4a0",
+    "pages": 26,
+    "retrieved_at": "2026-09-10T22:55:06.930956+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Takeru Miyato [ view email ] [v1] Fri, 16 Feb 2018 14:41:39 UTC (7,278 KB)",
+    "venue": "ICLR",
+    "year": 2018,
+    "landing_url": "https://openreview.net/forum?id=B1QRgziT-",
+    "official_pdf_url": "https://openreview.net/pdf?id=B1QRgziT-",
+    "bibtex": "@inproceedings{\nmiyato2018spectral,\ntitle={Spectral Normalization for Generative Adversarial Networks},\nauthor={Takeru Miyato and Toshiki Kataoka and Masanori Koyama and Yuichi Yoshida},\nbooktitle={International Conference on Learning Representations},\nyear={2018},\nurl={https://openreview.net/forum?id=B1QRgziT-},\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–11",
+      "supplement_or_appendix": "15–25: algorithm, settings, spectral and timing analyses, normalization comparisons and learned-scale extension."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
+    "authors": [
+      "Andrew Brock",
+      "Jeff Donahue",
+      "Karen Simonyan"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/1809.11096",
+    "source_version": "arXiv:1809.11096v2",
+    "pdf_url": "https://arxiv.org/pdf/1809.11096v2",
+    "pdf_sha256": "c5eabe2788a372b2e3ce27a068e49355ff776074f78404659febc6156c5913c2",
+    "pages": 35,
+    "retrieved_at": "2026-09-10T22:55:11.835331+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Andrew Brock [ view email ] [v1] Fri, 28 Sep 2018 15:38:49 UTC (9,132 KB) [v2] Mon, 25 Feb 2019 21:32:06 UTC (18,559 KB)",
+    "venue": "ICLR",
+    "year": 2019,
+    "landing_url": "https://openreview.net/forum?id=B1xsqj09Fm",
+    "official_pdf_url": "https://openreview.net/pdf?id=B1xsqj09Fm",
+    "bibtex": "@inproceedings{\nbrock2018large,\ntitle={Large Scale {GAN} Training for High Fidelity Natural Image Synthesis},\nauthor={Andrew Brock and Jeff Donahue and Karen Simonyan},\nbooktitle={International Conference on Learning Representations},\nyear={2019},\nurl={https://openreview.net/forum?id=B1xsqj09Fm},\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "20–35: architecture tables, settings, truncation, latent choices, stability interventions, negative results and hyperparameters."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "Denoising Diffusion Implicit Models",
+    "authors": [
+      "Jiaming Song",
+      "Chenlin Meng",
+      "Stefano Ermon"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2010.02502",
+    "source_version": "arXiv:2010.02502v4",
+    "pdf_url": "https://arxiv.org/pdf/2010.02502v4",
+    "pdf_sha256": "07cb8796d7c100bf7c02bc575f16aab72c32630a8f85abd54ad45dc4f63e80fb",
+    "pages": 22,
+    "retrieved_at": "2026-09-10T22:55:12.081248+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Jiaming Song [ view email ] [v1] Tue, 6 Oct 2020 06:15:51 UTC (7,441 KB) [v2] Thu, 4 Nov 2021 03:52:44 UTC (10,989 KB) [v3] Thu, 9 Jun 2022 04:19:30 UTC (10,153 KB) [v4] Wed, 5 Oct 2022 20:19:21 UTC (10,153 KB)",
+    "venue": "ICLR",
+    "year": 2021,
+    "landing_url": "https://openreview.net/forum?id=St1giarCHLP",
+    "official_pdf_url": "https://openreview.net/pdf?id=St1giarCHLP",
+    "bibtex": "@inproceedings{\nsong2021denoising,\ntitle={Denoising Diffusion Implicit Models},\nauthor={Jiaming Song and Chenlin Meng and Stefano Ermon},\nbooktitle={International Conference on Learning Representations},\nyear={2021},\nurl={https://openreview.net/forum?id=St1giarCHLP}\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "16–22: accelerated sampling derivations and experimental details; not all theorem proofs were read."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "authors": [
+      "Yang Song",
+      "Jascha Sohl-Dickstein",
+      "Diederik P Kingma",
+      "Abhishek Kumar",
+      "Stefano Ermon",
+      "Ben Poole"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2011.13456",
+    "source_version": "arXiv:2011.13456v2",
+    "pdf_url": "https://arxiv.org/pdf/2011.13456v2",
+    "pdf_sha256": "b244b740e60628d01bc3d4b98d721c2343be1fb9b67ad22593c8555e66f4d4a6",
+    "pages": 36,
+    "retrieved_at": "2026-09-10T22:55:13.914244+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Yang Song [ view email ] [v1] Thu, 26 Nov 2020 19:39:10 UTC (32,781 KB) [v2] Wed, 10 Feb 2021 18:17:04 UTC (56,849 KB)",
+    "venue": "ICLR",
+    "year": 2021,
+    "landing_url": "https://openreview.net/forum?id=PxTIG12RRHS",
+    "official_pdf_url": "https://openreview.net/pdf?id=PxTIG12RRHS",
+    "bibtex": "@inproceedings{\nsong2021scorebased,\ntitle={Score-Based Generative Modeling through Stochastic Differential Equations},\nauthor={Yang Song and Jascha Sohl-Dickstein and Diederik P Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole},\nbooktitle={International Conference on Learning Representations},\nyear={2021},\nurl={https://openreview.net/forum?id=PxTIG12RRHS}\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "17–21, 23–26 and 29–32: probability flow, likelihood, sampling, architecture and conditioning; not all derivations were read."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "Flow Matching for Generative Modeling",
+    "authors": [
+      "Yaron Lipman",
+      "Ricky T. Q. Chen",
+      "Heli Ben-Hamu",
+      "Maximilian Nickel",
+      "Matthew Le"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2210.02747",
+    "source_version": "arXiv:2210.02747v2",
+    "pdf_url": "https://arxiv.org/pdf/2210.02747v2",
+    "pdf_sha256": "5eeb39ba516396924aba4787452f9d0abdee88467a4d0c264d9f66cad0c5ee14",
+    "pages": 28,
+    "retrieved_at": "2026-09-10T22:55:17.795908+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Yaron Lipman [ view email ] [v1] Thu, 6 Oct 2022 08:32:20 UTC (23,746 KB) [v2] Wed, 8 Feb 2023 15:46:05 UTC (37,148 KB)",
+    "venue": "ICLR",
+    "year": 2023,
+    "landing_url": "https://openreview.net/forum?id=PqvMRDCJT9t",
+    "official_pdf_url": "https://openreview.net/pdf?id=PqvMRDCJT9t",
+    "bibtex": "@inproceedings{\nlipman2023flow,\ntitle={Flow Matching for Generative Modeling},\nauthor={Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matthew Le},\nbooktitle={The Eleventh International Conference on Learning Representations },\nyear={2023},\nurl={https://openreview.net/forum?id=PqvMRDCJT9t}\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–10",
+      "supplement_or_appendix": "17–21: likelihood conventions, diffusion relation, implementation and additional results; full theorem proofs were not read."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+    "authors": [
+      "Xingchao Liu",
+      "Chengyue Gong",
+      "qiang liu"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2209.03003",
+    "source_version": "arXiv:2209.03003v1",
+    "pdf_url": "https://arxiv.org/pdf/2209.03003v1",
+    "pdf_sha256": "d81790cb6988ef480002adcc84000d4f44855b11fb868001fd53aad133bc3a74",
+    "pages": 41,
+    "retrieved_at": "2026-09-10T22:55:17.806263+00:00",
+    "reading_status": "main_text_read",
+    "submission_history": "Submission history From: Xingchao Liu [ view email ] [v1] Wed, 7 Sep 2022 08:59:55 UTC (16,160 KB)",
+    "venue": "ICLR",
+    "year": 2023,
+    "landing_url": "https://openreview.net/forum?id=XVjTT1nw5z",
+    "official_pdf_url": "https://openreview.net/pdf?id=XVjTT1nw5z",
+    "bibtex": "@inproceedings{\nliu2023flow,\ntitle={Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow},\nauthor={Xingchao Liu and Chengyue Gong and qiang liu},\nbooktitle={The Eleventh International Conference on Learning Representations },\nyear={2023},\nurl={https://openreview.net/forum?id=XVjTT1nw5z}\n}",
+    "metadata_note": "Conference metadata from OpenReview; actual full text read is the versioned author arXiv PDF, not asserted to be identical to the conference PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–29",
+      "supplement_or_appendix": "37–41: experimental details and gallery captions."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+    "authors": [
+      "Dustin Podell",
+      "Zion English",
+      "Kyle Lacey",
+      "Andreas Blattmann",
+      "Tim Dockhorn",
+      "Jonas Müller",
+      "Joe Penna",
+      "Robin Rombach"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2307.01952",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/081b08068e4733ae3e7ad019fe8d172f-Paper-Conference.pdf",
+    "pdf_sha256": "69144dbaceeb2a0a452c89221a384d36e5fad272df86400562896a2bc377c2e9",
+    "pages": 13,
+    "retrieved_at": "2026-09-10T22:55:19.501771+00:00",
+    "reading_status": "main_text_read",
+    "venue": "ICLR",
+    "year": 2024,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/081b08068e4733ae3e7ad019fe8d172f-Abstract-Conference.html",
+    "bibtex": "@inproceedings{ICLR2024_081b0806,\n author = {Podell, Dustin and English, Zion and Lacey, Kyle and Blattmann, Andreas and Dockhorn, Tim and M\\\"{u}ller, Jonas and Penna, Joe and Rombach, Robin},\n booktitle = {International Conference on Learning Representations},\n editor = {B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun},\n pages = {1862--1874},\n title = {SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis},\n url = {https://proceedings.iclr.cc/paper_files/paper/2024/file/081b08068e4733ae3e7ad019fe8d172f-Paper-Conference.pdf},\n volume = {2024},\n year = {2024}\n}\n",
+    "metadata_note": "Official conference proceedings metadata and PDF.",
+    "supplement_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/081b08068e4733ae3e7ad019fe8d172f-Supplementary-Conference.pdf",
+    "supplement_pages": 14,
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "Separate supplementary PDF pages 2–9 and 13–14: limitations, background, comparisons, metrics and autoencoder ablation."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "Training Diffusion Models with Reinforcement Learning",
+    "authors": [
+      "Kevin Black",
+      "Michael Janner",
+      "Yilun Du",
+      "Ilya Kostrikov",
+      "Sergey Levine"
+    ],
+    "arxiv_url": "https://arxiv.org/abs/2305.13301",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/14f75513f0f1ca01de1e826b52e6b840-Paper-Conference.pdf",
+    "pdf_sha256": "3b2d7c8a9f595040505c835a179dd5fd286eb2d67aeeb370e8ed1195743133e0",
+    "pages": 23,
+    "retrieved_at": "2026-09-10T22:55:22.622146+00:00",
+    "reading_status": "main_text_read",
+    "venue": "ICLR",
+    "year": 2024,
+    "landing_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/14f75513f0f1ca01de1e826b52e6b840-Abstract-Conference.html",
+    "bibtex": "@inproceedings{ICLR2024_14f75513,\n author = {Black, Kevin and Janner, Michael and Du, Yilun and Kostrikov, Ilya and Levine, Sergey},\n booktitle = {International Conference on Learning Representations},\n editor = {B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun},\n pages = {4965--4987},\n title = {Training Diffusion Models with Reinforcement Learning},\n url = {https://proceedings.iclr.cc/paper_files/paper/2024/file/14f75513f0f1ca01de1e826b52e6b840-Paper-Conference.pdf},\n volume = {2024},\n year = {2024}\n}\n",
+    "metadata_note": "Official conference proceedings metadata and PDF.",
+    "reading_coverage": {
+      "main_pdf_pages": "1–9",
+      "supplement_or_appendix": "15–23: full appendices."
+    }
+  }
+]
