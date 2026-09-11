@@ -1,0 +1,261 @@
+[
+  {
+    "title": "A Privacy Analysis of Cross-device Tracking",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/zimmeck",
+    "year": 2017,
+    "venue": "USENIX Security",
+    "id": "P01",
+    "authors": [
+      "Sebastian Zimmeck",
+      "Jie S. Li",
+      "Hyungtae Kim",
+      "Steven M. Bellovin",
+      "Tony Jebara"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-zimmeck.pdf",
+    "bibtex": "@inproceedings {203894,\n\n\tauthor = {Sebastian Zimmeck and Jie S. Li and Hyungtae Kim and Steven M. Bellovin and Tony Jebara},\n\n\ttitle = {A Privacy Analysis of Cross-device Tracking},\n\n\tbooktitle = {26th USENIX Security Symposium (USENIX Security 17)},\n\n\tyear = {2017},\n\n\tisbn = {978-1-931971-40-9},\n\n\taddress = {Vancouver, BC},\n\n\tpages = {1391--1408},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/zimmeck},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/zimmeck",
+    "pdf_sha256": "81dd2e43160c3bb3d7b4874613ac45e23e0ce96e2e4602c8ac7f06ab50620173",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:26.252201+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendices A–B, PDF pages 18–19."
+    }
+  },
+  {
+    "title": "Fp-Scanner: The Privacy Implications of Browser Fingerprint Inconsistencies",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/vastel",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P02",
+    "authors": [
+      "Antoine Vastel",
+      "Pierre Laperdrix",
+      "Walter Rudametkin",
+      "Romain Rouvoy"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-vastel.pdf",
+    "bibtex": "@inproceedings {217529,\n\n\tauthor = {Antoine Vastel and Pierre Laperdrix and Walter Rudametkin and Romain Rouvoy},\n\n\ttitle = {{Fp-Scanner}: The Privacy Implications of Browser Fingerprint Inconsistencies},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {135--150},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/vastel},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/vastel",
+    "pdf_sha256": "d79f2c8716a275165374af5eb73f96bb5209969df35f4019646cde5daac9797b",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:26.340221+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–16",
+      "supplement_or_appendix": "No appendix in the published PDF."
+    }
+  },
+  {
+    "title": "Who Left Open the Cookie Jar? A Comprehensive Evaluation of Third-Party Cookie Policies",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/franken",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P03",
+    "authors": [
+      "Gertjan Franken",
+      "Tom Van Goethem",
+      "Wouter Joosen"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-franken.pdf",
+    "bibtex": "@inproceedings {217648,\n\n\tauthor = {Gertjan Franken and Tom Van Goethem and Wouter Joosen},\n\n\ttitle = {Who Left Open the Cookie Jar? A Comprehensive Evaluation of {Third-Party} Cookie Policies},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {151--168},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/franken},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/franken",
+    "pdf_sha256": "4a0b631696fd03cb88e685c0b352dde3924970be569448fb5c473c74546c7a11",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:27.336168+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete appendix, PDF pages 16–19."
+    }
+  },
+  {
+    "title": "Rendered Private: Making GLSL Execution Uniform to Prevent WebGL-based Browser Fingerprinting",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/wu",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P04",
+    "authors": [
+      "Shujiang Wu",
+      "Song Li",
+      "Yinzhi Cao",
+      "Ningfei Wang"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19fall_wu_prepub.pdf",
+    "bibtex": "@inproceedings {235463,\n\n\tauthor = {Shujiang Wu and Song Li and Yinzhi Cao and Ningfei Wang},\n\n\ttitle = {Rendered Private: Making {GLSL} Execution Uniform to Prevent {WebGL-based} Browser Fingerprinting},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1645--1660},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/wu},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/wu",
+    "pdf_sha256": "2aaa2858b47be149ea2c6f1cfa26ea43033f71a80207e68127dbc58a20678370",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:33.080818+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement_or_appendix": "Complete Appendix A, PDF page 16."
+    }
+  },
+  {
+    "title": "Everyone is Different: Client-side Diversification for Defending Against Extension Fingerprinting",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/trickel",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P05",
+    "authors": [
+      "Erik Trickel",
+      "Oleksii Starov",
+      "Alexandros Kapravelos",
+      "Nick Nikiforakis",
+      "Adam Doupé"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19-trickel.pdf",
+    "bibtex": "@inproceedings {236324,\n\n\tauthor = {Erik Trickel and Oleksii Starov and Alexandros Kapravelos and Nick Nikiforakis and Adam Doup{\\'e}},\n\n\ttitle = {Everyone is Different: Client-side Diversification for Defending Against Extension Fingerprinting},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1679--1696},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/trickel},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/trickel",
+    "pdf_sha256": "1f6b5db853e5eaf477ca8da9d6fd3144276149f778cddf7bb5cde20774d20785",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:33.067336+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–17",
+      "supplement_or_appendix": "No appendix in the published PDF."
+    }
+  },
+  {
+    "title": "Fingerprinting in Style: Detecting Browser Extensions via Injected Style Sheets",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/laperdrix",
+    "year": 2021,
+    "venue": "USENIX Security",
+    "id": "P06",
+    "authors": [
+      "Pierre Laperdrix",
+      "Oleksii Starov",
+      "Quan Chen",
+      "Alexandros Kapravelos",
+      "Nick Nikiforakis"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec21-laperdrix.pdf",
+    "bibtex": "@inproceedings {272161,\n\n\tauthor = {Pierre Laperdrix and Oleksii Starov and Quan Chen and Alexandros Kapravelos and Nick Nikiforakis},\n\n\ttitle = {Fingerprinting in Style: Detecting Browser Extensions via Injected Style Sheets},\n\n\tbooktitle = {30th USENIX Security Symposium (USENIX Security 21)},\n\n\tyear = {2021},\n\n\tisbn = {978-1-939133-24-3},\n\n\tpages = {2507--2524},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity21/presentation/laperdrix},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/laperdrix",
+    "pdf_sha256": "6f4fdcad33a034301b3d4c25d818d8df9482b4f689c0db96b4d73292d67ccc6f",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:33.852759+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendices A–B, PDF pages 17–19."
+    }
+  },
+  {
+    "title": "The Dangers of Human Touch: Fingerprinting Browser Extensions through User Actions",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/solomos",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P07",
+    "authors": [
+      "Konstantinos Solomos",
+      "Panagiotis Ilia",
+      "Soroush Karami",
+      "Nick Nikiforakis",
+      "Jason Polakis"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-solomos.pdf",
+    "bibtex": "@inproceedings {279920,\n\n\tauthor = {Konstantinos Solomos and Panagiotis Ilia and Soroush Karami and Nick Nikiforakis and Jason Polakis},\n\n\ttitle = {The Dangers of Human Touch: Fingerprinting Browser Extensions through User Actions},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {717--733},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/solomos},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/solomos",
+    "pdf_sha256": "7c79766ed1415f8509bb64a79d6f5e8d609e4e1becc3093b7bfed29fdf5b558f",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:39.362823+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendices A–B, PDF pages 17–18."
+    }
+  },
+  {
+    "title": "Unleash the Simulacrum: Shifting Browser Realities for Robust Extension-Fingerprinting Prevention",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/karami",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P08",
+    "authors": [
+      "Soroush Karami",
+      "Faezeh Kalantari",
+      "Mehrnoosh Zaeifi",
+      "Xavier J. Maso",
+      "Erik Trickel",
+      "Panagiotis Ilia",
+      "Yan Shoshitaishvili",
+      "Adam Doupé",
+      "Jason Polakis"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-karami.pdf",
+    "bibtex": "@inproceedings {279963,\n\n\tauthor = {Soroush Karami and Faezeh Kalantari and Mehrnoosh Zaeifi and Xavier J. Maso and Erik Trickel and Panagiotis Ilia and Yan Shoshitaishvili and Adam Doup{\\'e} and Jason Polakis},\n\n\ttitle = {Unleash the Simulacrum: Shifting Browser Realities for Robust {Extension-Fingerprinting} Prevention},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {735--752},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/karami},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/karami",
+    "pdf_sha256": "ee1261ffa78678c4fa53e2b7d11a892b6854d41b11e58235a6294ed19e300566",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:39.520362+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete appendix, PDF pages 17–19."
+    }
+  },
+  {
+    "title": "When Sally Met Trackers: Web Tracking From the Users' Perspective",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/dambra",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P09",
+    "authors": [
+      "Savino Dambra",
+      "Iskander Sanchez-Rola",
+      "Leyla Bilge",
+      "Davide Balzarotti"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-dambra.pdf",
+    "bibtex": "@inproceedings {277198,\n\n\tauthor = {Savino Dambra and Iskander Sanchez-Rola and Leyla Bilge and Davide Balzarotti},\n\n\ttitle = {When Sally Met Trackers: Web Tracking From the Users{\\textquoteright} Perspective},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {2189--2206},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/dambra},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/dambra",
+    "pdf_sha256": "cdead1dec7f4d5f370cdbdd2eaa551b88cb51f44e6e266ff6510f2905813d55a",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:39.872716+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendices A–E, PDF pages 18–19."
+    }
+  },
+  {
+    "title": "WebGraph: Capturing Advertising and Tracking Information Flows for Robust Blocking",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/siby",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P10",
+    "authors": [
+      "Sandra Siby",
+      "Umar Iqbal",
+      "Steven Englehardt",
+      "Zubair Shafiq",
+      "Carmela Troncoso"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-siby.pdf",
+    "bibtex": "@inproceedings {277176,\n\n\tauthor = {Sandra Siby and Umar Iqbal and Steven Englehardt and Zubair Shafiq and Carmela Troncoso},\n\n\ttitle = {{WebGraph}: Capturing Advertising and Tracking Information Flows for Robust Blocking},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {2875--2892},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/siby},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/siby",
+    "pdf_sha256": "e5cdc5049a2fdd9b0f9eefa0cce3c000a1cc2deb5ebef2c3ff71d3d1842f9e12",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:14:45.159303+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendices A–F, PDF pages 17–19."
+    }
+  }
+]

@@ -25,6 +25,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-neurips-generative` | NeurIPS | Generative models and sampling | Full drafts; learning principles, training repairs, flows, VAEs, diffusion, guidance, quality–cost tradeoffs and revision | [SKILL.md](../../paper-craft-neurips-generative/SKILL.md) |
 | `paper-craft-neurips-rl` | NeurIPS | Reinforcement learning and decision-making | Full drafts; learning signals, model use, offline objectives, sequence policies, benchmark narratives and empirical interpretation | [SKILL.md](../../paper-craft-neurips-rl/SKILL.md) |
 | `paper-craft-usenix-software` | USENIX Security | Software security: fuzzing and program analysis | Full drafts; execution and allocation stories, firmware environments, input structure, cooperation, driver generation and experiment interpretation | [SKILL.md](../../paper-craft-usenix-software/SKILL.md) |
+| `paper-craft-usenix-privacy` | USENIX Security | Browser privacy and web measurement | Full drafts; new observation channels, user exposure, policy analysis, privacy defenses, robustness tradeoffs and result interpretation | [SKILL.md](../../paper-craft-usenix-privacy/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -226,6 +227,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** attacks on or defenses of ML models belong to ML security; user tracking, fingerprinting, and ecosystem privacy studies belong to privacy and measurement. This corpus does not supply dedicated exploit-mitigation, verification, or cryptographic-protocol guidance. Use general writing guidance for those uncovered contributions rather than forcing a fuzzing story.
 
 **Source collection:** [10 accepted USENIX Security papers from 2018–2020](../../paper-craft-usenix-software/references/corpus.md), with [BibTeX](../../paper-craft-usenix-software/references/references.bib).
+
+### USENIX Security: privacy and measurement
+
+**Select when the contribution concerns:** browser or extension fingerprinting, web tracking, cross-device linking, cookie-policy behavior, user exposure to tracking, or privacy defenses that preserve browser functionality.
+
+**Useful signals in the material:** observable page changes, interaction-triggered behavior, tracker and organization mappings, site versus visit coverage, exposure over time, privacy–functionality tradeoffs, and adapted tracking observers.
+
+**Distinguish nearby work:** an ML classifier for tracking belongs here when the contribution is a privacy measurement or blocking mechanism. Attacks on model confidentiality or integrity belong to ML security. Fuzzing browser code for ordinary software faults belongs to software security. This corpus does not provide dedicated anonymous-communication, cryptographic privacy, or usable-security interview guidance; use general writing guidance for those uncovered topics.
+
+**Source collection:** [10 accepted USENIX Security papers from 2017–2022](../../paper-craft-usenix-privacy/references/corpus.md), with [BibTeX](../../paper-craft-usenix-privacy/references/references.bib).
 
 ## Adding a specialist
 

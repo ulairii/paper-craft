@@ -1,0 +1,75 @@
+# Worked example: drafting an interaction-privacy paper
+
+This is a fictional example with invented inputs and results. It demonstrates writing from a fixed evidence packet; none of the numbers below are findings of the cited papers. The source papers supply relevant context and argumentative examples, not evidence for the fictional method.
+
+## Supplied material
+
+The author provides a prototype that separates the page-visible record of selected extension events from the user-visible response. The prototype covers one specified event channel, not all DOM modifications. In a collection of 800 eligible extensions, a passive observer detects 120. An interaction-aware observer detects 200, including 80 missed by the passive observer. The prototype hides 184 of those 200 from the original observer and 176 from an observer adapted to residual event fields. Eight additional detections use an event field that the original observer ignored. Sixteen extensions were already detectable through an uncovered message path. In manual tests, 46 of 50 extensions retain the tested functionality; four lose a secondary interaction. Among 50 sites, three have minor functional issues and none have an observed failure of the primary tested task. Median added interaction delay is 12 ms over 500 measured interactions, with a 95th percentile of 41 ms. Dates, sampling details, browser version, task definitions, and a repeated-trial uncertainty analysis are not supplied.
+
+## Draft
+
+### Separating Page-Visible Events from Extension Responses
+
+#### Abstract
+
+Browser extensions can reveal their presence when a user interaction triggers a distinctive response. Hiding that response is difficult when it also provides the functionality the user installed the extension to obtain. We introduce a prototype that separates the event record available to a webpage from the response presented to the user for [SUPPORTED EVENT CHANNEL]. In a collection of 800 eligible extensions, interaction-aware observation detects 200 extensions, including 80 missed by passive observation. The prototype hides 176 of these extensions from an observer adapted to the remaining event fields. Manual tests preserve the tested functionality in 46 of 50 extensions, with secondary interaction failures in four. Across 500 measured interactions, median added delay is 12 ms. These results show the potential of separating event visibility from user-facing behavior for the supported channel, while uncovered message paths and compatibility failures identify the current limits.
+
+#### 1. Introduction
+
+A user selects text on a webpage and invokes an extension. The extension responds with a useful action, but the page may also receive a distinctive event record. That record can reveal which extension is installed even when the extension leaves no persistent change for a passive observer to inspect. Preventing the observation requires more than disabling the response: doing so would remove the functionality the user wanted.
+
+Previous work shows that extension detection can exploit different observable channels. Injected styles reveal themselves through their effects on page-created elements [P06], and user interactions can activate behavior that passive inspection misses [P07]. These findings motivate a distinction between the behavior needed by the user and the record exposed to the webpage. We study that distinction for [SUPPORTED EVENT CHANNEL].
+
+Our prototype separates the two by [SPECIFIC EVENT-ROUTING OPERATION]. The user receives the extension's response, while the webpage receives [PAGE-VISIBLE RECORD]. The design preserves [REQUIRED EVENT SEMANTICS] and excludes [FIELDS OR EVENTS HIDDEN BY THE PROTOTYPE]. This is a channel-specific mechanism whose effectiveness depends on which parts of the interaction remain observable.
+
+We evaluate that mechanism with both the original observer and an observer adapted to residual fields. The adapted observer identifies eight more extensions than the original, reducing the protected count from 184 to 176 out of 200 detectable extensions. This comparison makes the remaining signal explicit. We also examine functionality and interaction delay, because retaining a response is useful only if users can still complete the intended action.
+
+The paper contributes a separation mechanism for [SUPPORTED EVENT CHANNEL], an evaluation of its effect on interaction-based detection, and an analysis of the functionality and residual observations that define its current scope.
+
+#### 2. Observation model
+
+The observer controls a webpage and can inspect [EXPOSED EVENT FIELDS] after [SPECIFIED USER ACTIONS]. It does not control the extension or the browser. Our interaction-aware observer performs [ACTION TEMPLATES] and associates the resulting records with extensions using [IDENTIFICATION RULE]. The passive observer examines [PASSIVE OBSERVATIONS] without those actions.
+
+We distinguish actions performed through the browser interface from events generated by page JavaScript. The present evaluation uses [ACTION ORIGIN]; its results therefore describe [MATCHING ATTACKER CAPABILITY]. Human Touch makes this distinction important: the existence of a user-triggered signal and a page's ability to trigger it without a user are separate capabilities [P07].
+
+The defense covers [SUPPORTED EVENT CHANNEL]. Messages through [UNCOVERED PATH] remain visible. We evaluate that path as a residual source of detection rather than treating protection of one event record as concealment of every extension behavior.
+
+#### 3. Design
+
+The prototype maintains a distinction between the response required by the user and the event record available to the page. When [TRIGGER] occurs, [COMPONENT] sends [USER RESPONSE] to [DESTINATION] and constructs [PAGE RECORD] for the observer. The mapping preserves [SEMANTIC PROPERTY] so that [LEGITIMATE FUNCTION] can continue.
+
+This separation requires handling [KEY CASE] differently from [SECOND CASE]. In the first case, the page needs [VALUE] to complete its own operation. In the second, that value originates solely from the extension and would expose [DISTINGUISHING INFORMATION]. The prototype therefore applies [RULE], retaining the first behavior and changing the second. [SHORT EVENT TRACE] illustrates this decision without the surrounding initialization code.
+
+The design is related to separating user-visible and page-readable state in Simulacrum [P08], but operates on the specified event channel. Its narrower boundary is reflected in the implementation and evaluation: it does not mediate every DOM API or suppress the uncovered message path.
+
+#### 4. Evaluation
+
+We collected the extensions during [DATES] using [SAMPLING PROCEDURE]. Of [INITIAL COUNT] extensions, 800 satisfy [ELIGIBILITY CONDITIONS]. All experiments use [BROWSER VERSION] and [CONFIGURATION]. We count unique extensions, not extension versions or identifiable users. Detection requires [MATCH CRITERION], and trials are repeated [NUMBER] times with [UNCERTAINTY SUMMARY].
+
+**Additional visibility from interactions.** Passive observation detects 120 eligible extensions. Adding the specified interactions detects 200, including 80 missed by the passive observer. This result shows that the interactions expose information absent from the passive record in the evaluated collection. It does not require the interaction-aware observer to replace passive detection: the two observations can be combined.
+
+**Protection and remaining signals.** Against the original interaction-aware observer, the prototype hides 184 of the 200 detectable extensions. An adapted observer uses residual event fields to detect eight additional extensions, leaving 176 hidden. The change from 92% to 88% protection is explained by information still present in the page-visible record. Sixteen extensions remain detectable through the uncovered message path even before adaptation. Together, these cases identify two distinct limits: incomplete concealment within the supported record and an observation path outside it.
+
+**Functionality.** In manual tests of 50 extensions, 46 retain [TESTED OPERATIONS]. Four lose a secondary interaction, namely [AFFECTED OPERATIONS]. These tests demonstrate preserved functionality for the exercised cases while identifying behavior that the current routing rule does not retain. The test procedure consists of [TASKS AND COMPARISON PROCEDURE].
+
+On 50 websites, three exhibit minor functional issues and none fails the primary tested task. We define the primary task as [TASK DEFINITION] and a minor issue as [DEFINITION]. The absence of an observed primary-task failure applies to this test set and procedure; the three secondary issues remain part of the compatibility cost.
+
+**Interaction cost.** Across 500 measured interactions, median added delay is 12 ms and the 95th percentile is 41 ms. Timing begins at [START EVENT] and ends at [END EVENT]. Reporting both values describes typical delay and the slower part of the measured distribution. The result concerns the supported interactions, rather than total page-loading cost.
+
+#### 5. Related work
+
+Extension fingerprinting uses several kinds of observable behavior. Fingerprinting in Style identifies extensions through the effects of their injected stylesheets [P06]. Human Touch adds interactions that activate previously unobserved behavior [P07]. Our evaluation builds on the latter observation and studies a defense for one resulting event channel. It does not establish protection against the CSS channel.
+
+Defenses also differ in what they change. CloakX diversifies recognizable extension artifacts [P05], while Simulacrum separates extension-modified DOM state from the state visible to the page [P08]. Our prototype applies a separation principle to [SUPPORTED EVENT CHANNEL]. The relevant comparison is which observations each mechanism mediates and which useful behaviors it preserves.
+
+#### 6. Discussion and conclusion
+
+The results support separating a page-visible event record from the response delivered to the user. They also show why that separation must be described through its actual observation boundary. An adapted observer recovers some detections through residual fields, and a separate message path remains exposed. These findings explain the protected fraction and identify where additional mediation would be needed.
+
+Functionality is the other boundary. Four tested extensions lose a secondary interaction, and three tested sites exhibit minor issues. Resolving those cases requires understanding which event semantics legitimate code depends on. The present evidence establishes a useful mechanism for the supported channel and a concrete account of its remaining privacy and compatibility costs.
+
+## Why this draft takes this form
+
+The introduction earns the design through a familiar interaction, following [P06](papers/P06.md) and [P07](papers/P07.md). The method uses an observable-state distinction inspired by [P08](papers/P08.md). The results explain additional coverage, residual fields, uncovered paths, functionality, and delay in that order. The prose sells a useful separation mechanism without requiring perfect protection.
+
+The bracketed P-citations refer to the numbered entries in the [source collection](corpus.md); [BibTeX](references.bib) supplies complete references. Factual placeholders are deliberately specific so that the author can finish the manuscript from their own records.
