@@ -1,6 +1,17 @@
-# paper-craft
+<div align="center">
 
-**Research writing skills learned from strong papers.**
+<h1>paper-craft</h1>
+<p><strong>Research writing skills learned from strong papers.</strong></p>
+<p>22 specialists · 8 conferences · At least 10 source papers per specialist</p>
+
+<p>
+  <a href="#get-started">Get started</a> ·
+  <a href="#specialist-library">Browse skills</a> ·
+  <a href="#a-small-example">Writing example</a> ·
+  <a href="#contribute-a-skill">Contribute</a>
+</p>
+
+</div>
 
 Turn an idea, rough draft, or set of results into a paper with a clear story. paper-craft distills how published papers introduce a problem, make an insight memorable, organize experiments, explain findings, and write precise, natural English.
 
@@ -8,21 +19,23 @@ Each skill focuses on a **conference and research area**, drawing on at least **
 
 ## What it helps you write
 
-- **The story:** find the insight that makes the work worth reading.
-- **Titles and abstracts:** make the contribution recognizable without inflated language.
-- **Introductions and methods:** connect the problem, intuition, and design so readers can follow the idea.
-- **Experiments and results:** organize around questions and explain what the findings mean.
-- **Better sentences:** replace awkward words, vague claims, and overloaded paragraphs with clear prose.
+| Part of the paper | What the skill helps you do |
+|:---|:---|
+| **Story & contribution** | Find the central insight and make its value clear. |
+| **Title & abstract** | Make the contribution recognizable without inflated language. |
+| **Introduction & method** | Connect the problem, intuition, and design. |
+| **Experiments & results** | Organize around questions and explain what the findings mean. |
+| **Sentences & paragraphs** | Replace awkward words, vague claims, and overloaded paragraphs with clear prose. |
 
 ## Get started
 
-Clone the repository:
+**1. Clone the repository.**
 
 ```bash
 git clone https://github.com/ulairii/paper-craft.git
 ```
 
-Give your assistant the shared entry point and the material you want to work on:
+**2. Give your assistant the entry point and your material.**
 
 ```text
 Read paper-craft/skills/paper-craft/SKILL.md.
@@ -36,11 +49,13 @@ comparisons, and use plain academic English.
 
 Use the path to your clone if you are working elsewhere. The assistant reads your material, selects the appropriate conference-and-subfield skill, and writes the requested draft. You can also ask for a single section, an outline, or a sentence edit.
 
+### Install in a skills-compatible assistant
+
 If your assistant supports installing skills from folders, copy **all folders inside `skills/` together** into its configured skills location, preserving their names and `references/` directories. Invoke the `paper-craft` entry point using your assistant's supported invocation method. The entry point uses relative paths to load the specialists; copying only its folder provides general guidance but omits the specialist content.
 
 The skill is a collection of Markdown instructions and reading notes. Using it requires no paper downloads, Python environment, API keys, or access to the author's machines.
 
-## One entry point, specialized writing lessons
+### How skill selection works
 
 [paper-craft](skills/paper-craft/SKILL.md) uses a [catalog](skills/paper-craft/references/catalog.md) to match the target conference, central research topic, and writing task. It infers the topic from the supplied work rather than asking you to choose a directory.
 
@@ -48,32 +63,54 @@ If the work spans several areas, it chooses one primary skill and draws on anoth
 
 The entry point must be loaded or installed in your assistant; cloning a repository alone does not activate it.
 
-### Available specialists
+## Specialist library
 
-| Skill | Source papers | Focus |
-|---|---|---|
-| [ICLR · LLM reasoning and test-time compute](skills/paper-craft-iclr-reasoning/SKILL.md) | [10 ICLR papers, 2023–2025](skills/paper-craft-iclr-reasoning/references/corpus.md) | Sampling, decomposition, verification, self-correction, search, and compute allocation |
-| [ICLR · Representation learning](skills/paper-craft-iclr-representation/SKILL.md) | [10 ICLR papers, 2019–2022](skills/paper-craft-iclr-representation/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-representation/references/references.bib) | Information objectives, graphs, collapse, masked pretraining, local features, and language–image alignment |
-| [CVPR · Object detection](skills/paper-craft-cvpr-detection/SKILL.md) | [10 CVPR papers, 2014–2022](skills/paper-craft-cvpr-detection/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-detection/references/references.bib) | Localization, feature pyramids, assignment, sparse proposals, efficiency, and convergence |
-| [CVPR · Segmentation](skills/paper-craft-cvpr-segmentation/SKILL.md) | [10 CVPR papers, 2015–2023](skills/paper-craft-cvpr-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-segmentation/references/references.bib) | Dense prediction, context, boundaries, refinement, and task unification |
-| [CVPR · 3D perception](skills/paper-craft-cvpr-3d/SKILL.md) | [10 CVPR papers, 2017–2024](skills/paper-craft-cvpr-3d/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-3d/references/references.bib) | Point-cloud geometry, LiDAR detection, representations, pretraining, and scaling |
-| [ICCV · Object detection](skills/paper-craft-iccv-detection/SKILL.md) | [10 ICCV papers, 2015–2023](skills/paper-craft-iccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-detection/references/references.bib) | Spatial alignment, dense losses, anchor-free prediction, pseudo labels, and transformer training |
-| [ICCV · Segmentation](skills/paper-craft-iccv-segmentation/SKILL.md) | [10 ICCV papers, 2015–2023](skills/paper-craft-iccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-segmentation/references/references.bib) | Spatial refinement, efficient context, query masks, open-vocabulary transfer, and prompting |
-| [ICCV · 3D perception](skills/paper-craft-iccv-3d/SKILL.md) | [10 ICCV papers, 2019–2023](skills/paper-craft-iccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-3d/references/references.bib) | Geometric detection, registration, real scans, sparse representations, and camera BEV |
-| [ECCV · Object detection](skills/paper-craft-eccv-detection/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-detection/references/references.bib) | Output reformulation, adaptive training, precise boxes, semi-supervised and open-vocabulary learning |
-| [ECCV · Segmentation](skills/paper-craft-eccv-segmentation/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-segmentation/references/references.bib) | Spatial detail, context units, instance representations, heterogeneous tasks, and open-vocabulary interaction |
-| [ECCV · 3D perception](skills/paper-craft-eccv-3d/SKILL.md) | [10 ECCV papers, 2018–2024](skills/paper-craft-eccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-3d/references/references.bib) | Point operators, registration, pretraining, geometric detection, camera fusion, and sparse attention |
-| [ICML · Representation learning](skills/paper-craft-icml-representation/SKILL.md) | [10 ICML papers, 2020–2023](skills/paper-craft-icml-representation/references/corpus.md) · [BibTeX](skills/paper-craft-icml-representation/references/references.bib) | Contrastive learning, language–image transfer, data efficiency, identifiability, robustness, and dynamics |
-| [ICML · Generative models](skills/paper-craft-icml-generative/SKILL.md) | [10 ICML papers, 2014–2023](skills/paper-craft-icml-generative/references/corpus.md) · [BibTeX](skills/paper-craft-icml-generative/references/references.bib) | Variational models, flows, GANs, diffusion, consistency, conditioning, new modalities, and sampling |
-| [ICML · Reinforcement learning](skills/paper-craft-icml-rl/SKILL.md) | [10 ICML papers, 2015–2022](skills/paper-craft-icml-rl/references/corpus.md) · [BibTeX](skills/paper-craft-icml-rl/references/references.bib) | Policy optimization, value learning, offline RL, visual control, replay, planning, and adaptation |
-| [ICLR · Generative models](skills/paper-craft-iclr-generative/SKILL.md) | [10 ICLR papers, 2014–2024](skills/paper-craft-iclr-generative/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-generative/references/references.bib) | Variational inference, flows, GANs, diffusion, sampling, text-to-image systems, and reward adaptation |
-| [NeurIPS · Representation learning](skills/paper-craft-neurips-representation/SKILL.md) | [10 NeurIPS papers, 2019–2022](skills/paper-craft-neurips-representation/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-representation/references/references.bib) | Self-supervision, contrastive objectives, graph representations, local features, label efficiency, and transfer analysis |
-| [NeurIPS · Generative models](skills/paper-craft-neurips-generative/SKILL.md) | [10 NeurIPS papers, 2014–2022](skills/paper-craft-neurips-generative/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-generative/references/references.bib) | GANs, flows, VAEs, diffusion, guidance, design principles, and sampling efficiency |
-| [NeurIPS · Reinforcement learning](skills/paper-craft-neurips-rl/SKILL.md) | [10 NeurIPS papers, 2017–2021](skills/paper-craft-neurips-rl/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-rl/references/references.bib) | Sparse rewards, human preferences, model-based and offline control, sequence policies, and empirical analysis |
-| [USENIX Security · Software security](skills/paper-craft-usenix-software/SKILL.md) | [10 USENIX Security papers, 2018–2020](skills/paper-craft-usenix-software/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-software/references/references.bib) | Fuzzing, symbolic execution, firmware emulation, search allocation, inferred structure, and driver generation |
-| [USENIX Security · Privacy and measurement](skills/paper-craft-usenix-privacy/SKILL.md) | [10 USENIX Security papers, 2017–2022](skills/paper-craft-usenix-privacy/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-privacy/references/references.bib) | Web tracking, browser fingerprinting, user exposure, cookie policies, and privacy defenses |
-| [USENIX Security · Machine learning security](skills/paper-craft-usenix-ml/SKILL.md) | [10 USENIX Security papers, 2018–2022](skills/paper-craft-usenix-ml/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-ml/references/references.bib) | Adversarial inputs, poisoning, privacy inference, defenses, watermarking, and forensics |
-| [IEEE S&P · Software security](skills/paper-craft-sp-software/SKILL.md) | [10 IEEE S&P papers, 2017–2022](skills/paper-craft-sp-software/references/corpus.md) · [BibTeX](skills/paper-craft-sp-software/references/references.bib) | Input semantics, search, feedback, program transformation, hybrid reuse, state exploration, and USB gadgets |
+Choose a research family below, or let the [entry point](skills/paper-craft/SKILL.md) select a specialist from your material. Each **Papers** link opens the cited collection and individual reading notes. For detailed topic coverage, see the [routing catalog](skills/paper-craft/references/catalog.md).
+
+[AI & machine learning](#ai--machine-learning) · [Computer vision](#computer-vision) · [Security & privacy](#security--privacy)
+
+### AI & machine learning
+
+From learning objectives and model design to reasoning, generation, and control.
+
+| Conference | Writing skill | References |
+|:---|:---|:---|
+| **ICLR** | [LLM reasoning and test-time compute](skills/paper-craft-iclr-reasoning/SKILL.md) | [Papers · 2023–2025](skills/paper-craft-iclr-reasoning/references/corpus.md) |
+| **ICLR** | [Representation learning](skills/paper-craft-iclr-representation/SKILL.md) | [Papers · 2019–2022](skills/paper-craft-iclr-representation/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-representation/references/references.bib) |
+| **ICLR** | [Generative models](skills/paper-craft-iclr-generative/SKILL.md) | [Papers · 2014–2024](skills/paper-craft-iclr-generative/references/corpus.md) · [BibTeX](skills/paper-craft-iclr-generative/references/references.bib) |
+| **ICML** | [Representation learning](skills/paper-craft-icml-representation/SKILL.md) | [Papers · 2020–2023](skills/paper-craft-icml-representation/references/corpus.md) · [BibTeX](skills/paper-craft-icml-representation/references/references.bib) |
+| **ICML** | [Generative models](skills/paper-craft-icml-generative/SKILL.md) | [Papers · 2014–2023](skills/paper-craft-icml-generative/references/corpus.md) · [BibTeX](skills/paper-craft-icml-generative/references/references.bib) |
+| **ICML** | [Reinforcement learning](skills/paper-craft-icml-rl/SKILL.md) | [Papers · 2015–2022](skills/paper-craft-icml-rl/references/corpus.md) · [BibTeX](skills/paper-craft-icml-rl/references/references.bib) |
+| **NeurIPS** | [Representation learning](skills/paper-craft-neurips-representation/SKILL.md) | [Papers · 2019–2022](skills/paper-craft-neurips-representation/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-representation/references/references.bib) |
+| **NeurIPS** | [Generative models](skills/paper-craft-neurips-generative/SKILL.md) | [Papers · 2014–2022](skills/paper-craft-neurips-generative/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-generative/references/references.bib) |
+| **NeurIPS** | [Reinforcement learning](skills/paper-craft-neurips-rl/SKILL.md) | [Papers · 2017–2021](skills/paper-craft-neurips-rl/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-rl/references/references.bib) |
+
+### Computer vision
+
+Detection, segmentation, and 3D perception, with lessons specific to each venue.
+
+| Conference | Writing skill | References |
+|:---|:---|:---|
+| **CVPR** | [Object detection](skills/paper-craft-cvpr-detection/SKILL.md) | [Papers · 2014–2022](skills/paper-craft-cvpr-detection/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-detection/references/references.bib) |
+| **CVPR** | [Segmentation](skills/paper-craft-cvpr-segmentation/SKILL.md) | [Papers · 2015–2023](skills/paper-craft-cvpr-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-segmentation/references/references.bib) |
+| **CVPR** | [3D perception](skills/paper-craft-cvpr-3d/SKILL.md) | [Papers · 2017–2024](skills/paper-craft-cvpr-3d/references/corpus.md) · [BibTeX](skills/paper-craft-cvpr-3d/references/references.bib) |
+| **ICCV** | [Object detection](skills/paper-craft-iccv-detection/SKILL.md) | [Papers · 2015–2023](skills/paper-craft-iccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-detection/references/references.bib) |
+| **ICCV** | [Segmentation](skills/paper-craft-iccv-segmentation/SKILL.md) | [Papers · 2015–2023](skills/paper-craft-iccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-segmentation/references/references.bib) |
+| **ICCV** | [3D perception](skills/paper-craft-iccv-3d/SKILL.md) | [Papers · 2019–2023](skills/paper-craft-iccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-iccv-3d/references/references.bib) |
+| **ECCV** | [Object detection](skills/paper-craft-eccv-detection/SKILL.md) | [Papers · 2018–2024](skills/paper-craft-eccv-detection/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-detection/references/references.bib) |
+| **ECCV** | [Segmentation](skills/paper-craft-eccv-segmentation/SKILL.md) | [Papers · 2018–2024](skills/paper-craft-eccv-segmentation/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-segmentation/references/references.bib) |
+| **ECCV** | [3D perception](skills/paper-craft-eccv-3d/SKILL.md) | [Papers · 2018–2024](skills/paper-craft-eccv-3d/references/corpus.md) · [BibTeX](skills/paper-craft-eccv-3d/references/references.bib) |
+
+### Security & privacy
+
+Software testing, privacy measurement, and the security of learning systems.
+
+| Conference | Writing skill | References |
+|:---|:---|:---|
+| **IEEE S&P** | [Software security](skills/paper-craft-sp-software/SKILL.md) | [Papers · 2017–2022](skills/paper-craft-sp-software/references/corpus.md) · [BibTeX](skills/paper-craft-sp-software/references/references.bib) |
+| **USENIX Security** | [Software security](skills/paper-craft-usenix-software/SKILL.md) | [Papers · 2018–2020](skills/paper-craft-usenix-software/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-software/references/references.bib) |
+| **USENIX Security** | [Privacy and measurement](skills/paper-craft-usenix-privacy/SKILL.md) | [Papers · 2017–2022](skills/paper-craft-usenix-privacy/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-privacy/references/references.bib) |
+| **USENIX Security** | [Machine learning security](skills/paper-craft-usenix-ml/SKILL.md) | [Papers · 2018–2022](skills/paper-craft-usenix-ml/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-ml/references/references.bib) |
 
 ## A small example
 
@@ -103,4 +140,4 @@ Keep the `SKILL.md` practical and put deeper analysis in `references/`. Explain 
 
 Add the new folder alongside the existing skills and register it in the [catalog](skills/paper-craft/references/catalog.md), including its conference, topic signals, supported writing tasks, and distinctions from neighboring topics. Keep specialist directories together on the same Git branch. Users continue to call `paper-craft` as the collection grows.
 
-Future coverage is intended for ICLR, ICML, and NeurIPS; CVPR, ICCV, and ECCV; and S&P, USENIX Security, CCS, and NDSS, with skills for individual research areas. Available specialists are listed above; the catalog contains only usable skills with completed writing lessons.
+The collection is expanding across AI, computer vision, and security, including further S&P topics, CCS, and NDSS. The [specialist library](#specialist-library) lists the skills you can use today.
