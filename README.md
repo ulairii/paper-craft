@@ -4,6 +4,7 @@
 <img src="assets/paper-craft-icon.png" alt="paper-craft — a folded paper p on an ink-teal tile" width="144" height="144">
 
 <h1>paper-craft</h1>
+<p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 <p><strong>Research writing skills learned from strong papers.</strong></p>
 <p><sub>22 SPECIALISTS &nbsp; / &nbsp; 8 CONFERENCES &nbsp; / &nbsp; 10+ PAPERS PER SPECIALIST</sub></p>
 
@@ -48,8 +49,8 @@ git clone https://github.com/ulairii/paper-craft.git && python3 paper-craft/scri
 ```text
 Read ~/.local/share/paper-craft/skills/paper-craft/SKILL.md.
 
-I am submitting to ICLR. Write a full paper draft from my method and
-existing experiment results. Find the central story, explain the important
+Target conference: ICLR. Write a full paper draft from the supplied method
+and existing experiment results. Find the central story, explain the important
 comparisons, and use plain academic English.
 
 [Paste your method and results, or provide their file paths]
