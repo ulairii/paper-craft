@@ -35,16 +35,18 @@ Each skill focuses on a **conference and research area**, drawing on at least **
 
 ## Get started
 
-**1. Clone the repository.**
+**1. Install with one command.**
+
+Requires Git and Python 3. Run this from a directory without an existing `paper-craft` checkout.
 
 ```bash
-git clone https://github.com/ulairii/paper-craft.git
+git clone https://github.com/ulairii/paper-craft.git && python3 paper-craft/scripts/install.py
 ```
 
 **2. Give your assistant the entry point and your material.**
 
 ```text
-Read paper-craft/skills/paper-craft/SKILL.md.
+Read ~/.local/share/paper-craft/skills/paper-craft/SKILL.md.
 
 I am submitting to ICLR. Write a full paper draft from my method and
 existing experiment results. Find the central story, explain the important
@@ -53,13 +55,19 @@ comparisons, and use plain academic English.
 [Paste your method and results, or provide their file paths]
 ```
 
-Use the path to your clone if you are working elsewhere. The assistant reads your material, selects the appropriate conference-and-subfield skill, and writes the requested draft. You can also ask for a single section, an outline, or a sentence edit.
+The installer prints the absolute entry-point path; use that path if your assistant does not expand `~`. The assistant reads your material, selects the appropriate conference-and-subfield skill, and writes the requested draft. You can also ask for a single section, an outline, or a sentence edit.
 
 ### Install in a skills-compatible assistant
 
-If your assistant supports installing skills from folders, copy **all folders inside `skills/` together** into its configured skills location, preserving their names and `references/` directories. Invoke the `paper-craft` entry point using your assistant's supported invocation method. The entry point uses relative paths to load the specialists; copying only its folder provides general guidance but omits the specialist content.
+The default installation stores the Markdown skills under `~/.local/share/paper-craft/skills`. Load the entry point explicitly using the prompt above. To use your assistant's automatic skill discovery, install into its configured skills directory:
 
-The skill is a collection of Markdown instructions and reading notes. Using it requires no paper downloads, Python environment, API keys, or access to the author's machines.
+```bash
+python3 paper-craft/scripts/install.py --dest /path/to/your/assistant/skills
+```
+
+Already cloned the repo? Run `python3 scripts/install.py` from its root. The installer copies the entry point and all specialists together, preserves their relative paths, and refuses to overwrite existing skill folders. To try a newer version alongside an existing installation, choose a new destination and load its entry point.
+
+You can also use the clone directly by asking your assistant to read `paper-craft/skills/paper-craft/SKILL.md`. The skills themselves need no Python environment, paper downloads, or API keys; Python is used only by the optional installer.
 
 ### How skill selection works
 
@@ -120,6 +128,10 @@ Software testing, privacy measurement, and the security of learning systems.
 
 ## A small example
 
+**[Same results, a clearer abstract →](examples/abstract-before-after.md)**
+
+See two complete abstracts from the same fictional experiment results, with an explanation of the writing choices and prompts to try your own comparison. This is an authored illustration, not a measured comparison between models.
+
 An abstract opening that hides the idea:
 
 > We propose a novel and effective two-stage reinforcement learning framework to enhance the self-correction capabilities of large language models.
@@ -129,6 +141,8 @@ A more informative opening:
 > A model that revises its answer must learn both when to change it and what to change. We train these behaviors in two stages: first improving revision, then jointly optimizing the initial answer and its correction.
 
 The second version gives the reader a problem and a design rationale before introducing the machinery. This is an original writing illustration inspired by SCoRe, not a quotation from the paper. The [full worked example](skills/paper-craft-iclr-reasoning/references/worked-example.md) develops the introduction, method, and experiment story.
+
+If paper-craft helps your writing, consider giving it a star.
 
 ## Explore the writing lessons
 
@@ -147,3 +161,7 @@ Keep the `SKILL.md` practical and put deeper analysis in `references/`. Explain 
 Add the new folder alongside the existing skills and register it in the [catalog](skills/paper-craft/references/catalog.md), including its conference, topic signals, supported writing tasks, and distinctions from neighboring topics. Keep specialist directories together on the same Git branch. Users continue to call `paper-craft` as the collection grows.
 
 The collection is expanding across AI, computer vision, and security, including further S&P topics, CCS, and NDSS. The [specialist library](#specialist-library) lists the skills you can use today.
+
+## Share paper-craft
+
+Use the [English and Chinese launch posts](docs/launch-posts.md) to introduce the project to your research community, or share the [abstract demonstration](examples/abstract-before-after.md) with a colleague. Feedback and examples from real writing tasks are welcome.
