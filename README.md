@@ -72,6 +72,7 @@ The entry point must be loaded or installed in your assistant; cloning a reposit
 | [NeurIPS · Reinforcement learning](skills/paper-craft-neurips-rl/SKILL.md) | [10 NeurIPS papers, 2017–2021](skills/paper-craft-neurips-rl/references/corpus.md) · [BibTeX](skills/paper-craft-neurips-rl/references/references.bib) | Sparse rewards, human preferences, model-based and offline control, sequence policies, and empirical analysis |
 | [USENIX Security · Software security](skills/paper-craft-usenix-software/SKILL.md) | [10 USENIX Security papers, 2018–2020](skills/paper-craft-usenix-software/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-software/references/references.bib) | Fuzzing, symbolic execution, firmware emulation, search allocation, inferred structure, and driver generation |
 | [USENIX Security · Privacy and measurement](skills/paper-craft-usenix-privacy/SKILL.md) | [10 USENIX Security papers, 2017–2022](skills/paper-craft-usenix-privacy/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-privacy/references/references.bib) | Web tracking, browser fingerprinting, user exposure, cookie policies, and privacy defenses |
+| [USENIX Security · Machine learning security](skills/paper-craft-usenix-ml/SKILL.md) | [10 USENIX Security papers, 2018–2022](skills/paper-craft-usenix-ml/references/corpus.md) · [BibTeX](skills/paper-craft-usenix-ml/references/references.bib) | Adversarial inputs, poisoning, privacy inference, defenses, watermarking, and forensics |
 
 ## A small example
 

@@ -1,0 +1,268 @@
+[
+  {
+    "title": "CommanderSong: A Systematic Approach for Practical Adversarial Voice Recognition",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P01",
+    "authors": [
+      "Xuejing Yuan",
+      "Yuxuan Chen",
+      "Yue Zhao",
+      "Yunhui Long",
+      "Xiaokang Liu",
+      "Kai Chen",
+      "Shengzhi Zhang",
+      "Heqing Huang",
+      "Xiaofeng Wang",
+      "Carl A. Gunter"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-yuan.pdf",
+    "bibtex": "@inproceedings {217607,\n\n\tauthor = {Xuejing Yuan and Yuxuan Chen and Yue Zhao and Yunhui Long and Xiaokang Liu and Kai Chen and Shengzhi Zhang and Heqing Huang and XiaoFeng Wang and Carl A. Gunter},\n\n\ttitle = {{CommanderSong}: A Systematic Approach for Practical Adversarial Voice Recognition},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {49--64},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing",
+    "pdf_sha256": "2370b5f6e836595a8d4fc5b306fdee5acfaa345138cef42fbb9ed43106701827",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:30:55.839551+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete appendix, PDF page 17."
+    }
+  },
+  {
+    "title": "AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/jia-jinyuan",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P02",
+    "authors": [
+      "Jinyuan Jia",
+      "Neil Zhenqiang Gong"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-jia.pdf",
+    "bibtex": "@inproceedings {217523,\n\n\tauthor = {Jinyuan Jia and Neil Zhenqiang Gong},\n\n\ttitle = {{AttriGuard}: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {513--529},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/jia-jinyuan},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/jia-jinyuan",
+    "pdf_sha256": "afd6f96f68ef4208fae0e47a6bed8391a4b89cc239b6602de06e233b610b681b",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:30:55.866917+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendix A, PDF pages 17–18."
+    }
+  },
+  {
+    "title": "Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/adi",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P03",
+    "authors": [
+      "Yossi Adi",
+      "Carsten Baum",
+      "Moustapha Cisse",
+      "Benny Pinkas",
+      "Joseph Keshet"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-adi.pdf",
+    "bibtex": "@inproceedings {217591,\n\n\tauthor = {Yossi Adi and Carsten Baum and Moustapha Cisse and Benny Pinkas and Joseph Keshet},\n\n\ttitle = {Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {1615--1631},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/adi},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/adi",
+    "pdf_sha256": "abd16a766e808d29d2e9dbd485b62191af07021971abaea84fdfd9e4e2e4e7c6",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:30:55.556885+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendix A, PDF pages 16–18."
+    }
+  },
+  {
+    "title": "Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/leino",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P04",
+    "authors": [
+      "Klas Leino",
+      "Matt Fredrikson"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-leino.pdf",
+    "bibtex": "@inproceedings {255348,\n\n\tauthor = {Klas Leino and Matt Fredrikson},\n\n\ttitle = {Stolen Memories: Leveraging Model Memorization for Calibrated {White-Box} Membership Inference},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {1605--1622},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/leino},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/leino",
+    "pdf_sha256": "fe16b6ac42b0c09371cfd8b05d10938a28e48de5a5fcff49dc52830cee14ba8a",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:02.418117+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–17",
+      "supplement_or_appendix": "Complete Appendix A, PDF page 19."
+    }
+  },
+  {
+    "title": "Local Model Poisoning Attacks to Byzantine-Robust Federated Learning",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/fang",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P05",
+    "authors": [
+      "Minghong Fang",
+      "Xiaoyu Cao",
+      "Jinyuan Jia",
+      "Neil Gong"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20summer_fang_prepub.pdf",
+    "bibtex": "@inproceedings {247652,\n\n\tauthor = {Minghong Fang and Xiaoyu Cao and Jinyuan Jia and Neil Gong},\n\n\ttitle = {Local Model Poisoning Attacks to {Byzantine-Robust} Federated Learning},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {1605--1622},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/fang},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/fang",
+    "pdf_sha256": "1913c66494186d3a3732238b401d5ef6ca39f776d6afa04dd9cbd57685306e76",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:02.351375+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "1–15",
+      "supplement_or_appendix": "Complete Appendices A–C, PDF page 18."
+    }
+  },
+  {
+    "title": "PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/xiang",
+    "year": 2021,
+    "venue": "USENIX Security",
+    "id": "P06",
+    "authors": [
+      "Chong Xiang",
+      "Arjun Nitin Bhagoji",
+      "Vikash Sehwag",
+      "Prateek Mittal"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec21-xiang.pdf",
+    "bibtex": "@inproceedings {272114,\n\n\tauthor = {Chong Xiang and Arjun Nitin Bhagoji and Vikash Sehwag and Prateek Mittal},\n\n\ttitle = {{PatchGuard}: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking},\n\n\tbooktitle = {30th USENIX Security Symposium (USENIX Security 21)},\n\n\tyear = {2021},\n\n\tisbn = {978-1-939133-24-3},\n\n\tpages = {2237--2254},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity21/presentation/xiang},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity21/presentation/xiang",
+    "pdf_sha256": "b3ce08647ba84411150836d6aad2c347b8b04302468c6c2b689e2a53da8cbcf7",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:02.359625+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendices A–F, PDF pages 17–19. The separately cited technical report was not read."
+    }
+  },
+  {
+    "title": "FLAME: Taming Backdoors in Federated Learning",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/nguyen",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P07",
+    "authors": [
+      "Thien Duc Nguyen",
+      "Phillip Rieger",
+      "Huili Chen",
+      "Hossein Yalame",
+      "Helen Möllering",
+      "Hossein Fereidooni",
+      "Samuel Marchal",
+      "Markus Miettinen",
+      "Azalia Mirhoseini",
+      "Shaza Zeitouni",
+      "Farinaz Koushanfar",
+      "Ahmad-Reza Sadeghi",
+      "Thomas Schneider"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-nguyen.pdf",
+    "bibtex": "@inproceedings {280048,\n\n\tauthor = {Thien Duc Nguyen and Phillip Rieger and Huili Chen and Hossein Yalame and Helen M{\\\"o}llering and Hossein Fereidooni and Samuel Marchal and Markus Miettinen and Azalia Mirhoseini and Shaza Zeitouni and Farinaz Koushanfar and Ahmad-Reza Sadeghi and Thomas Schneider},\n\n\ttitle = {{FLAME}: Taming Backdoors in Federated Learning},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {1415--1432},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/nguyen},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/nguyen",
+    "pdf_sha256": "63ab0fb0cb2d0153decb7974a6bf60643e5952720601680fde29e006ed311c37",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:09.515398+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendices A–G, PDF pages 17–19."
+    }
+  },
+  {
+    "title": "Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/shan",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P08",
+    "authors": [
+      "Shawn Shan",
+      "Arjun Nitin Bhagoji",
+      "Haitao Zheng",
+      "Ben Y. Zhao"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-shan.pdf",
+    "bibtex": "@inproceedings {281308,\n\n\tauthor = {Shawn Shan and Arjun Nitin Bhagoji and Haitao Zheng and Ben Y. Zhao},\n\n\ttitle = {Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {3575--3592},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/shan},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/shan",
+    "pdf_sha256": "1e0e31f3b9b7e971a97d5a98e80e7a9501d3974b7e93a822fd1e98a05ad64d84",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:07.801093+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendix A, PDF pages 17–19."
+    }
+  },
+  {
+    "title": "PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P09",
+    "authors": [
+      "Hongbin Liu",
+      "Jinyuan Jia",
+      "Neil Zhenqiang Gong"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-liu-hongbin.pdf",
+    "bibtex": "@inproceedings {281382,\n\n\tauthor = {Hongbin Liu and Jinyuan Jia and Neil Zhenqiang Gong},\n\n\ttitle = {{PoisonedEncoder}: Poisoning the Unlabeled Pre-training Data in Contrastive Learning},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {3629--3645},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-hongbin",
+    "pdf_sha256": "a39ba9ca66e8ef6459989b4448740857fafec22843199d4d9dd191fbe7a47679",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:11.129366+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Appendix Figure 12 caption, PDF page 18; visual examples were not independently inspected."
+    }
+  },
+  {
+    "title": "ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-yugeng",
+    "year": 2022,
+    "venue": "USENIX Security",
+    "id": "P10",
+    "authors": [
+      "Yugeng Liu",
+      "Rui Wen",
+      "Xinlei He",
+      "Ahmed Salem",
+      "Zhikun Zhang",
+      "Michael Backes",
+      "Emiliano De Cristofaro",
+      "Mario Fritz",
+      "Yang Zhang"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec22-liu-yugeng.pdf",
+    "bibtex": "@inproceedings {277098,\n\n\tauthor = {Yugeng Liu and Rui Wen and Xinlei He and Ahmed Salem and Zhikun Zhang and Michael Backes and Emiliano De Cristofaro and Mario Fritz and Yang Zhang},\n\n\ttitle = {{ML-Doctor}: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models},\n\n\tbooktitle = {31st USENIX Security Symposium (USENIX Security 22)},\n\n\tyear = {2022},\n\n\tisbn = {978-1-939133-31-1},\n\n\taddress = {Boston, MA},\n\n\tpages = {4525--4542},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity22/presentation/liu-yugeng},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity22/presentation/liu-yugeng",
+    "pdf_sha256": "7fdfca65080bac7c82243f2aca607a94f6f2448b202a9ef714aaac4daed8c2e0",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:31:13.819752+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendix A text, captions and plot labels, PDF pages 17–19; no visual-style conclusions."
+    }
+  }
+]

@@ -26,6 +26,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-neurips-rl` | NeurIPS | Reinforcement learning and decision-making | Full drafts; learning signals, model use, offline objectives, sequence policies, benchmark narratives and empirical interpretation | [SKILL.md](../../paper-craft-neurips-rl/SKILL.md) |
 | `paper-craft-usenix-software` | USENIX Security | Software security: fuzzing and program analysis | Full drafts; execution and allocation stories, firmware environments, input structure, cooperation, driver generation and experiment interpretation | [SKILL.md](../../paper-craft-usenix-software/SKILL.md) |
 | `paper-craft-usenix-privacy` | USENIX Security | Browser privacy and web measurement | Full drafts; new observation channels, user exposure, policy analysis, privacy defenses, robustness tradeoffs and result interpretation | [SKILL.md](../../paper-craft-usenix-privacy/SKILL.md) |
+| `paper-craft-usenix-ml` | USENIX Security | Machine learning security | Full drafts; attack surfaces, inference, constructive reuse, defense interactions, forensics and comparative risk studies | [SKILL.md](../../paper-craft-usenix-ml/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -237,6 +238,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** an ML classifier for tracking belongs here when the contribution is a privacy measurement or blocking mechanism. Attacks on model confidentiality or integrity belong to ML security. Fuzzing browser code for ordinary software faults belongs to software security. This corpus does not provide dedicated anonymous-communication, cryptographic privacy, or usable-security interview guidance; use general writing guidance for those uncovered topics.
 
 **Source collection:** [10 accepted USENIX Security papers from 2017–2022](../../paper-craft-usenix-privacy/references/corpus.md), with [BibTeX](../../paper-craft-usenix-privacy/references/references.bib).
+
+### USENIX Security: machine learning security
+
+**Select when:** the central contribution concerns attacks on learning or inference, information leaked by a model, adversarial robustness, poisoning defenses, model watermarking, or post-attack investigation of training records. Keywords include backdoor, membership inference, model extraction, adversarial patch, poisoned encoder, federated poisoning, and machine learning forensics.
+
+**Contribution boundary:** route browser tracking and exposure measurements to the privacy specialist even if they use a classifier. Route software vulnerability discovery to the software specialist when the learning component serves that contribution. For another target venue, retain the requested venue and use the catalog's fallback procedure rather than silently treating this as a venue match.
+
+**What it supplies:** full-draft prose; concrete causal openings, mechanism-to-design explanations, security–utility interpretation, and clear distinction between attack, defense, measurement, and incident-response stories.
+
+**Source collection:** [10 accepted USENIX Security papers from 2018–2022](../../paper-craft-usenix-ml/references/corpus.md), with [BibTeX](../../paper-craft-usenix-ml/references/references.bib).
 
 ## Adding a specialist
 
