@@ -1,0 +1,265 @@
+[
+  {
+    "id": "P01",
+    "title": "Skyfire: Data-Driven Seed Generation for Fuzzing",
+    "authors": [
+      "Junjie Wang",
+      "Bihuan Chen",
+      "Lei Wei",
+      "Yang Liu"
+    ],
+    "year": 2017,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2017/program-papers.html#oakland17-42",
+    "venue_url": "https://www.ieee-security.org/TC/SP2017/program-papers.html",
+    "pdf_url": "https://www.ieee-security.org/TC/SP2017/papers/42.pdf",
+    "bibtex": "@inproceedings{sp2017skyfire,\n  title = {Skyfire: Data-Driven Seed Generation for Fuzzing},\n  author = {Junjie Wang and Bihuan Chen and Lei Wei and Yang Liu},\n  booktitle = {2017 IEEE Symposium on Security and Privacy (SP)},\n  year = {2017},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2017/program-papers.html#oakland17-42}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "4d319e20956eff42e7c4d8ee9f91279c10c54dae37ed689816288a39353752a2",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:19.303452+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–16",
+      "supplement_or_appendix": "No appendix in the consulted PDF. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P02",
+    "title": "Angora: Efficient Fuzzing by Principled Search",
+    "authors": [
+      "Peng Chen",
+      "Hao Chen"
+    ],
+    "year": 2018,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-495",
+    "venue_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html",
+    "pdf_url": "https://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf",
+    "bibtex": "@inproceedings{sp2018angora,\n  title = {Angora: Efficient Fuzzing by Principled Search},\n  author = {Peng Chen and Hao Chen},\n  booktitle = {2018 IEEE Symposium on Security and Privacy (SP)},\n  year = {2018},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-495}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "4f6a59f3ff0c5cd8f2014caa329b9d32a5264f5659fded5ca212c32a39f8e1bf",
+    "pages": 15,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:19.840947+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "No appendix in the consulted PDF. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P03",
+    "title": "CollAFL: Path Sensitive Fuzzing",
+    "authors": [
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Xiaojun Qin",
+      "Xuwen Tu",
+      "Kang Li",
+      "Zhongyu Pei",
+      "Zuoning Chen"
+    ],
+    "year": 2018,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-114",
+    "venue_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html",
+    "pdf_url": "https://netsec.ccert.edu.cn/files/papers/sp18-collafl.pdf",
+    "bibtex": "@inproceedings{sp2018collafl,\n  title = {CollAFL: Path Sensitive Fuzzing},\n  author = {Shuitao Gan and Chao Zhang and Xiaojun Qin and Xuwen Tu and Kang Li and Zhongyu Pei and Zuoning Chen},\n  booktitle = {2018 IEEE Symposium on Security and Privacy (SP)},\n  year = {2018},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-114}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "a1501dbf676c8a9678c6a8fc7705ab8c7b8aeb1c193ffb7380d446d1db026240",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:20.956732+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "Appendices A–I, PDF pages 14–18. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P04",
+    "title": "T-Fuzz: fuzzing by program transformation",
+    "authors": [
+      "Hui Peng",
+      "Yan Shoshitaishvili",
+      "Mathias Payer"
+    ],
+    "year": 2018,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-377",
+    "venue_url": "https://www.ieee-security.org/TC/SP2018/program-papers.html",
+    "pdf_url": "https://hexhive.epfl.ch/publications/files/18Oakland.pdf",
+    "bibtex": "@inproceedings{sp2018tfuzz,\n  title = {T-Fuzz: fuzzing by program transformation},\n  author = {Hui Peng and Yan Shoshitaishvili and Mathias Payer},\n  booktitle = {2018 IEEE Symposium on Security and Privacy (SP)},\n  year = {2018},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2018/program-papers.html#oakland-18-377}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "8e7e64d87770fe2e23c6877dcbdb72f5f971e26cce7418982cd6f5d346f98d3c",
+    "pages": 14,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:23.796253+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "No appendix in the consulted PDF. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P05",
+    "title": "NEUZZ: Efficient Fuzzing with Neural Program Smoothing",
+    "authors": [
+      "Dongdong She",
+      "Kexin Pei",
+      "Dave Epstein",
+      "Junfeng Yang",
+      "Baishakhi Ray",
+      "Suman Jana"
+    ],
+    "year": 2019,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2019/program-papers.html#sp19_47",
+    "venue_url": "https://www.ieee-security.org/TC/SP2019/program-papers.html",
+    "pdf_url": "https://www.cs.columbia.edu/~suman/docs/neuzz.pdf",
+    "bibtex": "@inproceedings{sp2019neuzz,\n  title = {NEUZZ: Efficient Fuzzing with Neural Program Smoothing},\n  author = {Dongdong She and Kexin Pei and Dave Epstein and Junfeng Yang and Baishakhi Ray and Suman Jana},\n  booktitle = {2019 IEEE Symposium on Security and Privacy (SP)},\n  year = {2019},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2019/program-papers.html#sp19_47}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "bbb099d0d6346536db6c2681c4f459e8b9035fe8f6f3a2fce1e40c838ba3d387",
+    "pages": 15,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:24.478476+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "No appendix in the consulted PDF. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P06",
+    "title": "ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery",
+    "authors": [
+      "Wei You",
+      "Xueqiang Wang",
+      "Shiqing Ma",
+      "Jianjun Huang",
+      "Xiangyu Zhang",
+      "XiaoFeng Wang",
+      "Bin Liang"
+    ],
+    "year": 2019,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.ieee-security.org/TC/SP2019/program-papers.html#sp19_45",
+    "venue_url": "https://www.ieee-security.org/TC/SP2019/program-papers.html",
+    "pdf_url": "https://xw48.github.io/files/you2019profuzzer.pdf",
+    "bibtex": "@inproceedings{sp2019profuzzer,\n  title = {ProFuzzer: On-the-fly Input Type Probing for Better Zero-day Vulnerability Discovery},\n  author = {Wei You and Xueqiang Wang and Shiqing Ma and Jianjun Huang and Xiangyu Zhang and XiaoFeng Wang and Bin Liang},\n  booktitle = {2019 IEEE Symposium on Security and Privacy (SP)},\n  year = {2019},\n  publisher = {IEEE},\n  url = {https://www.ieee-security.org/TC/SP2019/program-papers.html#sp19_45}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "67f64ceb56a605b31746e34488e5b51787b832ed9d5525759332f98b185c2ea4",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:25.301827+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "Appendices A–F, PDF pages 15–18. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P07",
+    "title": "IJON: Exploring Deep State Spaces via Fuzzing",
+    "authors": [
+      "Cornelius Aschermann",
+      "Sergej Schumilo",
+      "Ali Abbasi",
+      "Thorsten Holz"
+    ],
+    "year": 2020,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://nyx-fuzz.com/papers/ijon.pdf",
+    "venue_url": "https://www.ieee-security.org/TC/SP2020/program-papers.html",
+    "pdf_url": "https://nyx-fuzz.com/papers/ijon.pdf",
+    "bibtex": "@inproceedings{sp2020ijon,\n  title = {IJON: Exploring Deep State Spaces via Fuzzing},\n  author = {Cornelius Aschermann and Sergej Schumilo and Ali Abbasi and Thorsten Holz},\n  booktitle = {2020 IEEE Symposium on Security and Privacy (SP)},\n  year = {2020},\n  publisher = {IEEE},\n  url = {https://nyx-fuzz.com/papers/ijon.pdf}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "b5f5240e8de973b3e5e52274ad4f91f065ef834edc47b2d023106a13c4adfb24",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:28.211605+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "Appendix, PDF page 14. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P08",
+    "title": "Pangolin: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction",
+    "authors": [
+      "Heqing Huang",
+      "Peisen Yao",
+      "Rongxin Wu",
+      "Qingkai Shi",
+      "Charles Zhang"
+    ],
+    "year": 2020,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://5hadowblad3.github.io/files/SP2020.pdf",
+    "venue_url": "https://www.ieee-security.org/TC/SP2020/program-papers.html",
+    "pdf_url": "https://5hadowblad3.github.io/files/SP2020.pdf",
+    "bibtex": "@inproceedings{sp2020pangolin,\n  title = {Pangolin: Incremental Hybrid Fuzzing with Polyhedral Path Abstraction},\n  author = {Heqing Huang and Peisen Yao and Rongxin Wu and Qingkai Shi and Charles Zhang},\n  booktitle = {2020 IEEE Symposium on Security and Privacy (SP)},\n  year = {2020},\n  publisher = {IEEE},\n  url = {https://5hadowblad3.github.io/files/SP2020.pdf}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "239b75af41377393de3eba72387dc9eee8bb55660579b83739606b6acc80d3ce",
+    "pages": 15,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:28.867821+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "No appendix in the consulted PDF. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P09",
+    "title": "SAVIOR: Towards Bug-Driven Hybrid Testing",
+    "authors": [
+      "Yaohui Chen",
+      "Peng Li",
+      "Jun Xu",
+      "Shengjian Guo",
+      "Rundong Zhou",
+      "Yulong Zhang",
+      "Tao Wei",
+      "Long Lu"
+    ],
+    "year": 2020,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.longlu.org/publication/savior/savior.pdf",
+    "venue_url": "https://www.ieee-security.org/TC/SP2020/program-papers.html",
+    "pdf_url": "https://www.longlu.org/publication/savior/savior.pdf",
+    "bibtex": "@inproceedings{sp2020savior,\n  title = {SAVIOR: Towards Bug-Driven Hybrid Testing},\n  author = {Yaohui Chen and Peng Li and Jun Xu and Shengjian Guo and Rundong Zhou and Yulong Zhang and Tao Wei and Long Lu},\n  booktitle = {2020 IEEE Symposium on Security and Privacy (SP)},\n  year = {2020},\n  publisher = {IEEE},\n  url = {https://www.longlu.org/publication/savior/savior.pdf}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "5e8956edbaa0f49457a946093bfc452448a21baa86ec4fbd82463134b33a25ab",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:32.346436+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–13",
+      "supplement_or_appendix": "Appendices A–B, PDF pages 16–17. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  },
+  {
+    "id": "P10",
+    "title": "FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks",
+    "authors": [
+      "Kyungtae Kim",
+      "Taegyu Kim",
+      "Ertza Warraich",
+      "Byoungyoung Lee",
+      "Kevin R. B. Butler",
+      "Antonio Bianchi",
+      "Dave (Jing) Tian"
+    ],
+    "year": 2022,
+    "venue": "IEEE Symposium on Security and Privacy",
+    "landing_url": "https://www.cise.ufl.edu/~butler/pubs/oakland22-fuzzusb.pdf",
+    "venue_url": "https://www.ieee-security.org/TC/SP2022/program-papers.html",
+    "pdf_url": "https://www.cise.ufl.edu/~butler/pubs/oakland22-fuzzusb.pdf",
+    "bibtex": "@inproceedings{sp2022fuzzusb,\n  title = {FuzzUSB: Hybrid Stateful Fuzzing of USB Gadget Stacks},\n  author = {Kyungtae Kim and Taegyu Kim and Ertza Warraich and Byoungyoung Lee and Kevin R. B. Butler and Antonio Bianchi and Dave (Jing) Tian},\n  booktitle = {2022 IEEE Symposium on Security and Privacy (SP)},\n  year = {2022},\n  publisher = {IEEE},\n  url = {https://www.cise.ufl.edu/~butler/pubs/oakland22-fuzzusb.pdf}\n}",
+    "bibtex_provenance": "Compiled from the official conference program; bibliographic fields omitted when not established.",
+    "pdf_sha256": "74e8ec5cfbca3d266f607bfbd15a331bf0328908c3770e750e85d7d600b67264",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-11T00:51:56.996317+00:00",
+    "reading_coverage": {
+      "main_pdf_pages": "1–14",
+      "supplement_or_appendix": "Appendices A–D, PDF pages 16–18. Figures considered through text, captions and extracted labels; no visual-style analysis."
+    }
+  }
+]

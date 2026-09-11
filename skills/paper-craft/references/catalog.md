@@ -27,6 +27,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-usenix-software` | USENIX Security | Software security: fuzzing and program analysis | Full drafts; execution and allocation stories, firmware environments, input structure, cooperation, driver generation and experiment interpretation | [SKILL.md](../../paper-craft-usenix-software/SKILL.md) |
 | `paper-craft-usenix-privacy` | USENIX Security | Browser privacy and web measurement | Full drafts; new observation channels, user exposure, policy analysis, privacy defenses, robustness tradeoffs and result interpretation | [SKILL.md](../../paper-craft-usenix-privacy/SKILL.md) |
 | `paper-craft-usenix-ml` | USENIX Security | Machine learning security | Full drafts; attack surfaces, inference, constructive reuse, defense interactions, forensics and comparative risk studies | [SKILL.md](../../paper-craft-usenix-ml/SKILL.md) |
+| `paper-craft-sp-software` | IEEE S&P | Software security: fuzzing and program analysis | Full drafts; input and feedback representations, hybrid reuse, search objectives, stateful interfaces and result interpretation | [SKILL.md](../../paper-craft-sp-software/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -248,6 +249,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **What it supplies:** full-draft prose; concrete causal openings, mechanism-to-design explanations, security–utility interpretation, and clear distinction between attack, defense, measurement, and incident-response stories.
 
 **Source collection:** [10 accepted USENIX Security papers from 2018–2022](../../paper-craft-usenix-ml/references/corpus.md), with [BibTeX](../../paper-craft-usenix-ml/references/references.bib).
+
+### IEEE S&P: software security
+
+**Select when the contribution concerns:** fuzzing and vulnerability discovery, input semantics, branch search, feedback representations, program transformation, hybrid-analysis reuse, fault-directed testing, or stateful driver and protocol exploration. Recognize IEEE S&P, IEEE Symposium on Security and Privacy, S&P, and Oakland as venue aliases.
+
+**Useful signals in the material:** concrete input fields, branch predicates, retained search information, state transitions, coverage and fault trajectories, and cases that connect an exploration decision to an observed defect. Learned surrogates belong here when software testing carries the contribution.
+
+**Distinguish nearby work:** attacks on learning systems belong to ML security; privacy exposure and ecosystem studies belong to privacy and measurement. This corpus is centered on vulnerability discovery and does not provide specialist guidance for cryptographic proofs, exploit mitigations, or usable-security interviews. Retain the requested conference when borrowing another venue's examples.
+
+**Source collection:** [10 accepted IEEE S&P papers from 2017–2022](../../paper-craft-sp-software/references/corpus.md), with [BibTeX](../../paper-craft-sp-software/references/references.bib).
 
 ## Adding a specialist
 
