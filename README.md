@@ -129,19 +129,19 @@ Software testing, privacy measurement, and the security of learning systems.
 
 ## A small example
 
-**[Same results, a clearer abstract →](examples/abstract-before-after.md)**
+**Choosing which answers to revise.** A fictional study compares uniform and uncertainty-directed revision with the same model and token budget. The writing task is to make that comparison explain the contribution.
 
-See two complete abstracts from the same fictional experiment results, with an explanation of the writing choices and prompts to try your own comparison. This is an authored illustration, not a measured comparison between models.
+**Before — name the task and components:**
 
-An abstract opening that hides the idea:
+> We study uncertainty-aware revision for improving the reasoning accuracy of large language models under a fixed generation budget. The approach consists of initial answer generation, uncertainty estimation, and selective revision.
 
-> We propose a novel and effective two-stage reinforcement learning framework to enhance the self-correction capabilities of large language models.
+**After — establish the decision the method addresses:**
 
-A more informative opening:
+> Revising a language model's answers consumes tokens that could be spent on other problems. Under a fixed generation budget, a revision strategy must therefore decide which answers deserve another attempt. We study uncertainty as a signal for this decision: retain confident answers and direct the remaining budget toward revising uncertain ones.
 
-> A model that revises its answer must learn both when to change it and what to change. We train these behaviors in two stages: first improving revision, then jointly optimizing the initial answer and its correction.
+[Read both complete abstracts and the editorial reasoning →](examples/abstract-before-after.md)
 
-The second version gives the reader a problem and a design rationale before introducing the machinery. This is an original writing illustration inspired by SCoRe, not a quotation from the paper. The [full worked example](skills/paper-craft-iclr-reasoning/references/worked-example.md) develops the introduction, method, and experiment story.
+Both versions are authored illustrations using the same fictional results, not measured model outputs. The walkthrough explains which result belongs in the abstract, what to leave for the paper, and why.
 
 If paper-craft helps your writing, consider giving it a star.
 

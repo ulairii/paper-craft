@@ -128,19 +128,19 @@ python3 paper-craft/scripts/install.py --dest /path/to/your/assistant/skills
 
 ## 写作示例
 
-**[同一组结果，更清晰的摘要 →](examples/abstract-before-after.md)**
+**哪些答案值得再修改一次？** 一项虚构研究在相同模型和 token 预算下，比较均匀分配与按不确定性分配修改次数。写作的重点，是让这个比较讲清论文贡献。
 
-两份完整摘要使用同一组虚构实验结果，并附写作选择的解释与自行比较的 prompts。这是编写的教学示例，不是模型效果实测。
+**修改前：介绍任务，列出组件。**
 
-没有把核心想法讲清楚的开头：
+> We study uncertainty-aware revision for improving the reasoning accuracy of large language models under a fixed generation budget. The approach consists of initial answer generation, uncertainty estimation, and selective revision.
 
-> We propose a novel and effective two-stage reinforcement learning framework to enhance the self-correction capabilities of large language models.
+**修改后：先建立方法要解决的决策问题。**
 
-更具体的开头：
+> Revising a language model's answers consumes tokens that could be spent on other problems. Under a fixed generation budget, a revision strategy must therefore decide which answers deserve another attempt. We study uncertainty as a signal for this decision: retain confident answers and direct the remaining budget toward revising uncertain ones.
 
-> A model that revises its answer must learn both when to change it and what to change. We train these behaviors in two stages: first improving revision, then jointly optimizing the initial answer and its correction.
+[阅读两版完整摘要与具体修改理由 →](examples/abstract-before-after.md)
 
-第二版先让读者理解问题和设计理由，再介绍实现。这个原创写作示例受 SCoRe 启发，并非论文原文。[完整示例](skills/paper-craft-iclr-reasoning/references/worked-example.md)进一步展开引言、方法与实验叙述。
+两版均为使用同一组虚构结果编写的教学示例，并非模型实测输出。示例说明哪些结果应进入摘要、哪些细节应留在正文，以及这样安排的原因。
 
 如果 paper-craft 对你的写作有帮助，欢迎点个 star。
 
