@@ -1,0 +1,268 @@
+[
+  {
+    "title": "QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+    "year": 2018,
+    "venue": "USENIX Security",
+    "id": "P01",
+    "authors": [
+      "Insu Yun",
+      "Sangho Lee",
+      "Meng Xu",
+      "Yeongjin Jang",
+      "Taesoo Kim"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-yun.pdf",
+    "bibtex": "@inproceedings {217563,\n\n\tauthor = {Insu Yun and Sangho Lee and Meng Xu and Yeongjin Jang and Taesoo Kim},\n\n\ttitle = {{QSYM} : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing},\n\n\tbooktitle = {27th USENIX Security Symposium (USENIX Security 18)},\n\n\tyear = {2018},\n\n\tisbn = {978-1-939133-04-5},\n\n\taddress = {Baltimore, MD},\n\n\tpages = {745--761},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity18/presentation/yun},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+    "pdf_sha256": "123d267f32813ed4020bfc781e8b2fa52f1514eaee4dbe47b385a09e08655443",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:57:56.555822+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–16",
+      "supplement_or_appendix": "No appendix in the published PDF."
+    }
+  },
+  {
+    "title": "MOPT: Optimized Mutation Scheduling for Fuzzers",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/lyu",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P02",
+    "authors": [
+      "Chenyang Lyu",
+      "Shouling Ji",
+      "Chao Zhang",
+      "Yuwei Li",
+      "Wei-Han Lee",
+      "Yu Song",
+      "Raheem Beyah"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19-lyu.pdf",
+    "bibtex": "@inproceedings {236282,\n\n\tauthor = {Chenyang Lyu and Shouling Ji and Chao Zhang and Yuwei Li and Wei-Han Lee and Yu Song and Raheem Beyah},\n\n\ttitle = {{MOPT}: Optimized Mutation Scheduling for Fuzzers},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1949--1966},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/lyu},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/lyu",
+    "pdf_sha256": "35f4e1d6e9a0668036aa81474e848ac817e1fdd7c2ef4958fc226f3f1608fcbf",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:57:57.171198+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–18",
+      "supplement_or_appendix": "No appendix in the published PDF; the separately mentioned technical report was not read."
+    }
+  },
+  {
+    "title": "FIRM-AFL: High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/zheng",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P03",
+    "authors": [
+      "Yaowen Zheng",
+      "Ali Davanian",
+      "Heng Yin",
+      "Chengyu Song",
+      "Hongsong Zhu",
+      "Limin Sun"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19-zheng_0.pdf",
+    "bibtex": "@inproceedings {236364,\n\n\tauthor = {Yaowen Zheng and Ali Davanian and Heng Yin and Chengyu Song and Hongsong Zhu and Limin Sun},\n\n\ttitle = {{FIRM-AFL}: {High-Throughput} Greybox Fuzzing of {IoT} Firmware via Augmented Process Emulation},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1099--1114},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/zheng},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/zheng",
+    "pdf_sha256": "b7bee0469d1fe78be8e6e629d8e11c00c2950cdc7439f0af57398bb496cc0f96",
+    "pages": 17,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:57:56.440030+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "No appendix in the published PDF."
+    }
+  },
+  {
+    "title": "EnFuzz: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yuanliang",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P04",
+    "authors": [
+      "Yuanliang Chen",
+      "Yu Jiang",
+      "Fuchen Ma",
+      "Jie Liang",
+      "Mingzhe Wang",
+      "Chijin Zhou",
+      "Xun Jiao",
+      "Zhuo Su"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19-chen-yuanliang.pdf",
+    "bibtex": "@inproceedings {236220,\n\n\tauthor = {Yuanliang Chen and Yu Jiang and Fuchen Ma and Jie Liang and Mingzhe Wang and Chijin Zhou and Xun Jiao and Zhuo Su},\n\n\ttitle = {{EnFuzz}: Ensemble Fuzzing with Seed Synchronization among Diverse Fuzzers},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1967--1983},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yuanliang},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/chen-yuanliang",
+    "pdf_sha256": "99e5ee4de2e453ba51360df8e46d0688fd0238c2e640bbc5cbda2b4a0cbf41fb",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:02.943526+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete appendix, PDF pages 16–18."
+    }
+  },
+  {
+    "title": "GRIMOIRE: Synthesizing Structure while Fuzzing",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/blazytko",
+    "year": 2019,
+    "venue": "USENIX Security",
+    "id": "P05",
+    "authors": [
+      "Tim Blazytko",
+      "Cornelius Aschermann",
+      "Moritz Schlögel",
+      "Ali Abbasi",
+      "Sergej Schumilo",
+      "Simon Wörner",
+      "Thorsten Holz"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec19-blazytko.pdf",
+    "bibtex": "@inproceedings {236210,\n\n\tauthor = {Tim Blazytko and Cornelius Aschermann and Moritz Schl{\\\"o}gel and Ali Abbasi and Sergej Schumilo and Simon W{\\\"o}rner and Thorsten Holz},\n\n\ttitle = {{GRIMOIRE}: Synthesizing Structure while Fuzzing},\n\n\tbooktitle = {28th USENIX Security Symposium (USENIX Security 19)},\n\n\tyear = {2019},\n\n\tisbn = {978-1-939133-06-9},\n\n\taddress = {Santa Clara, CA},\n\n\tpages = {1985--2002},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity19/presentation/blazytko},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity19/presentation/blazytko",
+    "pdf_sha256": "076a5d68d0354a86ebf73cae1ea87f6637569ee8ac1c3ef4b7a0298c9a6e2f8f",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:03.908840+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–17",
+      "supplement_or_appendix": "Complete appendix, PDF page 19."
+    }
+  },
+  {
+    "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P06",
+    "authors": [
+      "Sebastian Poeplau",
+      "Aurélien Francillon"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-poeplau.pdf",
+    "bibtex": "@inproceedings {255310,\n\n\tauthor = {Sebastian Poeplau and Aur{\\'e}lien Francillon},\n\n\ttitle = {Symbolic execution with {SymCC}: Don{\\textquoteright}t interpret, compile!},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {181--198},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+    "pdf_sha256": "eae55049b910ffb930c231e414083f32dcbdc6903f8d8eb0e77c65a10bf6084a",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:03.603660+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–16",
+      "supplement_or_appendix": "Complete appendix, PDF pages 18–19."
+    }
+  },
+  {
+    "title": "FuzzGuard: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/zong",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P07",
+    "authors": [
+      "Peiyuan Zong",
+      "Tao Lv",
+      "Dawei Wang",
+      "Zizhuang Deng",
+      "Ruigang Liang",
+      "Kai Chen"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-zong.pdf",
+    "bibtex": "@inproceedings {247704,\n\n\tauthor = {Peiyuan Zong and Tao Lv and Dawei Wang and Zizhuang Deng and Ruigang Liang and Kai Chen},\n\n\ttitle = {{FuzzGuard}: Filtering out Unreachable Inputs in Directed Grey-box Fuzzing through Deep Learning},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {2255--2269},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/zong},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/zong",
+    "pdf_sha256": "28d1b379fe9d4a0f3ef303cf547fc4553295dfb1f895c35a759586a1ce0a75bd",
+    "pages": 16,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:08.170150+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete appendix, PDF page 16."
+    }
+  },
+  {
+    "title": "ParmeSan: Sanitizer-guided Greybox Fuzzing",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P08",
+    "authors": [
+      "Sebastian Österlund",
+      "Kaveh Razavi",
+      "Herbert Bos",
+      "Cristiano Giuffrida"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-osterlund.pdf",
+    "bibtex": "@inproceedings {251544,\n\n\tauthor = {Sebastian {\\\"O}sterlund and Kaveh Razavi and Herbert Bos and Cristiano Giuffrida},\n\n\ttitle = {{ParmeSan}: Sanitizer-guided Greybox Fuzzing},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {2289--2306},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/osterlund",
+    "pdf_sha256": "56af5f61fc16c87108d1fa5ab1559fa8f2e1344b4312a8c44832f346624f1bee",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:09.772389+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–15",
+      "supplement_or_appendix": "Complete Appendix A, PDF pages 17–19."
+    }
+  },
+  {
+    "title": "GREYONE: Data Flow Sensitive Fuzzing",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/gan",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P09",
+    "authors": [
+      "Shuitao Gan",
+      "Chao Zhang",
+      "Peng Chen",
+      "Bodong Zhao",
+      "Xiaojun Qin",
+      "Dong Wu",
+      "Zuoning Chen"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-gan.pdf",
+    "bibtex": "@inproceedings {244046,\n\n\tauthor = {Shuitao Gan and Chao Zhang and Peng Chen and Bodong Zhao and Xiaojun Qin and Dong Wu and Zuoning Chen},\n\n\ttitle = {{GREYONE}: Data Flow Sensitive Fuzzing},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {2577--2594},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/gan},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/gan",
+    "pdf_sha256": "40e6d1a0e9312846cfaa0c5a96991765152588467d307f8b5adaf03b900753f6",
+    "pages": 19,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:09.502039+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–17",
+      "supplement_or_appendix": "Complete Appendix A, PDF pages 18–19."
+    }
+  },
+  {
+    "title": "FuzzGen: Automatic Fuzzer Generation",
+    "landing_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou",
+    "year": 2020,
+    "venue": "USENIX Security",
+    "id": "P10",
+    "authors": [
+      "Kyriakos Ispoglou",
+      "Daniel Austin",
+      "Vishwath Mohan",
+      "Mathias Payer"
+    ],
+    "pdf_url": "https://www.usenix.org/system/files/sec20-ispoglou.pdf",
+    "bibtex": "@inproceedings {251548,\n\n\tauthor = {Kyriakos Ispoglou and Daniel Austin and Vishwath Mohan and Mathias Payer},\n\n\ttitle = {{FuzzGen}: Automatic Fuzzer Generation},\n\n\tbooktitle = {29th USENIX Security Symposium (USENIX Security 20)},\n\n\tyear = {2020},\n\n\tisbn = {978-1-939133-17-5},\n\n\tpages = {2271--2287},\n\n\turl = {https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou},\n\n\tpublisher = {USENIX Association},\n\n\tmonth = aug\n\n}",
+    "bibtex_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/ispoglou",
+    "pdf_sha256": "8827c63a7cdfde96e5b1459507d573c5a5ec2bdbd1fb9d91f266e5d53ba2a3ee",
+    "pages": 18,
+    "reading_status": "main_text_read",
+    "retrieved_at": "2026-09-10T23:58:13.931906+00:00",
+    "supplement_links": [],
+    "reading_coverage": {
+      "main_pdf_pages": "2–14",
+      "supplement_or_appendix": "Complete Appendices A–D, PDF pages 16–18."
+    }
+  }
+]

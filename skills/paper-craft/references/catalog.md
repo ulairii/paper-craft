@@ -24,6 +24,7 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 | `paper-craft-neurips-representation` | NeurIPS | Self-supervised, supervised contrastive, graph, and local representations | Full drafts; learning objectives, invariance, label efficiency, transfer analysis and local/global tradeoffs | [SKILL.md](../../paper-craft-neurips-representation/SKILL.md) |
 | `paper-craft-neurips-generative` | NeurIPS | Generative models and sampling | Full drafts; learning principles, training repairs, flows, VAEs, diffusion, guidance, quality–cost tradeoffs and revision | [SKILL.md](../../paper-craft-neurips-generative/SKILL.md) |
 | `paper-craft-neurips-rl` | NeurIPS | Reinforcement learning and decision-making | Full drafts; learning signals, model use, offline objectives, sequence policies, benchmark narratives and empirical interpretation | [SKILL.md](../../paper-craft-neurips-rl/SKILL.md) |
+| `paper-craft-usenix-software` | USENIX Security | Software security: fuzzing and program analysis | Full drafts; execution and allocation stories, firmware environments, input structure, cooperation, driver generation and experiment interpretation | [SKILL.md](../../paper-craft-usenix-software/SKILL.md) |
 
 ### CVPR: object detection
 
@@ -215,6 +216,16 @@ Use this catalog to choose guidance from the paper's central contribution. Only 
 **Distinguish nearby work:** a Transformer predicting actions or planning trajectories belongs here when decision quality is central. General text reasoning and test-time search belong to reasoning guidance when the output is a language answer. A generative dynamics model belongs here when its contribution is policy learning; image synthesis and reusable feature learning have their own specialists. Keep the target venue fixed when borrowing cross-conference examples.
 
 **Source collection:** [10 accepted NeurIPS papers from 2017–2021](../../paper-craft-neurips-rl/references/corpus.md), with [BibTeX](../../paper-craft-neurips-rl/references/references.bib).
+
+### USENIX Security: software security
+
+**Select when the contribution concerns:** vulnerability discovery through fuzzing, symbolic or data-flow analysis, firmware execution environments, search allocation, input structure, sanitizer guidance, or generation of library fuzz drivers.
+
+**Useful signals in the material:** mutation and seed decisions, execution bottlenecks, program constraints, API state, time-to-exposure, coverage trajectories, and confirmed bug case studies. A neural model used to guide program exploration still belongs here when the contribution is software testing.
+
+**Distinguish nearby work:** attacks on or defenses of ML models belong to ML security; user tracking, fingerprinting, and ecosystem privacy studies belong to privacy and measurement. This corpus does not supply dedicated exploit-mitigation, verification, or cryptographic-protocol guidance. Use general writing guidance for those uncovered contributions rather than forcing a fuzzing story.
+
+**Source collection:** [10 accepted USENIX Security papers from 2018–2020](../../paper-craft-usenix-software/references/corpus.md), with [BibTeX](../../paper-craft-usenix-software/references/references.bib).
 
 ## Adding a specialist
 
