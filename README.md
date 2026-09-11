@@ -1,8 +1,11 @@
 <div align="center">
 
+<br>
+<img src="assets/paper-craft-icon.png" alt="paper-craft — a folded paper p on an ink-teal tile" width="144" height="144">
+
 <h1>paper-craft</h1>
 <p><strong>Research writing skills learned from strong papers.</strong></p>
-<p>22 specialists · 8 conferences · At least 10 source papers per specialist</p>
+<p><sub>22 SPECIALISTS &nbsp; / &nbsp; 8 CONFERENCES &nbsp; / &nbsp; 10+ PAPERS PER SPECIALIST</sub></p>
 
 <p>
   <a href="#get-started">Get started</a> ·
@@ -11,7 +14,10 @@
   <a href="#contribute-a-skill">Contribute</a>
 </p>
 
+<br>
 </div>
+
+---
 
 Turn an idea, rough draft, or set of results into a paper with a clear story. paper-craft distills how published papers introduce a problem, make an insight memorable, organize experiments, explain findings, and write precise, natural English.
 
